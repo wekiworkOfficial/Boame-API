@@ -1,0 +1,21 @@
+{
+    ".\/.\/..\/framework\/source\/lab\/library\/\/FileDB===FileDBClient.php": ".\/.\/..\/framework\/source\/lab\/library\/\/FileDB\/FileDBClient.php",
+    ".\/.\/..\/framework\/source\/utility\/Classes\/===CliInterface.php": ".\/.\/..\/framework\/source\/utility\/Classes\/\/CLI\/CliInterface.php",
+    ".\/.\/..\/framework\/source\/utility\/Classes\/===Helper.php": ".\/.\/..\/framework\/source\/utility\/Classes\/\/Platforms\/Launchers\/Helper.php",
+    ".\/.\/..\/framework\/source\/lab\/library\/\/FileDB===FileDBMethods.php": ".\/.\/..\/framework\/source\/lab\/library\/\/FileDB\/FileDBMethods.php",
+    ".\/\/..\/helpers\/screen\/===Response.php": ".\/\/..\/helpers\/screen\/\/Response.php",
+    ".\/\/..\/helpers\/input\/===Filters.php": ".\/\/..\/helpers\/input\/\/Filters.php",
+    ".\/\/..\/helpers\/input\/===FiltersInterface.php": ".\/\/..\/helpers\/input\/\/Interfaces\/FiltersInterface.php",
+    ".\/\/..\/helpers\/input\/===FiltersTrait.php": ".\/\/..\/helpers\/input\/\/FiltersTrait.php",
+    ".\/\/..\/helpers\/input\/===ParamFilter.php": ".\/\/..\/helpers\/input\/\/ParamFilter.php",
+    ".\/\/..\/helpers\/models\/===Auth.php": ".\/\/..\/helpers\/models\/\/Auth.php",
+    ".\/\/..\/helpers\/models\/===RegistrationProcessor.php": ".\/\/..\/helpers\/models\/\/Traits\/RegistrationProcessor.php",
+    ".\/\/..\/helpers\/security\/===Salts.php": ".\/\/..\/helpers\/security\/\/Salts.php",
+    ".\/\/..\/helpers\/models\/===RegistrationHelper.php": ".\/\/..\/helpers\/models\/\/Traits\/RegistrationHelper.php",
+    ".\/\/..\/helpers\/===RegistrationProcessor.php": ".\/\/..\/helpers\/\/Models\/Traits\/RegistrationProcessor.php",
+    ".\/\/..\/helpers\/===RegistrationHelper.php": ".\/\/..\/helpers\/\/Models\/Traits\/RegistrationHelper.php",
+    ".\/\/..\/helpers\/===UploadToStorage.php": ".\/\/..\/helpers\/\/Support\/UploadToStorage.php",
+    ".\/\/..\/helpers\/===Auth.php": ".\/\/..\/helpers\/\/Models\/Auth.php",
+    ".\/\/..\/helpers\/===QueryHelper.php": ".\/\/..\/helpers\/\/Support\/QueryHelper.php",
+    ".\/\/..\/helpers\/===VideoProcessor.php": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php"
+}

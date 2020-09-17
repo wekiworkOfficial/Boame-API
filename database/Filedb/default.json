@@ -1,0 +1,257 @@
+{
+    "permissions" : {
+        "data" : {
+            "read" : "view",
+            "write" : "edit",
+            "alter" : "update",
+            "create" : "create",
+            "delete" : "delete"
+        },
+        "platforms" : {
+            "read" : 1,
+            "write" : 1,
+            "alter" : 1,
+            "create" : 1,
+            "delete" : 1
+        }
+    },
+
+    "platforms" : [
+        "web",
+        "mobile"
+    ],
+
+    "account types" : [
+        "Administrator",
+        "Counsellor",
+        "Moderator",
+        "Reporter",
+        "Volunteer"
+    ],
+
+    "navigation" : {
+        "platformid:1" : {
+
+            "accounttypeid:1" : [
+                {
+                    "name" : "dashboard",
+                    "tag" : "dash-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "cases",
+                    "tag" : "case-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "administrator",
+                    "tag" : "admin-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "volunteers",
+                    "tag" : "volun-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "counselors",
+                    "tag" : "counselor-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "reporters",
+                    "tag" : "report-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "statistics",
+                    "tag" : "stats-tag",
+                    "permissionid" : "1,2,3,4,5"
+                }
+            ],
+
+            "accounttypeid:3" : [
+                {
+                    "name" : "dashboard",
+                    "tag" : "dash-tag",
+                    "permissionid" : "1"
+                },
+
+                {
+                    "name" : "cases",
+                    "tag" : "case-tag",
+                    "permissionid" : "1"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "volunteers",
+                    "tag" : "volun-tag",
+                    "permissionid" : "1,2,3,5"
+                },
+
+                {
+                    "name" : "counselors",
+                    "tag" : "counselor-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "reporters",
+                    "tag" : "report-tag",
+                    "permissionid" : "1"
+                },
+
+                {
+                    "name" : "statistics",
+                    "tag" : "stats-tag",
+                    "permissionid" : "1"
+                }
+            ]
+        },
+
+        "platformid:2" : {
+
+            "accounttypeid:2" : [
+                {
+                    "name" : "volunteers",
+                    "tag" : "volunteers-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "counselling",
+                    "tag" : "counselling-tag",
+                    "permissionid" : "1,2,3,4,5"
+                }
+            ],
+
+            "accounttypeid:4" : [
+                {
+                    "name" : "report a case",
+                    "tag" : "report-case-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "volunteers",
+                    "tag" : "volunteers-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "counselling",
+                    "tag" : "counselling-tag",
+                    "permissionid" : "1,2,3,4,5"
+                }
+            ],
+
+            "accounttypeid:5" : [
+                {
+                    "name" : "report a case",
+                    "tag" : "report-case-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "volunteers",
+                    "tag" : "volunteers-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "counselling",
+                    "tag" : "counselling-tag",
+                    "permissionid" : "1,2,3,4,5"
+                }
+            ],
+
+            "accounttypeid:0" : [
+                {
+                    "name" : "report a case",
+                    "tag" : "report-case-tag",
+                    "permissionid" : "1,4"
+                },
+
+                {
+                    "name" : "become a volunteer",
+                    "tag" : "become-volunteer-tag",
+                    "permissionid" : "1,4"
+                },
+
+                {
+                    "name" : "volunteers",
+                    "tag" : "volunteers-tag",
+                    "permissionid" : "1,4"
+                },
+
+                {
+                    "name" : "knowledge center",
+                    "tag" : "knowledge-tag",
+                    "permissionid" : "1,4"
+                },
+
+                {
+                    "name" : "counselling",
+                    "tag" : "counselling-tag",
+                    "permissionid" : "1,4"
+                }
+
+
+            ]
+        }
+    },
+
+    "cases type" : [
+        "video",
+        "audio",
+        "text"
+    ],
+
+    "volunteer positions" : [
+        "counselling",
+        "wellfare"
+    ],
+
+    "authorization" : "xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS",
+
+    "param rules" : {
+        "string" : "required|string|notag",
+        "number" : "required|number|min:1"
+    }
+}
