@@ -2,6 +2,7 @@
 namespace Moorexa\Framework\Report\Models\Helpers;
 
 use Boame\Support\UploadToStorage;
+use Boame\Support\VideoProcessor as VideoHandler;
 use function Lightroom\Database\Functions\{map, db};
 
 /**
@@ -23,7 +24,7 @@ trait CasesPutProcessor
      * @param int $caseTypeId
      * @return bool
      */
-    private function textCaseProcessor($filter, int $caseTypeId) : bool 
+    public function textCaseProcessor($filter, int $caseTypeId) : bool 
     {
         // @var array $data
         $data = [
@@ -65,7 +66,7 @@ trait CasesPutProcessor
      * @param int $caseTypeId
      * @return bool
      */
-    private function audioCaseProcessor($filter, int $caseTypeId) : bool 
+    public function audioCaseProcessor($filter, int $caseTypeId) : bool 
     {
         // @var array $data
         $data = [
@@ -105,7 +106,7 @@ trait CasesPutProcessor
      * @param int $caseTypeId
      * @return bool
      */
-    private function videoCaseProcessor($filter, int $caseTypeId) : bool 
+    public function videoCaseProcessor($filter, int $caseTypeId) : bool 
     {
         // @var array $data
         $data = [
@@ -125,15 +126,27 @@ trait CasesPutProcessor
             // are we good ?
             $this->processed = ($case->ok == true) ? true : false;
 
+            // load handler
+            $videoHandler = new VideoHandler();
+
             // attach video
-            db('video_attached')->insert([
-                'casesreportedid'   => $case->id,
-                'video_address'     => $this->uploadFile($filter->video, $data),
-                'date_created'      => time(),
-                'total_views'       => 0,
-                'total_likes'       => 0,
-                'total_dislikes'    => 0,
-            ])->go();
+            $videoHandler->uploadAndCompress($filter->video, 
+
+            // get the video name, duration and insert to db
+            function(string $videoName, string $videoFrame, int $videoDuration) use ($case)
+            {
+                // attach video
+                db('video_attached')->insert([
+                    'casesreportedid'       => $case->id,
+                    'video_address'         => $videoName,
+                    'date_created'          => time(),
+                    'total_views'           => 0,
+                    'total_likes'           => 0,
+                    'total_dislikes'        => 0,
+                    'video_frame_address'   => $videoFrame
+                ])->go();
+
+            });
 
         endif;
 

@@ -187,6 +187,42 @@ return array (
           'date_created0' => 1600263579,
         ),
       ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5903ae6a5c1b06fcff5a9ca381986449622b14dd4' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => 0,
+          'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+          'case_text0' => 'first video case',
+          'date_created0' => 1600391255,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b506fad699a551d80453d6c7fce233b208c81407a8' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => 0,
+          'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+          'case_text0' => 'first video case',
+          'date_created0' => 1600391314,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b58e8a5ad47db08320c172d0d0b6da6f345930c92d' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => 0,
+          'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+          'case_text0' => 'first video case',
+          'date_created0' => 1600391469,
+        ),
+      ),
     ),
     'audio_attached' => 
     array (
@@ -214,6 +250,34 @@ return array (
           'total_views0' => 0,
           'total_likes0' => 0,
           'total_dislikes0' => 0,
+        ),
+      ),
+      '1f74b2373e31bf47839928998332d238577b473babb2445cfea97c002b51b38c91335603' => 
+      array (
+        'query' => 'INSERT INTO video_attached (casesreportedid,video_address,date_created,total_views,total_likes,total_dislikes,video_frame_address) VALUES (:casesreportedid0,:video_address0,:date_created0,:total_views0,:total_likes0,:total_dislikes0,:video_frame_address0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '4',
+          'video_address0' => 'salt_e300e91b9c70f7de4a7ce92c57f33248cf3a3787.mp4',
+          'date_created0' => 1600391541,
+          'total_views0' => 0,
+          'total_likes0' => 0,
+          'total_dislikes0' => 0,
+          'video_frame_address0' => 'salt_7ba07aca250a367f80dd2a2e9dac4988482ca9cf.jpg',
+        ),
+      ),
+      '1f74b2373e31bf47839928998332d238d74226f0b243cd05502f09f523499f9f2b49c928' => 
+      array (
+        'query' => 'INSERT INTO video_attached (casesreportedid,video_address,date_created,total_views,total_likes,total_dislikes,video_frame_address) VALUES (:casesreportedid0,:video_address0,:date_created0,:total_views0,:total_likes0,:total_dislikes0,:video_frame_address0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '5',
+          'video_address0' => 'salt_eb26959583fe484edb732a63fc88332f5c654016.mp4',
+          'date_created0' => 1600391662,
+          'total_views0' => 0,
+          'total_likes0' => 0,
+          'total_dislikes0' => 0,
+          'video_frame_address0' => 'salt_7292248ad76fb357a4206f3cb477b5178cbdab92.jpg',
         ),
       ),
     ),
@@ -312,6 +376,831 @@ return array (
         'bind' => 
         array (
           'articleid' => '1',
+        ),
+      ),
+    ),
+    'jobs' => 
+    array (
+      'a7ea795a463fe43a2bf810c7d40c19b78f5d6a87bfca61166e59eeddb5f546fe1f9c640b' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_468b97a5d01d6e2925333039b5a128ef2c882489.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_468b97a5d01d6e2925333039b5a128ef2c882489.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//94e58bb89a6dcb2d65ddc2f6c93e3060fa805d29.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_468b97a5d01d6e2925333039b5a128ef2c882489.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000004b84ff27000000002271f7a9\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600386686,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b77d30b79799068009f230332e14088977c7531ccc' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_fde6312d522715381c34fbe21200e819efef5d78.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_fde6312d522715381c34fbe21200e819efef5d78.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//d00588ccbb1c44d8e4883acd949a7397571ba985.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_fde6312d522715381c34fbe21200e819efef5d78.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000006d3be5c9000000007c430adf\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600386897,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b72a073dac7c086768298a42a5b5619e92c3d75f73' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_3240b71703204669f1e5b73c2c1683659433bb7d.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_3240b71703204669f1e5b73c2c1683659433bb7d.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//06c5aad6b7cc948bf34471d3d2d355326307f911.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_3240b71703204669f1e5b73c2c1683659433bb7d.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000001c926f8400000000051965b2\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600386973,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7ef1dcc9fa3f50951c570151d577787b0c11f24a3' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_93e6101052920474ae0c0b89b44902de06122d67.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_93e6101052920474ae0c0b89b44902de06122d67.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//35cce5fe389e0ba9ffd4636f89b1e2b14f9320f4.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_93e6101052920474ae0c0b89b44902de06122d67.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000007671df3a000000005a9c45c3\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600387948,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7450c4c4de8768dc64c06222f73f8c749cf9ac5d3' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_79c9ed6e023c8d7838a5b2db18380178bed3625f.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_79c9ed6e023c8d7838a5b2db18380178bed3625f.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//e0191500848d0389fcc1cfd1d88685a2219c7bd0.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_79c9ed6e023c8d7838a5b2db18380178bed3625f.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000002fec3064000000006cb1ed1e\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600388144,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af86f56cf6c4343ca9966a0fdb0a8133c743970cbda' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '4',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af89d4dbb0bf8292fbc7b85b9eb31f0c70a39c99e47' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '4',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7f43d8bcdb20c7e10cf4c00dfa630058f2adbc125' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_4d070a052cb37dc0edf878b83034c06486abf846.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_4d070a052cb37dc0edf878b83034c06486abf846.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//c2edcf2c69986544d4be263d462cc5c3ae772421.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_4d070a052cb37dc0edf878b83034c06486abf846.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000074cd37d300000000262d0b93\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600388220,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af88484cbca54a038fc6f05e1bea5d14ca97d73ba92' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '5',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8c18ce0c59bde2af1a4d78e445362f33a5ad05130' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '5',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b76d4e993d1669fe51e2f88cde586c85ee63bec5cc' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_53106331c7a7b0a9e8560a553fff067f5287cadd.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_53106331c7a7b0a9e8560a553fff067f5287cadd.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//0cb6ee420e7bf65a0f362b8373b7c258bd313b12.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_53106331c7a7b0a9e8560a553fff067f5287cadd.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000003ae17a0a000000006362b245\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600388253,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8a4d47870b19d5d7c95d27c6b9cebe64b80062dc2' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '6',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8dca8f2131338986c36a7604bcd25ef0d14222616' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '6',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b75bbfd7b3c3ff220c1c787431b33533c2add76678' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_0afb9cd78723df3abf817b8eb44243cac175af70.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_0afb9cd78723df3abf817b8eb44243cac175af70.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//13ffd091aba2e956fc9ab443c9e429a9c97ea72f.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_0afb9cd78723df3abf817b8eb44243cac175af70.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000013d4115d000000000ef175cd\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600388630,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7373d557a284bdcafbcdfb0c46cd2075a4323dc4a' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_c81120003ee6154c6230ce57fff316e2f1b50690.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_c81120003ee6154c6230ce57fff316e2f1b50690.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//df671d6069bf17cc52a0fb0e360372f20655516d.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_c81120003ee6154c6230ce57fff316e2f1b50690.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000001e4ebc5d0000000005a8b2bb\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389087,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af89c45bb4686be4b950855e72279281c3e459721a3' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '8',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8f27b2488de0b7472f8709e3cb63b692eab43e976' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '8',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7e2ce57a5e3d77f44874f0e33a63cd152ea19d2e1' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_dbd87a4f7efee87440e4527c4bdc48480afd962f.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_dbd87a4f7efee87440e4527c4bdc48480afd962f.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//e396dea1494a9972e589cc2bbdc41745d21b7a11.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_dbd87a4f7efee87440e4527c4bdc48480afd962f.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000005f2def5000000001c3093e7\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389112,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b76734f5239bbca748fcfef691c4af3bf99c0033ad' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_a98c5f50cbf5f6fd5954f1092041d08cb396106a.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_a98c5f50cbf5f6fd5954f1092041d08cb396106a.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//d31813c2e4a6e32bfc103f4c7f4b3142d133c3a2.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_a98c5f50cbf5f6fd5954f1092041d08cb396106a.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000715f6e8d000000005b019a80\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389219,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7deec8f683c68dc0b1448391540f37c37c872d2a9' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_b4bc6b70501ce1a11dadf3b8bc07a0b75027b613.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_b4bc6b70501ce1a11dadf3b8bc07a0b75027b613.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//34051ec67056a4bd157a94a13ec9b83452cf4daf.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_b4bc6b70501ce1a11dadf3b8bc07a0b75027b613.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000028e2f5310000000023ddce47\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389355,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8cb158b0decad54ba4f1966ae681abc60e4ea3aef' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '11',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af820d05bd5e815fa93f8c70fd1e1e916bac4becc99' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '11',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b793b5027766469ccb70744698e4b76b23038b3132' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_1c39e9471af5a187cd12e41a0d13ef6812d1e705.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_1c39e9471af5a187cd12e41a0d13ef6812d1e705.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//d845248cde2749e08139791e0c6d635a64d3b666.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_1c39e9471af5a187cd12e41a0d13ef6812d1e705.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000061db126300000000646ce704\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389374,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b758ca4134488c52cbb4d71e151025721d4a0c5b7c' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_338b86c06e30189f8e12d5b02def75b0c485f93e.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_338b86c06e30189f8e12d5b02def75b0c485f93e.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//9a63c64fd1261c7387f75789870d9407d1e8b55f.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_338b86c06e30189f8e12d5b02def75b0c485f93e.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000068f41541000000001fee7c68\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389535,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af838fca1393ebc7d5da4bd36833b4fc4973b2e4f5c' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '13',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af89e7ffddb6715ee1c03d607256089b25e47e151b5' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '13',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b73bb407d19878620058963aa4c3a5cf96926a9fec' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_8db4cdd7570ae895301f16ea7c8ae4d45ce4b4da.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_8db4cdd7570ae895301f16ea7c8ae4d45ce4b4da.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//240699020b434257e88be1786add02c6e7015c9c.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_8db4cdd7570ae895301f16ea7c8ae4d45ce4b4da.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000768ac673000000001ea5ff20\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389566,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af86ce04694acf6fb11d19be253a3611e10eebcce6d' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '14',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af846d7a028e838b61febaf27f42a0e3004889a5907' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '14',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7396bb71cd719bb343b197eb10af6609755c5528b' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_a246ef833cc736dc06015e30557ae0dc6e060598.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_a246ef833cc736dc06015e30557ae0dc6e060598.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//8f664f5565761e2426c3de15f7880a8d9e0d1964.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_a246ef833cc736dc06015e30557ae0dc6e060598.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000033e5411f000000002bb3fbad\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389582,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b797392177be8a3812ac75b4dc9212ee60236a4ed2' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_87e2295c1d2b1b601f97c9d0373d30b36b6fa7a9.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_87e2295c1d2b1b601f97c9d0373d30b36b6fa7a9.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//9e0dfc483b48032deea0509189e88c90662092c9.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_87e2295c1d2b1b601f97c9d0373d30b36b6fa7a9.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000073d610060000000036f139f6\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389695,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af86eb06f8e52d8c1f2ac83899473eb551d23262fc1' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '16',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af841171a8c16ab1bf975836a2bcf09f8382c870fe0' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '16',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b776783307742e180d5fedf3d152c95be80d5041c2' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_c0aadc873930e15bc529a62344853315fe0fc509.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_c0aadc873930e15bc529a62344853315fe0fc509.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//380a5d54e7ea685adee3e3a8a8ac8612b4f284ff.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_c0aadc873930e15bc529a62344853315fe0fc509.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000007bbfd426000000000574f960\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389713,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b78b18bd37744473439520beb93108793526738c7b' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_4ae94e5bdd35bbfa290adc483b3f6f93f206c71c.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_4ae94e5bdd35bbfa290adc483b3f6f93f206c71c.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//cbe85296b337b5d18ad4c945dbc4da6f70be1c38.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_4ae94e5bdd35bbfa290adc483b3f6f93f206c71c.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000007ccb5829000000004b676904\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389748,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8e65c9e9de088a5fa14b5b45ec2bb57d0f2c6fbcb' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '18',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af81642441bfb0a6fced7d18184ff4813cfde5cce16' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '18',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b767af7baf542359856aa94cef4a7dbb880cb9712e' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_98d261e718dcdea957966d3d8018adb0a704a29c.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_98d261e718dcdea957966d3d8018adb0a704a29c.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//e7ec5908679e6620bc600719ce9b12b35db56849.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_98d261e718dcdea957966d3d8018adb0a704a29c.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000002bdb30f1000000003f906165\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389763,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7b69e3ed167b3ce1284293087cb602c334b4d9bf6' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_967d4a7a134cb6bbe6db7982d6e62676939d6e19.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_967d4a7a134cb6bbe6db7982d6e62676939d6e19.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//0df1817518f7112754d2ba6aebc67776e467cd28.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_967d4a7a134cb6bbe6db7982d6e62676939d6e19.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000005aaa596e00000000099ae901\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389798,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af83b4109ed1edb1100a340548bcaa9b200e429b466' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '20',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8d5c4453aac95bdb21db683907e3089dd3982897f' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '20',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b765374b8ae87d6bd74437785bf871012276619be4' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_d25e274410df5c8ec3f705e036e286edc989209d.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_d25e274410df5c8ec3f705e036e286edc989209d.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//88ca0243ca3f7b0598ef7921766f7e94f5d14564.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_d25e274410df5c8ec3f705e036e286edc989209d.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000003d87dccb000000002bc9d605\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389832,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8e8d47aec4117697774f198e254ad62872607647c' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '21',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af80dc1034888317f213bd52fc2ef4e1666b5104702' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '21',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b75119204e1edf8d6a83bd2def972a9699c9c4e92f' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_1708599c5a3f9513643ffd7db0592fa736309444.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_1708599c5a3f9513643ffd7db0592fa736309444.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//154571bae091eb8b10978e5f7273b6420725d622.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_1708599c5a3f9513643ffd7db0592fa736309444.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000007f50d759000000007c98fab9\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389861,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7dee73d31e4567f0d8110f2755d2d79900246675e' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_f044ccba50cd3b03523d7d4bb2889afc10219d6a.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_f044ccba50cd3b03523d7d4bb2889afc10219d6a.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//bb5ef9eb1161cc41461a7fd030a9292582e8297f.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_f044ccba50cd3b03523d7d4bb2889afc10219d6a.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000058e5e2970000000002ff52da\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600389984,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af875a8a76520c80df77369fa91658a91f65ce30de3' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '1',
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af8219f17b474545bc7a0571febd55327590d779045' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '1',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b79b7176b4a21b3bbf3e1830e1f91a8eb2304111dc' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'process-video-salt_657790816a0c620ce8b9017bc8bd54b390a070fd.mp4',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_657790816a0c620ce8b9017bc8bd54b390a070fd.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//1ae4e1f668bcbbd2a9b26c795ef2c5336427ecb8.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_657790816a0c620ce8b9017bc8bd54b390a070fd.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000005ea2e5ff0000000053386653\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600390007,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af890c6dbef30ff6796bbde83fbc25b87a04fb5107b' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'jobid' => '2',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e3f564f1defcd655284bfcfe9d734b5eb127cbc463' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1600390555',
+          'jobid' => '1',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e35c9fead850b4f7ad800f02ad5528acfc344e596a' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1600390655',
+          'jobid' => '2',
+        ),
+      ),
+    ),
+    'videos_published' => 
+    array (
+      '5e29d2b4bf93cc5e50d39bdeb65805f234f52827dbf18b517d33492954436aa36bb4f5fc' => 
+      array (
+        'query' => 'INSERT INTO videos_published (video_title,accountid,video_length,date_created,videoattachedid) VALUES (:video_title0,:accountid0,:video_length0,:date_created0,:videoattachedid0)',
+        'bind' => 
+        array (
+          'video_title0' => 'Super cool stuff',
+          'accountid0' => '3',
+          'video_length0' => 206,
+          'date_created0' => 1600390545,
+          'videoattachedid0' => '1',
+        ),
+      ),
+      '5e29d2b4bf93cc5e50d39bdeb65805f2e52f5e9bc9645c67d5a51ff23d13d169fba2f5aa' => 
+      array (
+        'query' => 'INSERT INTO videos_published (video_title,accountid,video_length,date_created,videoattachedid) VALUES (:video_title0,:accountid0,:video_length0,:date_created0,:videoattachedid0)',
+        'bind' => 
+        array (
+          'video_title0' => 'Super cool stuff',
+          'accountid0' => '3',
+          'video_length0' => 206,
+          'date_created0' => 1600390645,
+          'videoattachedid0' => '1',
         ),
       ),
     ),

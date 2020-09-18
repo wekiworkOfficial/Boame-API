@@ -64,7 +64,7 @@ class VideoProcessor
         $videUploaded = $this->uploadDir . '/' . $videUploaded;
 
         // run queue
-        QueueHandler::sendTask('process-video', function() use ($width, $height, $videUploaded, $dir)
+        QueueHandler::sendTask('process-video-' . $videoName, function() use ($width, $height, $videUploaded, $dir)
         {
             // run compression
             if ($width > 640 || $height > 480) :
@@ -76,6 +76,9 @@ class VideoProcessor
             endif;
 
         });
+
+        // load callback function
+        call_user_func($callback, $videoName, $frameName, $duration);
         
     }
 }

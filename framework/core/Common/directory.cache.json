@@ -17,5 +17,6 @@
     ".\/\/..\/helpers\/===UploadToStorage.php": ".\/\/..\/helpers\/\/Support\/UploadToStorage.php",
     ".\/\/..\/helpers\/===Auth.php": ".\/\/..\/helpers\/\/Models\/Auth.php",
     ".\/\/..\/helpers\/===QueryHelper.php": ".\/\/..\/helpers\/\/Support\/QueryHelper.php",
-    ".\/\/..\/helpers\/===VideoProcessor.php": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php"
+    ".\/\/..\/helpers\/===VideoProcessor.php": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php",
+    ".\/\/..\/helpers\/===QueueListener.php": ".\/\/..\/helpers\/\/Events\/QueueListener.php"
 }

@@ -17,5 +17,6 @@
     "Boame\\Models\\Traits\\RegistrationProcessor\/de1f42b297cb6c2e0acc532c7559129b": ".\/\/..\/helpers\/\/Models\/Traits\/RegistrationProcessor.php",
     "Boame\\Models\\Auth\/6cc7d3fd2ee8ace20f7e6ad9f1c0dabc": ".\/\/..\/helpers\/\/Models\/Auth.php",
     "Boame\\Support\\QueryHelper\/1b3e6d19da53eed852492def903ab033": ".\/\/..\/helpers\/\/Support\/QueryHelper.php",
-    "Boame\\Support\\VideoProcessor\/45adf5ce412b9c8ff21defcdb571ba7c": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php"
+    "Boame\\Support\\VideoProcessor\/45adf5ce412b9c8ff21defcdb571ba7c": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php",
+    "Boame\\Events\\QueueListener\/7c663b0190d45bee9c20c428ff1c6982": ".\/\/..\/helpers\/\/Events\/QueueListener.php"
 }

@@ -74,12 +74,13 @@ class VideoProcessor extends Model
                 {
                     // attach video
                     $attachment = [
-                        'video_address'     => $videoName,
-                        'total_views'       => 0,
-                        'total_likes'       => 0,
-                        'video_caption'     => base64_encode($data->video_caption),
-                        'date_created'      => time(),
-                        'video_frame'       => $videoFrame
+                        'video_address'         => $videoName,
+                        'total_views'           => 0,
+                        'total_likes'           => 0,
+                        'total_dislikes'        => 0,
+                        'video_caption'         => base64_encode($data->video_caption),
+                        'date_created'          => time(),
+                        'video_frame_address'   => $videoFrame
                     ];
 
                     // get videoAttachedId

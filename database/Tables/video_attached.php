@@ -20,6 +20,7 @@ class Video_attached
         $schema->increment('videoattachedid');
         $schema->bigint('casesreportedid')->default(0)->comment('Can be a video uploaded by a reporter');
         $schema->text('video_address');
+        $schema->string('video_frame_address', 300);
         $schema->bigint('total_views');
         $schema->bigint('total_likes');
         $schema->bigint('total_dislikes');

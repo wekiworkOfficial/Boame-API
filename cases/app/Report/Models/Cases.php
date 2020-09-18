@@ -53,7 +53,7 @@ class Cases extends Model
         if ($data->isOk()) :
 
             // can we continue
-            if ($this->isCaseTypeValid($caseType, $data)) :
+            if (($caseTypeId = $this->isCaseTypeValid($caseType, $data)) !== false) :
 
                 // @var annonymus $putClass
                 $putClass = new class() { use Helpers\CasesPutProcessor; };
@@ -65,7 +65,7 @@ class Cases extends Model
                 if (method_exists($putClass, $processor)) :
 
                     // are we good ?
-                    if ($putClass->{$processor}($data, $caseTypeDb->casetypeid)) app('response')->success('Your case was submitted successful');
+                    if ($putClass->{$processor}($data, $caseTypeId)) app('response')->success('Your case submission was successful');
 
                     // failed
                     app('response')->error('Your case submission was not successful');

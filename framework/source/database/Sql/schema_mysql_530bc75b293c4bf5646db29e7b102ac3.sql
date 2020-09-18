@@ -92,3 +92,33 @@ CREATE TABLE IF NOT EXISTS `volunteers` (
 	approved_by BIGINT , 
 	comment LONGTEXT
 );
+CREATE TABLE IF NOT EXISTS `jobs` (
+	jobid BIGINT(20) auto_increment primary key, 
+	job_name VARCHAR(255) , 
+	job_body VARCHAR(255) , 
+	job_status VARCHAR(255) , 
+	time_queued VARCHAR(255) , 
+	time_completed VARCHAR(255)
+);
+DROP TABLE `jobs`;
+ALTER TABLE `jobs` CHANGE COLUMN job_body job_body LONGTEXT;
+CREATE TABLE IF NOT EXISTS `jobs` (
+	jobid BIGINT(20) auto_increment primary key, 
+	job_name VARCHAR(255) , 
+	job_body LONGTEXT , 
+	job_status VARCHAR(255) , 
+	time_queued VARCHAR(255) , 
+	time_completed VARCHAR(255)
+);
+DROP TABLE `video_attached`;
+CREATE TABLE IF NOT EXISTS `video_attached` (
+	videoattachedid BIGINT(20) auto_increment primary key, 
+	casesreportedid BIGINT default 0 comment 'Can be a video uploaded by a reporter', 
+	video_address TEXT , 
+	video_frame_address VARCHAR(300) , 
+	total_views BIGINT , 
+	total_likes BIGINT , 
+	total_dislikes BIGINT , 
+	video_caption LONGTEXT , 
+	date_created VARCHAR(255)
+);

@@ -27,6 +27,10 @@
         "ext-zip": "*",
         "symfony/yaml": "^4.4",
         "monolog/monolog": "^1.25",
-        "filp/whoops": "^2.7"
+        "filp/whoops": "^2.7",
+        "php-ffmpeg/php-ffmpeg": "^0.16.0",
+        "php-ffmpeg/extras": "^0.3.1",
+        "php-amqplib/php-amqplib": "^2.11",
+        "opis/closure": "^3.5"
     }
 }
