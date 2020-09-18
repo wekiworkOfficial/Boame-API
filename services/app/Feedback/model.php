@@ -11,11 +11,9 @@ use Lightroom\Packager\Moorexa\MVC\Model;
  */
 
 // example one
-Model::http_request('get|post|put', '<view>|<view2>', function(string $method, string $view)
+Model::http_request('post|get', 'home', function(string $method, string $view)
 {
     // load model with this method
-    $this->setMethod($method . 'Find'); // => getFind, postFind or putFind
-
-    // set this model as the default for this request
-    $this->loadModel(Moorexa\Framework\Example\Models\Account::class);
+    $this->setMethod($method . 'Feedback'); 
+    
 }); 

@@ -15,5 +15,11 @@ Moorexa\Middlewares\Access::lockPermission(function()
     {
         return 'account/read/' . $id;
     });
+
+    // request for a feedback submitted - allow read only
+    Route::get('feedback/{id}', ['id' => '[0-9]+'], function($request, $id)
+    {
+        return 'feedback/home/' . $id;
+    });
     
 });

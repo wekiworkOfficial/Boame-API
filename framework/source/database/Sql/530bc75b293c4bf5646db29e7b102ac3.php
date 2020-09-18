@@ -1435,6 +1435,21 @@ return array (
         ),
       ),
     ),
+    'feedbacks' => 
+    array (
+      'da002f2baccf2629fad4d215da8d2c0ad3dab874684bdcfd0458661b4979a62ffb114763' => 
+      array (
+        'query' => 'INSERT INTO feedbacks (accountid,devicehash,fullname,email,feedback) VALUES (:accountid0,:devicehash0,:fullname0,:email0,:feedback0)',
+        'bind' => 
+        array (
+          'accountid0' => 0,
+          'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+          'fullname0' => 'mack henry',
+          'email0' => 'helloamadiify@gmail.com',
+          'feedback0' => 'This is so cool my friend.',
+        ),
+      ),
+    ),
   ),
 );
 

@@ -24,6 +24,6 @@ class Feedback extends Controller
 
     public function home() : void 
     {
-        app('screen')->render(['status' => 'success', 'message' => 'route works!']);
+        
     }
 }

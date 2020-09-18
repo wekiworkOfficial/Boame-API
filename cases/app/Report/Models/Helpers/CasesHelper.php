@@ -67,6 +67,7 @@ trait CasesHelper
             // get all
             $cases = map(db('cases_reported')
             ->get('casetypeid = ?', $caseTypeId)
+            ->orderBy('casesreportedid', 'desc')
             ->if(true, function($query){ $this->addFetchQueryLimits($query); }));
 
             // @var array $allCases

@@ -2001,4 +2001,41 @@ return array (
       'videoattachedid0' => '3',
     ),
   ),
+  '09ac4697a7b18e2ea21d193934f2d522' => 
+  array (
+    'query' => 'SELECT * FROM videos_published WHERE videospublishedid = :videospublishedid ',
+    'bind' => 
+    array (
+      'videospublishedid' => '2',
+    ),
+  ),
+  '3d5efce1530b9ae8bb7e0f8225319e43' => 
+  array (
+    'query' => 'SELECT * FROM video_attached WHERE videoattachedid = :videoattachedid ',
+    'bind' => 
+    array (
+      'videoattachedid' => '3',
+    ),
+  ),
+  '2ce954aa6eed32b81ac54d6f571753e8' => 
+  array (
+    'query' => 'SELECT * FROM feedbacks WHERE feedback = :feedback and fullname = :fullname ',
+    'bind' => 
+    array (
+      'feedback' => 'This is so cool my friend.',
+      'fullname' => 'mack henry',
+    ),
+  ),
+  'e3b3f4aa68909b5625b4f222769f03ff' => 
+  array (
+    'query' => 'INSERT INTO feedbacks (accountid,devicehash,fullname,email,feedback) VALUES (:accountid0,:devicehash0,:fullname0,:email0,:feedback0)',
+    'bind' => 
+    array (
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'fullname0' => 'mack henry',
+      'email0' => 'helloamadiify@gmail.com',
+      'feedback0' => 'This is so cool my friend.',
+    ),
+  ),
 );

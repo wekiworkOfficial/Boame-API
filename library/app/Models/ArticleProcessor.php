@@ -54,6 +54,9 @@ class ArticleProcessor extends Model
             // just fetch
             $query->get();
 
+            // add order
+            $query->orderBy('articleid', 'desc');
+
         })->if(true, function($query){ $this->addFetchQueryLimits($query); })->go();
 
         // fetch results

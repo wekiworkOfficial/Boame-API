@@ -120,6 +120,9 @@ class VideoProcessor extends Model
             // just fetch
             $query->get();
 
+            // add order
+            $query->orderBy('videospublishedid', 'desc');
+
         })->if(true, function($query){ $this->addFetchQueryLimits($query); })->go();
 
         // fetch results
