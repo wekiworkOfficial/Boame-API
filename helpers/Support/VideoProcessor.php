@@ -67,9 +67,9 @@ class VideoProcessor
         QueueHandler::sendTask('process-video-' . $videoName, function() use ($width, $height, $videUploaded, $dir)
         {
             // run compression
-            if ($width > 640 || $height > 480) :
+            if ($width > 854 || $height > 480) :
                 // reduce resolution
-                system("ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}");
+                system("ffmpeg -i {$videUploaded} -s 854x480 {$dir}; rm -rf {$videUploaded}");
             else:
                 // convert to mp4
                 system("ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}");
@@ -80,5 +80,25 @@ class VideoProcessor
         // load callback function
         call_user_func($callback, $videoName, $frameName, $duration);
         
+    }
+
+    /**
+     * @method VideoProcessor deleteUpload
+     * @param DBPromise $videoAttached
+     * @return void
+     */
+    public function deleteUpload($videoAttached) : void 
+    {
+        // get the frame image
+        $frameImage = $this->uploadDir . '/' . $videoAttached->video_frame_address;
+
+        // get the video
+        $videoAddress = $this->uploadDir . '/' . $videoAttached->video_address;
+
+        // try delete frame
+        if (file_exists($frameImage)) unlink($frameImage);
+
+        // try delete video
+        if (file_exists($videoAddress)) unlink($videoAddress);
     }
 }

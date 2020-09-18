@@ -59,4 +59,36 @@ return array (
       'articleid' => '1',
     ),
   ),
+  '4e82d13b82261c8086633c4bdb6e275f' => 
+  array (
+    'query' => 'SELECT * FROM videos_published WHERE videospublishedid = :videospublishedid ',
+    'bind' => 
+    array (
+      'videospublishedid' => '1',
+    ),
+  ),
+  '30a24ed6c4d3f0929d60709639be7c24' => 
+  array (
+    'query' => 'SELECT * FROM video_attached WHERE videoattachedid = :videoattachedid ',
+    'bind' => 
+    array (
+      'videoattachedid' => '2',
+    ),
+  ),
+  'e4dc7f89567e848d23219620cbbf051b' => 
+  array (
+    'query' => 'DELETE FROM video_attached WHERE videoattachedid = :videoattachedid ',
+    'bind' => 
+    array (
+      'videoattachedid' => '2',
+    ),
+  ),
+  'ee9e9fd7117ba568ea600e46faec123f' => 
+  array (
+    'query' => 'DELETE FROM videos_published WHERE videospublishedid = :videospublishedid ',
+    'bind' => 
+    array (
+      'videospublishedid' => '1',
+    ),
+  ),
 );

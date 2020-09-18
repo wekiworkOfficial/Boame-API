@@ -1,1 +1,0 @@
-[2020-09-17 23:51:20] Runtime.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'boame_project.jobs' doesn't exist {"Environment":"PROD|DEV","Line":242,"File":"/Users/mac/Desktop/workspace/boame_modules/framework/core/Database/Drivers/DriversHelper.php"} []

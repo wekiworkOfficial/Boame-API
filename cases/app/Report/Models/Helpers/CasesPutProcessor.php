@@ -133,7 +133,7 @@ trait CasesPutProcessor
             $videoHandler->uploadAndCompress($filter->video, 
 
             // get the video name, duration and insert to db
-            function(string $videoName, string $videoFrame, int $videoDuration) use ($case)
+            function(string $videoName, string $videoFrame, string $videoDuration) use ($case)
             {
                 // attach video
                 db('video_attached')->insert([

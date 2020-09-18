@@ -1347,4 +1347,658 @@ return array (
       'video_frame_address0' => 'salt_7292248ad76fb357a4206f3cb477b5178cbdab92.jpg',
     ),
   ),
+  '90b98346ab45d3a6d648091d5dc461ab' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE account_type = :account_type ',
+    'bind' => 
+    array (
+      'account_type' => 'reporter',
+    ),
+  ),
+  'd4e25f10c34eb1f3809a64c54e9854ae' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE email = :email or telephone = :telephone ',
+    'bind' => 
+    array (
+      'email' => 'hello@m.com',
+      'telephone' => '08011221122',
+    ),
+  ),
+  '055f4fd9baeef6a217ee8e058078b34f' => 
+  array (
+    'query' => 'INSERT INTO accounts (firstname,lastname,email,telephone,accounttypeid,verified) VALUES (:firstname0,:lastname0,:email0,:telephone0,:accounttypeid0,:verified0)',
+    'bind' => 
+    array (
+      'firstname0' => 'amadi',
+      'lastname0' => 'ifeanyi',
+      'email0' => 'hello@m.com',
+      'telephone0' => '08011221122',
+      'accounttypeid0' => 4,
+      'verified0' => 1,
+    ),
+  ),
+  '5c681ab6ecb636b0fbe882fed4152721' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE firstname = :firstname AND lastname = :lastname AND email = :email AND telephone = :telephone AND accounttypeid = :accounttypeid AND verified = :verified  ',
+    'bind' => 
+    array (
+      'firstname' => 'amadi',
+      'lastname' => 'ifeanyi',
+      'email' => 'hello@m.com',
+      'telephone' => '08011221122',
+      'accounttypeid' => '4',
+      'verified' => '1',
+    ),
+  ),
+  'd7fd6ff272a215d2025794ea63dae7aa' => 
+  array (
+    'query' => 'INSERT INTO authentication (accountid,date_created) VALUES (:accountid0,:date_created0)',
+    'bind' => 
+    array (
+      'accountid0' => '4',
+      'date_created0' => 1600394999,
+    ),
+  ),
+  '7c9584a0ff9bfc6e385cebe0da3c5485' => 
+  array (
+    'query' => 'SELECT * FROM authentication WHERE accountid = :accountid AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'accountid' => '4',
+      'date_created' => '1600394999',
+    ),
+  ),
+  '8b6303b53fe2f312e5e578df7e3c8c71' => 
+  array (
+    'query' => 'INSERT INTO password_hash (authenticationid,passwordhash,password_salt) VALUES (:authenticationid0,:passwordhash0,:password_salt0)',
+    'bind' => 
+    array (
+      'authenticationid0' => '4',
+      'passwordhash0' => '$2y$10$VDNXnVJTwIwswTMyGK9N5.Csk0kV0zqGovQ4EWW7sSiIPe/rbhWke',
+      'password_salt0' => 'salt_2fa5aaebd765be931a0a812c11a52dd70cbfe25c',
+    ),
+  ),
+  '2380f0e1ba910f6417789c6e16f3cb64' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE account_type = :account_type ',
+    'bind' => 
+    array (
+      'account_type' => 'counsellor',
+    ),
+  ),
+  '092469f2b491b32de16bf1c46e356a5a' => 
+  array (
+    'query' => 'SELECT * FROM case_types WHERE case_type = :case_type ',
+    'bind' => 
+    array (
+      'case_type' => 'text',
+    ),
+  ),
+  '5c8a1406d518f039ec6b0d078291ef23' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 1,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created0' => 1600395008,
+    ),
+  ),
+  '6fa488063a59638a178f38794fac6a36' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '1',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created' => '1600395008',
+    ),
+  ),
+  'cd5dd6b6f0a25ff8d3d0368c2a037b84' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '1',
+      'image_address0' => '30fa227268d67da2649aa44313c5dc62d542b966.png',
+      'date_created0' => 1600395008,
+    ),
+  ),
+  'fb6cb1d502053501eca86547c23b6f57' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '1',
+      'image_address0' => 'a5f6deb482c2a8fb91a382430d1fbcbddb9031c9.png',
+      'date_created0' => 1600395008,
+    ),
+  ),
+  '0b8a4c5fb818d991c397e03e88c686f7' => 
+  array (
+    'query' => 'SELECT * FROM case_types WHERE case_type = :case_type ',
+    'bind' => 
+    array (
+      'case_type' => 'audio',
+    ),
+  ),
+  '450796e39d1ec4d21db8b3b03cf95196' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 1,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'first audio case',
+      'date_created0' => 1600395011,
+    ),
+  ),
+  '543349bbf01cb66782e56a0342e5923b' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '1',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'first audio case',
+      'date_created' => '1600395011',
+    ),
+  ),
+  '068835bdf2ed438a052783a567ca84cf' => 
+  array (
+    'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '2',
+      'audio_address0' => '9278ec273acda7b655c4c17d64aa8c790ce1a045.mp3',
+      'date_created0' => 1600395011,
+      'total_listen0' => 0,
+    ),
+  ),
+  'a4f872c4ae329ca10ce99f2afa5dba9f' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid ',
+    'bind' => 
+    array (
+      'casetypeid' => 3,
+    ),
+  ),
+  'efa5800556c39e349a04393b1afbdc9b' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid and casesreportedid = :casesreportedid ',
+    'bind' => 
+    array (
+      'casetypeid' => 3,
+      'casesreportedid' => 0,
+    ),
+  ),
+  'd56c765cd63d1e99d8689cc86315b609' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 1,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created0' => 1600395037,
+    ),
+  ),
+  '02e6c7986877ef2211ebc5cde6b4a6d7' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '1',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created' => '1600395037',
+    ),
+  ),
+  '9a8e2fe9f9d1bb559ed71d7ad93d079f' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '3',
+      'image_address0' => 'a9f5df94a15cd1944f11a609a2f399cae25f5489.png',
+      'date_created0' => 1600395037,
+    ),
+  ),
+  '621f3b8877276a481c7d3c7f230b0f29' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '3',
+      'image_address0' => 'd2f3b75eb85694c973c4510b6ec0a5107bf5e24b.png',
+      'date_created0' => 1600395037,
+    ),
+  ),
+  'ec405da44560a201040e44bf63ae0299' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 3,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created0' => 1600395303,
+    ),
+  ),
+  '08e6899a343bc0d526347fcfc8c72e6f' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '3',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'Also, there are APIs available to access third party data; for example, LINQ to Amazon provides the ability to use LINQ with Amazon web services to search for books and other items. This can be achieved by implementing the IQueryable interface for Amazon.',
+      'date_created' => '1600395303',
+    ),
+  ),
+  'd9f1725199275ea36040243d16cd5b53' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '1',
+      'image_address0' => '677510ec27f52cc933b27d4abcf084ce9b112f45.png',
+      'date_created0' => 1600395303,
+    ),
+  ),
+  '75263484c20bba4bdc33f7f36ef1b9de' => 
+  array (
+    'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '1',
+      'image_address0' => '8ff76571d9fcfcabcad8536c23e26e82c8c168d4.png',
+      'date_created0' => 1600395303,
+    ),
+  ),
+  '4549247f5bb966c757bdde318036a423' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 2,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'first audio case',
+      'date_created0' => 1600395316,
+    ),
+  ),
+  'b78b31397786c9979b2d4b1e3c8955f3' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '2',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'first audio case',
+      'date_created' => '1600395316',
+    ),
+  ),
+  '7a30940e94744c1ec94a24a1b338d2de' => 
+  array (
+    'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '2',
+      'audio_address0' => '1a8be429cd07b186f280a2e3aeea7a1c79a9d954.mp3',
+      'date_created0' => 1600395316,
+      'total_listen0' => 0,
+    ),
+  ),
+  '66cebcf0a4171e01d61af398b7334d33' => 
+  array (
+    'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+    'bind' => 
+    array (
+      'casetypeid0' => 1,
+      'accountid0' => 0,
+      'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text0' => 'first video case',
+      'date_created0' => 1600395321,
+    ),
+  ),
+  'a0d8d08fd6700ad8c4f34946048e191a' => 
+  array (
+    'query' => 'SELECT * FROM cases_reported WHERE casetypeid = :casetypeid AND accountid = :accountid AND devicehash = :devicehash AND case_text = :case_text AND date_created = :date_created  ',
+    'bind' => 
+    array (
+      'casetypeid' => '1',
+      'accountid' => '0',
+      'devicehash' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+      'case_text' => 'first video case',
+      'date_created' => '1600395321',
+    ),
+  ),
+  '7adae3606ec79607e247985cca771493' => 
+  array (
+    'query' => 'INSERT INTO video_attached (casesreportedid,video_address,date_created,total_views,total_likes,total_dislikes,video_frame_address) VALUES (:casesreportedid0,:video_address0,:date_created0,:total_views0,:total_likes0,:total_dislikes0,:video_frame_address0)',
+    'bind' => 
+    array (
+      'casesreportedid0' => '3',
+      'video_address0' => 'salt_cd78403b8840964e6591218bc10294f653893eb0.mp4',
+      'date_created0' => 1600395321,
+      'total_views0' => 0,
+      'total_likes0' => 0,
+      'total_dislikes0' => 0,
+      'video_frame_address0' => 'salt_797aee206b35e9f77352846b11ae154d7e4a5d47.jpg',
+    ),
+  ),
+  '4f5bdb6cffb94fde468255e4893f0d0d' => 
+  array (
+    'query' => 'SELECT * FROM articles WHERE article_cover_image = :article_cover_image AND article_title = :article_title AND article_text = :article_text AND total_views = :total_views AND date_created = :date_created AND accountid = :accountid  ',
+    'bind' => 
+    array (
+      'article_cover_image' => '4fe189f35b2bb9cb2e095c5c5a2cb869c553c2ff.jpg',
+      'article_title' => 'Building a stronger Ghana',
+      'article_text' => 'V2UgaGF2ZSBzZWVuIHRoaXMgZWZmZWN0IHdoZXJlIHRoZXJlIGEgYnVuY2ggb2YgdGV4dCBsaW5rcyBvbiB0aGUgcGFnZSBhbmQgb24gaG92ZXIgYW4gaW1hZ2UgaXMgbG9hZGVkIHVwIGFuZCBzaG93biB0byB0aGUgdmlzaXRvci4gVGhpcyBzbmlwcGV0IGFsbG93cyB5b3UgdG8gYWNoaWV2ZSB0aGlzIHBvcHVwIGltYWdlIG9uIHRleHQgbGluayBob3ZlciBvbiB5b3VyIHdlYiBwYWdlcy4KCkhvd2V2ZXIsIGlmIHlvdeKAmXJlIGFjY2Vzc2luZyBibG9ja2VkIGNvbnRlbnQsIHRoaW5ncyBhcmUgYSBsaXR0bGUgZGlmZmVyZW50LiBXaGlsZSBhIHByb3h5IGlzIGdvb2QgZm9yIGxvdyBzdGFrZXMsIGl0IGRvZXNu4oCZdCByZW1vdmUgaWRlbnRpZnlpbmcgaW5mb3JtYXRpb24gb3RoZXIgdGhhbiB0aGUgSVAgYWRkcmVzcy4gSXTigJlzIG9wZW4gdG8gc25vb3BpbmcgZnJvbSBhbnlvbmUgd2l0aCBhY2Nlc3MgdG8geW91ciBkYXRhIHN0cmVhbSwgc3VjaCBhcyB5b3VyIElTUCBhbmQgZ292ZXJubWVudC4gQWNjZXNzaW5nIGNlbnNvcmVkIGZpbGUtc2hhcmluZyB3ZWJzaXRlcyBhbmQgb3RoZXIgcXVlc3Rpb25hYmxlIGNvbnRlbnQgaXMgYmVzdCBkb25lIHRocm91Z2ggYSBWUE4u',
+      'total_views' => '0',
+      'date_created' => '1600395344',
+      'accountid' => '3',
+    ),
+  ),
+  'd9c972f76e3e4a63eb2fc4ed6004cb24' => 
+  array (
+    'query' => 'INSERT INTO articles (article_cover_image,article_title,article_text,total_views,date_created,accountid) VALUES (:article_cover_image0,:article_title0,:article_text0,:total_views0,:date_created0,:accountid0)',
+    'bind' => 
+    array (
+      'article_cover_image0' => '4fe189f35b2bb9cb2e095c5c5a2cb869c553c2ff.jpg',
+      'article_title0' => 'Building a stronger Ghana',
+      'article_text0' => 'V2UgaGF2ZSBzZWVuIHRoaXMgZWZmZWN0IHdoZXJlIHRoZXJlIGEgYnVuY2ggb2YgdGV4dCBsaW5rcyBvbiB0aGUgcGFnZSBhbmQgb24gaG92ZXIgYW4gaW1hZ2UgaXMgbG9hZGVkIHVwIGFuZCBzaG93biB0byB0aGUgdmlzaXRvci4gVGhpcyBzbmlwcGV0IGFsbG93cyB5b3UgdG8gYWNoaWV2ZSB0aGlzIHBvcHVwIGltYWdlIG9uIHRleHQgbGluayBob3ZlciBvbiB5b3VyIHdlYiBwYWdlcy4KCkhvd2V2ZXIsIGlmIHlvdeKAmXJlIGFjY2Vzc2luZyBibG9ja2VkIGNvbnRlbnQsIHRoaW5ncyBhcmUgYSBsaXR0bGUgZGlmZmVyZW50LiBXaGlsZSBhIHByb3h5IGlzIGdvb2QgZm9yIGxvdyBzdGFrZXMsIGl0IGRvZXNu4oCZdCByZW1vdmUgaWRlbnRpZnlpbmcgaW5mb3JtYXRpb24gb3RoZXIgdGhhbiB0aGUgSVAgYWRkcmVzcy4gSXTigJlzIG9wZW4gdG8gc25vb3BpbmcgZnJvbSBhbnlvbmUgd2l0aCBhY2Nlc3MgdG8geW91ciBkYXRhIHN0cmVhbSwgc3VjaCBhcyB5b3VyIElTUCBhbmQgZ292ZXJubWVudC4gQWNjZXNzaW5nIGNlbnNvcmVkIGZpbGUtc2hhcmluZyB3ZWJzaXRlcyBhbmQgb3RoZXIgcXVlc3Rpb25hYmxlIGNvbnRlbnQgaXMgYmVzdCBkb25lIHRocm91Z2ggYSBWUE4u',
+      'total_views0' => 0,
+      'date_created0' => 1600395344,
+      'accountid0' => '3',
+    ),
+  ),
+  '799f58ef4d5f0aadd306e6d7222d54ae' => 
+  array (
+    'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+    'bind' => 
+    array (
+      'job_name0' => 'process-video-salt_a079cffb8c8667ad5f401aaf2ad0e6a5952ff650.mp4',
+      'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_a079cffb8c8667ad5f401aaf2ad0e6a5952ff650.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:852:\\"C:32:\\"OpisClosureSerializableClosure\\":806:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1280;s:6:\\"height\\";i:720;s:12:\\"videUploaded\\";s:59:\\".//../uploads//6fa9e3d982a43054afd1832261b5e7cc03b46ea2.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_a079cffb8c8667ad5f401aaf2ad0e6a5952ff650.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000003e7da50e000000004a3b61c2\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+      'job_status0' => 'pending',
+      'time_queued0' => 1600397022,
+    ),
+  ),
+  'fc7d6db1e53ef5b03fe95dc692e0b355' => 
+  array (
+    'query' => 'INSERT INTO video_attached (video_address,total_views,total_likes,total_dislikes,video_caption,date_created,video_frame_address) VALUES (:video_address0,:total_views0,:total_likes0,:total_dislikes0,:video_caption0,:date_created0,:video_frame_address0)',
+    'bind' => 
+    array (
+      'video_address0' => 'salt_a079cffb8c8667ad5f401aaf2ad0e6a5952ff650.mp4',
+      'total_views0' => 0,
+      'total_likes0' => 0,
+      'total_dislikes0' => 0,
+      'video_caption0' => 'VGhpcyBpcyBhIGNvb2wgdmlkZW8gZm9yIGV2ZXJ5b25l',
+      'date_created0' => 1600397022,
+      'video_frame_address0' => 'salt_dee0abd217945d00268aaa5382e21b4fd5f9d73d.jpg',
+    ),
+  ),
+  '6a564a238dce68e275a308e860c8e08b' => 
+  array (
+    'query' => 'SELECT * FROM video_attached WHERE video_address = :video_address AND total_views = :total_views AND total_likes = :total_likes AND total_dislikes = :total_dislikes AND video_caption = :video_caption AND date_created = :date_created AND video_frame_address = :video_frame_address  ',
+    'bind' => 
+    array (
+      'video_address' => 'salt_a079cffb8c8667ad5f401aaf2ad0e6a5952ff650.mp4',
+      'total_views' => '0',
+      'total_likes' => '0',
+      'total_dislikes' => '0',
+      'video_caption' => 'VGhpcyBpcyBhIGNvb2wgdmlkZW8gZm9yIGV2ZXJ5b25l',
+      'date_created' => '1600397022',
+      'video_frame_address' => 'salt_dee0abd217945d00268aaa5382e21b4fd5f9d73d.jpg',
+    ),
+  ),
+  'b71f897f4f4aa57720ff6f8d5000e0ad' => 
+  array (
+    'query' => 'SELECT * FROM videos_published WHERE video_title = :video_title AND accountid = :accountid AND video_length = :video_length AND date_created = :date_created AND videoattachedid = :videoattachedid  ',
+    'bind' => 
+    array (
+      'video_title' => 'Super cool stuff',
+      'accountid' => '3',
+      'video_length' => '206',
+      'date_created' => '1600397022',
+      'videoattachedid' => '2',
+    ),
+  ),
+  'bce524b40fdc5d2fd05d172ea0ea9d59' => 
+  array (
+    'query' => 'INSERT INTO videos_published (video_title,accountid,video_length,date_created,videoattachedid) VALUES (:video_title0,:accountid0,:video_length0,:date_created0,:videoattachedid0)',
+    'bind' => 
+    array (
+      'video_title0' => 'Super cool stuff',
+      'accountid0' => '3',
+      'video_length0' => 206,
+      'date_created0' => 1600397022,
+      'videoattachedid0' => '2',
+    ),
+  ),
+  'dcb373bca2914bbef72eea3eb0deea66' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE accounttypeid = :accounttypeid ',
+    'bind' => 
+    array (
+      'accounttypeid' => '5',
+    ),
+  ),
+  '7854ee980550675e5c2779702a19da18' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '0',
+    ),
+  ),
+  'eb56e2fcc89ddb2c2e43f9609d4119d4' => 
+  array (
+    'query' => 'SELECT * FROM volunteers WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '1',
+    ),
+  ),
+  '1595a93482780d82027a7cf509f705b1' => 
+  array (
+    'query' => 'SELECT * FROM volunteer_positions WHERE volunteerpositionid = :volunteerpositionid ',
+    'bind' => 
+    array (
+      'volunteerpositionid' => '1',
+    ),
+  ),
+  'e9661a99347edaa5b29326cfb521f596' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '2',
+    ),
+  ),
+  'a7e893a6a72d0d698e803fb670bc4ebe' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE accounttypeid = :accounttypeid ',
+    'bind' => 
+    array (
+      'accounttypeid' => '1',
+    ),
+  ),
+  '53abd77fd9a4e590537256e0a700e40f' => 
+  array (
+    'query' => 'SELECT * FROM volunteers WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '2',
+    ),
+  ),
+  'bb15a00c0e6bfeb6541d16dfd03a91c4' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '3',
+    ),
+  ),
+  '366b894c6bfa4a6b7bf18dc82c3bd63c' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE accounttypeid = :accounttypeid ',
+    'bind' => 
+    array (
+      'accounttypeid' => '3',
+    ),
+  ),
+  'fad86f4fd117db3dbf9e5f094196a646' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '2',
+    ),
+  ),
+  'ee2a7a36a8614d4cfec01c09c1701364' => 
+  array (
+    'query' => 'SELECT * FROM volunteers WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '3',
+    ),
+  ),
+  '3bb470941035a6bebcc1186e7d04129b' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '4',
+    ),
+  ),
+  '94dc587099eb23eb4458e79a34dd2e74' => 
+  array (
+    'query' => 'SELECT * FROM account_types WHERE accounttypeid = :accounttypeid ',
+    'bind' => 
+    array (
+      'accounttypeid' => '4',
+    ),
+  ),
+  'c043b949c59ab44baf8190bca3015910' => 
+  array (
+    'query' => 'SELECT * FROM volunteers WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '4',
+    ),
+  ),
+  'c978c375463b879c357dce45761cb15d' => 
+  array (
+    'query' => 'SELECT * FROM accounts WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '1',
+    ),
+  ),
+  '4e82d13b82261c8086633c4bdb6e275f' => 
+  array (
+    'query' => 'SELECT * FROM videos_published WHERE videospublishedid = :videospublishedid ',
+    'bind' => 
+    array (
+      'videospublishedid' => '1',
+    ),
+  ),
+  '91fa4f3404d813af3aac1c7bfd3aef1a' => 
+  array (
+    'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+    'bind' => 
+    array (
+      'job_name0' => 'process-video-salt_f88b7822669e4dfcd8e9f8df4cfd3099f882f3ea.mp4',
+      'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:63:\\"process-video-salt_f88b7822669e4dfcd8e9f8df4cfd3099f882f3ea.mp4\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:853:\\"C:32:\\"OpisClosureSerializableClosure\\":807:{a:5:{s:3:\\"use\\";a:4:{s:5:\\"width\\";i:1879;s:6:\\"height\\";i:1080;s:12:\\"videUploaded\\";s:59:\\".//../uploads//7c46e8a25d63319d48a68d969802e3956bd99226.mp4\\";s:3:\\"dir\\";s:64:\\".//../uploads//salt_f88b7822669e4dfcd8e9f8df4cfd3099f882f3ea.mp4\\";}s:8:\\"function\\";s:441:\\"function() use ($width, $height, $videUploaded, $dir)
+        {
+            // run compression
+            if ($width > 640 || $height > 480) :
+                // reduce resolution
+                system(\\"ffmpeg -i {$videUploaded} -s 640x480 {$dir}; rm -rf {$videUploaded}\\");
+            else:
+                // convert to mp4
+                system(\\"ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}\\");
+            endif;
+
+        }\\";s:5:\\"scope\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000004ad2ce000000000051d6aa79\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:28:\\"BoameSupportVideoProcessor\\";s:4:\\"file\\";s:77:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Support/VideoProcessor.php\\";}}',
+      'job_status0' => 'pending',
+      'time_queued0' => 1600415240,
+    ),
+  ),
+  '4c3c6c46a1e53c9aaaa2766855cc7d5f' => 
+  array (
+    'query' => 'INSERT INTO video_attached (video_address,total_views,total_likes,total_dislikes,video_caption,date_created,video_frame_address) VALUES (:video_address0,:total_views0,:total_likes0,:total_dislikes0,:video_caption0,:date_created0,:video_frame_address0)',
+    'bind' => 
+    array (
+      'video_address0' => 'salt_f88b7822669e4dfcd8e9f8df4cfd3099f882f3ea.mp4',
+      'total_views0' => 0,
+      'total_likes0' => 0,
+      'total_dislikes0' => 0,
+      'video_caption0' => 'VGhpcyBpcyBhIGNvb2wgdmlkZW8gZm9yIGV2ZXJ5b25l',
+      'date_created0' => 1600415240,
+      'video_frame_address0' => 'salt_bd1c6d6395554c48a2a128715f72fc016e678905.jpg',
+    ),
+  ),
+  '868824733f17a4d202098ad33ef99025' => 
+  array (
+    'query' => 'SELECT * FROM video_attached WHERE video_address = :video_address AND total_views = :total_views AND total_likes = :total_likes AND total_dislikes = :total_dislikes AND video_caption = :video_caption AND date_created = :date_created AND video_frame_address = :video_frame_address  ',
+    'bind' => 
+    array (
+      'video_address' => 'salt_f88b7822669e4dfcd8e9f8df4cfd3099f882f3ea.mp4',
+      'total_views' => '0',
+      'total_likes' => '0',
+      'total_dislikes' => '0',
+      'video_caption' => 'VGhpcyBpcyBhIGNvb2wgdmlkZW8gZm9yIGV2ZXJ5b25l',
+      'date_created' => '1600415240',
+      'video_frame_address' => 'salt_bd1c6d6395554c48a2a128715f72fc016e678905.jpg',
+    ),
+  ),
+  'a58e88d2447376b1b87dc0385df3aa97' => 
+  array (
+    'query' => 'SELECT * FROM videos_published WHERE video_title = :video_title AND accountid = :accountid AND video_length = :video_length AND date_created = :date_created AND videoattachedid = :videoattachedid  ',
+    'bind' => 
+    array (
+      'video_title' => 'Super cool stuff',
+      'accountid' => '3',
+      'video_length' => '295.242000',
+      'date_created' => '1600415240',
+      'videoattachedid' => '3',
+    ),
+  ),
+  'db8dcdb40219c85ee9c9c96f98cb67a3' => 
+  array (
+    'query' => 'INSERT INTO videos_published (video_title,accountid,video_length,date_created,videoattachedid) VALUES (:video_title0,:accountid0,:video_length0,:date_created0,:videoattachedid0)',
+    'bind' => 
+    array (
+      'video_title0' => 'Super cool stuff',
+      'accountid0' => '3',
+      'video_length0' => '295.242000',
+      'date_created0' => 1600415240,
+      'videoattachedid0' => '3',
+    ),
+  ),
 );

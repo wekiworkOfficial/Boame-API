@@ -19,7 +19,7 @@ trait CasesHelper
      * @param mixed $data *ref
      * @return mixed
      */
-    public function isCaseTypeValid(string $caseType, &$data, bool $runFilter = true)
+    public function isCaseTypeValid(string $caseType, &$data, bool $runFilter = true, &$caseTypeDb=null)
     {
         // check if case type exists
         $caseTypeDb = map(db('case_types')->get('case_type = ?', $caseType));

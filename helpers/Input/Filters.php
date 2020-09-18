@@ -197,6 +197,26 @@ class Filters implements Interfaces\FiltersInterface
     }
 
     /**
+     * @method Filters videoEditRule
+     * @return array 
+     */
+    private function videoEditRule(string $video_address) : array
+    {
+        // create file
+        if (!isset($_FILES['video'])) $_FILES['video'] = [
+            'name' => $video_address,
+            'type' => 'video/mp4'
+        ];
+
+        return [
+            'accountid'     => ['required|number|min:1|notag', var_get('accountid', 0)],
+            'video_title'   => 'required|string|min:5|notag',
+            'video_caption' => 'required|min:10',
+            'video'         => 'required|file|filetype:3gp,ogg,mp4,m4v,f4v,f4a,m4b,m4r,f4b,mov,video/mp4,wmv,webm,flv,avi'
+        ];
+    }
+
+    /**
      * @method Filters feedbackRule
      * @return array 
      */
