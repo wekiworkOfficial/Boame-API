@@ -27,6 +27,9 @@
         "ext-zip": "*",
         "symfony/yaml": "^4.4",
         "monolog/monolog": "^1.25",
-        "filp/whoops": "^2.7"
+        "filp/whoops": "^2.7",
+        "swiftmailer/swiftmailer": "^6.0",
+        "php-amqplib/php-amqplib": "^2.11",
+        "opis/closure": "^3.5"
     }
 }

@@ -24,5 +24,21 @@ Moorexa\Middlewares\Access::lockPermission(function()
     Route::any('/positions', function(){
         return 'records/positions';
     });
+
+    // approve a volunteer
+    Route::resolvePost('/approve/{accountid}', ['accountid' => '[0-9]+'], function($accountid)
+    {
+        return 'records/approve/' . $accountid;
+    },
+    // resolver
+    function($callback, $request)
+    {
+        // apply middleware
+        $allow = Lightroom\Router\Middlewares::apply(Moorexa\Middlewares\HasRights::class, $request);
+
+        // we good ?
+        if ($allow) $callback();
+
+    });
     
 });

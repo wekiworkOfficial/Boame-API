@@ -25,13 +25,4 @@ class Account extends Model
         // call closure
         $next();
     }
-
-    /**
-     * @method Account postResetPassword
-     * 
-     */
-    public function postResetPassword()
-    {
-        var_dump(40);
-    }
 }

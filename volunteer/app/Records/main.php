@@ -52,5 +52,18 @@ class Records extends Controller
     {
         
     }
+
+    /**
+    * @method Records approve
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function approve(Records\Models\Volunteers $model) : void
+    {
+        
+    }
 }
 // END class

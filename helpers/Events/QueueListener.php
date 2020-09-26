@@ -20,10 +20,10 @@ class QueueListener implements CallbackInterface
     {
         // add to database
         db('jobs')->insert([
-            'job_name' => $taskName,
-            'job_body' => $taskBody,
-            'job_status' => 'pending',
-            'time_queued' => time()
+            'job_name'      => $taskName,
+            'job_body'      => $taskBody,
+            'job_status'    => 'pending',
+            'time_queued'   => time()
         ])->go();
     }
 
@@ -51,7 +51,7 @@ class QueueListener implements CallbackInterface
     public function taskComplete(string $taskName, $returnVal) : void
     {
         // on process
-        $job = map(db('jobs')->get('job_name = ?', $taskName, 'processing'));
+        $job = map(db('jobs')->get('job_name = ? and job_status = ? or job_status = ?', $taskName, 'pending', 'processing')->limit(0,1));
 
         // check if job exists
         if ($job->rows > 0) $job->update(['job_status' => 'complete', 'time_completed' => time()]);

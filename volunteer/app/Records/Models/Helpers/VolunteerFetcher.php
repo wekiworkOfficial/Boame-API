@@ -29,8 +29,7 @@ trait VolunteerFetcher
             // @var promise $accounts
             $accounts = db('accounts')
             ->get('accounttypeid = ?', $this->accountTypeId)
-            ->if(true, function($query){ $this->addFetchQueryLimits($query); })
-            ->orderby('accountid', 'desc')
+            ->if(true, function($query){ $query->orderBy('accountid', 'desc'); $this->addFetchQueryLimits($query); })
             ->go();
 
             // @var PDO $accounts
@@ -116,8 +115,7 @@ trait VolunteerFetcher
         // @var mixed $volunteers
         $volunteers = db('volunteers')
         ->get('volunteerpositionid = ?', $positionId)
-        ->if(true, function($query){ $this->addFetchQueryLimits($query); })
-        ->orderby('approved', 'desc')
+        ->if(true, function($query){ $query->orderBy('approved', 'desc'); $this->addFetchQueryLimits($query); })
         ->go();
 
         // are we good ?

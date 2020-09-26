@@ -96,8 +96,7 @@ class Mail
             // Create the Transport
             $transport = (new \Swift_SmtpTransport($ins->smtpHost, $ins->smtpPort))
             ->setUsername($ins->smtpUser)
-            ->setPassword($ins->smtpPass)
-            ;
+            ->setPassword($ins->smtpPass);
 
             // Create the Mailer using your created Transport
             $mailer = new \Swift_Mailer($transport);

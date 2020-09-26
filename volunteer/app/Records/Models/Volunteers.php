@@ -6,6 +6,8 @@ use Lightroom\Database\LightQuery;
 use Lightroom\Packager\Moorexa\{
     MVC\Model, Interfaces\ModelInterface
 };
+use function Lightroom\Database\Functions\{map, db};
+use function Lightroom\Functions\GlobalVariables\{var_get};
 /**
  * Volunteers model class auto generated.
  *
@@ -122,5 +124,52 @@ class Volunteers extends Model
 
         // return 0
         return 0;
+    }
+
+    /**
+     * @method Volunteers postApprove
+     * @param int $accountId
+     * @return mixed
+     */
+    public function postApprove($accountId)
+    {
+        // validate id
+        $data = app('filter')->safeParam(['number' => $accountId]);
+
+        // are we good ?
+        if ($data->isOk()) :
+
+            // check if account exists
+            $volunteer = map(db('volunteers')->get('accountid = ?', $accountId));
+
+            // not good ?
+            if ($volunteer->rows == 0) return app('response')->error('Account not found or not a volunteer!');
+
+            // approved previously?
+            if ($volunteer->date_approved != '') return app('response')->error('Volunteer approved already.');
+
+            // apply filter
+            $data = filter('POST', app('filter')->get('approveVolunteer'));
+
+            // all good ?
+            if ($data->isOk()) :
+
+                // approve now
+                $volunteer->update([
+                    'comment' => $data->comment,
+                    'date_approved' => time(),
+                    'approved' => 1,
+                    'approved_by' => var_get('accountid')
+                ]);
+
+                // all good
+                app('response')->success('Volunteer approved successfully');
+
+            endif;
+
+        endif;
+
+        // handle error
+        app('filter')->errors($data);
     }
 }

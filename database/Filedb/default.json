@@ -253,5 +253,9 @@
     "param rules" : {
         "string" : "required|string|notag",
         "number" : "required|number|min:1"
-    }
+    },
+
+    "email-from" : "noreply@boameproject.com",
+
+    "password-reset-template" : "Good day {name},<br> A password reset was recently initiated on your account, please continue with this code <h2 style=\"display:inline-block;\">{code}</h2> if this request was initiated by you. <br> Best Regards,<br> Team BOAME."
 }

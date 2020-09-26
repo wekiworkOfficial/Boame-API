@@ -41,10 +41,7 @@ class Auth extends Controller
     **/
     public function login() : void
     {
-        app('screen')->render([
-            'status' => 'success',
-            'message' => 'route works!'
-        ]);
+        
     }
 
     /**
@@ -55,9 +52,9 @@ class Auth extends Controller
     * You can catch params sent through the $_GET request
     * @return void
     **/
-    public function resetPassword(Auth\Models\Account $account) : void
+    public function resetPassword() : void
     {
-        app('screen')->render(['status' => 'success', 'message' => 'route works!']);
+        
     }
 
     /**
@@ -68,9 +65,22 @@ class Auth extends Controller
     * You can catch params sent through the $_GET request
     * @return void
     **/
-    public function register(\Boame\Models\Auth $auth) : void
+    public function register() : void
     {
-        app('screen')->render(['status' => 'success', 'message' => 'route works!']);
+       
+    }
+
+    /**
+    * @method Auth completeResetPassword
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function completeResetPassword() : void
+    {
+        
     }
 }
 // END class

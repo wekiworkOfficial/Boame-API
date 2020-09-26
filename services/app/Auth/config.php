@@ -32,7 +32,7 @@ use Lightroom\Packager\Moorexa\Router;
     'default.view' => Router::readConfig('router.default.view'),
 
     // set a default model
-    'default.model' => null,
+    'default.model' => Boame\Models\Auth::class,
 
     // override static json file for css
     'static.css' => [],

@@ -1,6 +1,7 @@
 <?php
 namespace Lightroom\Packager\Moorexa\Helpers;
 
+use Closure;
 use Lightroom\Exceptions\ClassNotFound;
 use Lightroom\Exceptions\InterfaceNotFound;
 use Lightroom\Packager\Moorexa\Router;
@@ -47,6 +48,11 @@ trait RouterControls
     private $isMatched = false;
 
     /**
+     * @var array $request
+     */
+    private $request = [];
+
+    /**
      * @var int $routeFound
      */
     private static $routeFound = 0;
@@ -60,6 +66,11 @@ trait RouterControls
      * @var array $routes
      */
     private static $routes = [];
+
+    /**
+     * @var array $callbackPromises
+     */
+    private static $callbackPromises = [];
 
     // load configuration
     public static function loadConfig() : array 
@@ -115,9 +126,9 @@ trait RouterControls
 
     // prepare middleware for route.
     public function middleware(string $middleware) : RouterInterface
-    {
+    {   
         // load middleware if matched
-        if ($this->isMatched) try {
+        if (Router::$routeSatisfied) try {
             Middlewares::loadMiddleware($middleware, self::$routeMatched);
         } catch (ClassNotFound $e) {
         } catch (InterfaceNotFound $e) {
@@ -134,7 +145,7 @@ trait RouterControls
         $arguments[] = self::$routeMatched;
 
         // load guard if matched
-        if ($this->isMatched) :
+        if (Router::$routeSatisfied) :
             
             // get the return value from loadGuard
             $loadReturnValue = call_user_func_array([Guards::class, 'loadGuard'], $arguments);
@@ -153,6 +164,7 @@ trait RouterControls
     {
         Router::$routeSatisfied = false;
         self::$routeFound = 0; 
+        self::$instance->isMatched = false;
 
         // update Router Handler
         RouterHandler::resetRouter();
@@ -411,6 +423,9 @@ trait RouterControls
 
             // get uri
             $uri = self::$requestUri;
+
+            // set the request
+            self::$instance->request = $uri;
 
             // not general
             if ($route !== '*') :
@@ -733,7 +748,7 @@ trait RouterControls
 
                 // @var string $routeString
                 $routeString = implode('/', $routeArray);
-
+                
                 // compare $pathUri with $uri
                 // success
                 if ( ($routeString == implode('/', $uri)) || $homePath == true)
@@ -769,11 +784,32 @@ trait RouterControls
                         // update Router Handler
                         RouterHandler::routeFound();
 
-                        // call closure function and get return value
-                        $returnValue = preg_replace('/(^[\/])/', '', call_user_func_array($callback, $arguments));
+                        // get returned route
+                        $returnedRoute = function() use (&$callback, &$arguments)
+                        {
+                            // call closure function and get return value
+                            $returnValue = preg_replace('/(^[\/])/', '', call_user_func_array($callback, $arguments));
 
-                        // update RouterControls
-                        self::$routeMatched = explode('/', $returnValue);
+                            // update RouterControls
+                            self::$routeMatched = explode('/', $returnValue);
+                        };
+
+                        // build name
+                        $name = $_SERVER['REQUEST_METHOD'] . '::' . $route;
+
+                        // check if we have a promise for it
+                        if (isset(self::$callbackPromises[$name])) :
+
+                            // load callback
+                            call_user_func(self::$callbackPromises[$name], $returnedRoute, self::$requestUri);
+
+                        else:
+
+                            // get returned route
+                            $returnedRoute();
+
+                        endif;
+
                         
                     endif;
                 }

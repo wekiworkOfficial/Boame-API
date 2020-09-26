@@ -91,4 +91,29 @@ return array (
       'videospublishedid' => '1',
     ),
   ),
+  '139aca3fee8c332df7ab2e2cc9e6abc6' => 
+  array (
+    'query' => 'SELECT * FROM password_reset_vault WHERE accountid = :accountid and reset_code = :reset_code ',
+    'bind' => 
+    array (
+      'accountid' => '1',
+      'reset_code' => '9014',
+    ),
+  ),
+  '58a90f147a801a51e8ed54a149392b12' => 
+  array (
+    'query' => 'SELECT * FROM authentication WHERE accountid = :accountid ',
+    'bind' => 
+    array (
+      'accountid' => '1',
+    ),
+  ),
+  '997a1aca4471491f6a339eca61c014c9' => 
+  array (
+    'query' => 'DELETE FROM password_reset_vault WHERE password_reset_vaultid = :password_reset_vaultid ',
+    'bind' => 
+    array (
+      'password_reset_vaultid' => '1',
+    ),
+  ),
 );

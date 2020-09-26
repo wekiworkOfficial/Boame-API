@@ -42,6 +42,18 @@ return array (
           'volunteerpositionid0' => '1',
         ),
       ),
+      'e3fece2850724f85092d26e61c55572f019a61d363720608e8ebcf3b269df946d42357dd' => 
+      array (
+        'query' => 'UPDATE volunteers SET comment = :comment , date_approved = :date_approved , approved = :approved , approved_by = :approved_by  WHERE volunteerid = :volunteerid ',
+        'bind' => 
+        array (
+          'comment' => 'has an intresting personality',
+          'date_approved' => '1600481858',
+          'approved' => '1',
+          'approved_by' => '3',
+          'volunteerid' => '1',
+        ),
+      ),
     ),
     'password_hash' => 
     array (
@@ -103,6 +115,86 @@ return array (
           'authenticationid0' => '4',
           'passwordhash0' => '$2y$10$VDNXnVJTwIwswTMyGK9N5.Csk0kV0zqGovQ4EWW7sSiIPe/rbhWke',
           'password_salt0' => 'salt_2fa5aaebd765be931a0a812c11a52dd70cbfe25c',
+        ),
+      ),
+      '075af8fa230a239798d1a0f2602262dbb920be70e70b07fefa0ff4ad474f7ca9ab61f8e6' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE authenticationid = :authenticationid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$2WtZbwTDZlLcZ7oTrTZlceW6RRPjVe/KTdBwTzMIb9YKyVUphgEVu',
+          'password_salt' => 'salt_16fa84e8d2a97a493456c59ec68087b7f756742c',
+          'authenticationid' => '1',
+        ),
+      ),
+      'f17225fbf1f16f0a5d735bae979c8837be750d6aae7f9c93cdb73a0f3df2ca853733d0ad' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE passwordhashid = :passwordhashid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$Xq0wTwtL9PfjPQjiYZFui.//Um7BJ0xKkjmqIcWKQNHFs2p.0Bs/i',
+          'password_salt' => 'salt_626cb309d464066ac1fd143a142d18eb8f8ddf28',
+          'passwordhashid' => '1',
+        ),
+      ),
+      'f17225fbf1f16f0a5d735bae979c88371fd7f6704d4c7d90d6ff28752bdb57204336b7f6' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE passwordhashid = :passwordhashid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$kKaAbXg2I/44jZsYGvn0gu06dPHhfkd2P5qTvsTdHTW9deZCOqpA2',
+          'password_salt' => 'salt_fdef552923903b8d51d739a1e59c910f8c481af4',
+          'passwordhashid' => '1',
+        ),
+      ),
+      'f17225fbf1f16f0a5d735bae979c8837afc44bc53e66c4674ff4f11ee089ddf4d31b7a82' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE passwordhashid = :passwordhashid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$AQ7F6m4yRG1Y365GVEYHPOo3IHdc6t9hJoAKAte8FzqYJ4gmlMztG',
+          'password_salt' => 'salt_91c2f403edcee58eedac54958e08459cbfae4200',
+          'passwordhashid' => '1',
+        ),
+      ),
+      'f17225fbf1f16f0a5d735bae979c88378a34947e4127326a0f68c365c46c34c0e334b1df' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE passwordhashid = :passwordhashid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$YDsqzM6b0dXFGqYWVYfX1OpEqHHdo4epGgS7GxCKHzkkuTjjZQu1q',
+          'password_salt' => 'salt_3d0b39311653b62c551f42b6fd16dde1d5ae817d',
+          'passwordhashid' => '1',
+        ),
+      ),
+      'f17225fbf1f16f0a5d735bae979c8837b849a12ceb9b1e03a70f2a2118b735b6d8a8efd4' => 
+      array (
+        'query' => 'UPDATE password_hash SET passwordhash = :passwordhash , password_salt = :password_salt  WHERE passwordhashid = :passwordhashid ',
+        'bind' => 
+        array (
+          'passwordhash' => '$2y$10$LhPNtXZLseEelKMj7lRH9ujs3yFqGXJuJ7fsarpU.tnvnA4QqSqcm',
+          'password_salt' => 'salt_a2c8cb51d72135f74f02b7ca35d16d9905ce9e1e',
+          'passwordhashid' => '1',
+        ),
+      ),
+      'a72a13441e758268df4fe98fb98413617af7fc0422bd4a16822269482ca09be09c6af07b' => 
+      array (
+        'query' => 'INSERT INTO password_hash (authenticationid,passwordhash,password_salt) VALUES (:authenticationid0,:passwordhash0,:password_salt0)',
+        'bind' => 
+        array (
+          'authenticationid0' => '5',
+          'passwordhash0' => '$2y$10$GbL.zxiq8rqSyyaxU0a9dO.bGq53rXxZf2LTVuX91UoLqBuwX6cU2',
+          'password_salt0' => 'salt_48e2e9506742df0313e01f0c702bb105d97efe78',
+        ),
+      ),
+      'a72a13441e758268df4fe98fb984136146a9ff6df5dfe5327f1f6a22b5ef5701173b76a6' => 
+      array (
+        'query' => 'INSERT INTO password_hash (authenticationid,passwordhash,password_salt) VALUES (:authenticationid0,:passwordhash0,:password_salt0)',
+        'bind' => 
+        array (
+          'authenticationid0' => '6',
+          'passwordhash0' => '$2y$10$73.er7S1SpRw0HmzXPvzuOxwGyC5MoaQ6Wi7iLYFWBqEb9pFQCCCG',
+          'password_salt0' => 'salt_5f81be75bcb5f3d387ed391d9ce736607c7b0e79',
         ),
       ),
     ),
@@ -1366,6 +1458,832 @@ return array (
           'jobid' => '2',
         ),
       ),
+      'a7ea795a463fe43a2bf810c7d40c19b7fa1307038229dc3160061e15a14c6c501cbd97b8' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:3119;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000002705de6000000002aa34fd7\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600460530,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af852b29ed549b620451022fcf8d5a12b023f15d77b' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '3',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e317e3a732b5ca187918fb75e8093c8da904078eb5' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1600472585',
+          'jobid' => '3',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7669349d55314017bf3b891c0097b90acb251e045' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000393589f3000000004693bc4d\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600473522,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b72b26cfa40f8fa28eb7ecb164338e1a806be2a5e1' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000001f16f90a000000007d1612cc\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600473616,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7607ab929906d8d406a85d590a1c5dc92f1a5c14f' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000042fc7ef9000000003ce4414b\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600474851,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b75599078b693abacdabf4eb3a3ed12d4909339520' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000005e8feddd000000002d15a27e\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600474938,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7e5c5578ae8634b8239d34d499c0a01601f3cb680' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000063bc006d00000000102e1400\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600475213,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af824b7491748dc371769ddb568acad982f004a5bd0' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '9',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e37109012ac43085d19e2ba1e63fe8240ccb171bbc' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1600475216',
+          'jobid' => '9',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7744c051f91c26a1540d142a9cdcf78d45f243212' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3119\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000004876c96300000000438f217b\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600475386,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af83d6ee5f0b3df083169953cb027ce77b2944f13d0' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '10',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e38cf2179e51e36b12376d399c33e33915f93a0663' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1600475389',
+          'jobid' => '10',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7c8f04b25a0d932ede704f094a73693a6cb9c49ba' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:9014;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000191c2bb40000000056e65943\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1600476811,
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e3c38cebeeacf6810cd2d8eab7d6527d168ab49476' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1601126079',
+          'jobid' => '11',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b71090336a5ea385b444f9c0b11cdc0fd594af478f' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:3209;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000793a6e18000000001a7767dc\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126088,
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e3f59c42b5abe54b7bb46963cdf292e8d6c4f80706' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1601126089',
+          'jobid' => '12',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b712c3a5942e875e6821df2ac918cd0573848f50f8' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:2212;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000217afbca00000000088e6fcb\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126199,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7c3e39a98a0d48df4b17190948e43cfe3bdfb7d48' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:7878;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000000eca6adf00000000142f565d\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126310,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7b83121e35978e04ceb18b20c720942a427e98162' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:3518;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000007c1cfe6e00000000056385a9\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126321,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b747979310ee4d578cba7c8d92b8a9438d38a3e172' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:3052;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000003259f98e000000003f7e8231\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126331,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b78eeb2e4e9fcca59fac285fa85e2790780ed8a3ea' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:1942;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000496f77ec00000000240b5681\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601126704,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7a8e59140e74358f5a49e314481526860cb1a66de' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1411:\\"C:32:\\"OpisClosureSerializableClosure\\":1364:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";i:3003;}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000000e32272b0000000029fd7bbb\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601127691,
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b750db87c3bafea20ef2cabf4df4179aa2a8e9f7a8' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3003\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"000000001362d9eb00000000654b120e\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601128251,
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e351ace647b6c168b94805e5375a39200c0ae83d8e' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1601128254',
+          'jobid' => '1',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b7ab88dfef3db400d8747d59ad0d9967665a21643c' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3003\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"0000000070be0cc8000000004b127e72\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601128661,
+        ),
+      ),
+      '147ef2b299c13e7c9ef817cd82bc8af85d1175d98179c7073f965b069a49e2bb1c297edc' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'processing',
+          'jobid' => '2',
+        ),
+      ),
+      '3fbb392e544d994232075698d6bad1e3618500f13c298c750f1eb8df46b674acf149f00b' => 
+      array (
+        'query' => 'UPDATE jobs SET job_status = :job_status , time_completed = :time_completed  WHERE jobid = :jobid ',
+        'bind' => 
+        array (
+          'job_status' => 'complete',
+          'time_completed' => '1601128711',
+          'jobid' => '2',
+        ),
+      ),
+      'a7ea795a463fe43a2bf810c7d40c19b74b953c322f196c7d705c2ff196ab5248b679c70a' => 
+      array (
+        'query' => 'INSERT INTO jobs (job_name,job_body,job_status,time_queued) VALUES (:job_name0,:job_body0,:job_status0,:time_queued0)',
+        'bind' => 
+        array (
+          'job_name0' => 'send-mail-to-helloamadiify@gmail.com',
+          'job_body0' => 'O:31:\\"LightroomQueuesQueueContainer\\":3:{s:40:\\"\\0LightroomQueuesQueueContainer\\0jobName\\";s:36:\\"send-mail-to-helloamadiify@gmail.com\\";s:36:\\"\\0LightroomQueuesQueueContainer\\0job\\";s:1415:\\"C:32:\\"OpisClosureSerializableClosure\\":1368:{a:5:{s:3:\\"use\\";a:2:{s:8:\\"userInfo\\";O:8:\\"stdClass\\":9:{s:9:\\"accountid\\";s:1:\\"1\\";s:9:\\"firstname\\";s:5:\\"frank\\";s:8:\\"lastname\\";s:4:\\"paul\\";s:5:\\"email\\";s:23:\\"helloamadiify@gmail.com\\";s:9:\\"telephone\\";s:11:\\"08029982122\\";s:13:\\"accounttypeid\\";s:1:\\"5\\";s:13:\\"display_image\\";s:44:\\"d7b9e72c745b11e8d6de089343983547df2f56be.png\\";s:8:\\"verified\\";s:1:\\"0\\";s:7:\\"addedby\\";s:1:\\"0\\";}s:9:\\"resetCode\\";s:4:\\"3003\\";}s:8:\\"function\\";s:852:\\"function() use ($userInfo, $resetCode)
+        {
+            // get mail instance
+            $mail = new MessagingMail();
+
+            // set the subject
+            $mail->subject(\\\'BOAME Password Reset\\\');
+
+            // set from
+            $mail->from(fdb()->get(\\\'default.email-from\\\'));
+
+            // set to
+            $mail->to($userInfo->email);
+
+            // get reset template
+            $template = fdb()->get(\\\'default.password-reset-template\\\');
+
+            // replace code
+            $template = str_replace(\\\'{code}\\\', $resetCode, $template);
+
+            // replace name
+            $template = str_replace(\\\'{name}\\\', ucwords($userInfo->firstname . \\\' \\\' . $userInfo->lastname), $template);
+
+            // set the mail body
+            $mail->html($template);
+
+            // send now
+            $mail->send();
+            
+        }\\";s:5:\\"scope\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"this\\";N;s:4:\\"self\\";s:32:\\"00000000216dfb5f0000000047523e18\\";}}\\";s:45:\\"\\0LightroomQueuesQueueContainer\\0closureScope\\";a:2:{s:9:\\"namespace\\";s:22:\\"BoameMessagingEmails\\";s:4:\\"file\\";s:71:\\"/Users/mac/Desktop/workspace/boame_modules/helpers/Messaging/Emails.php\\";}}',
+          'job_status0' => 'pending',
+          'time_queued0' => 1601128797,
+        ),
+      ),
     ),
     'videos_published' => 
     array (
@@ -1447,6 +2365,590 @@ return array (
           'fullname0' => 'mack henry',
           'email0' => 'helloamadiify@gmail.com',
           'feedback0' => 'This is so cool my friend.',
+        ),
+      ),
+    ),
+    'password_reset_vault' => 
+    array (
+      '35dcab34d118e7c1dc18f8e02cb5a211a456529cbe4d63d260c841428fdf4eadfe1063be' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,reset_code,date_created) VALUES (:accountid0,:password0,:reset_code0,:date_created0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$BvDkNjPFgWiDTA8b/s0bp.1h9F7rCBa7VJEVWp5.MbkJFd8U/nOsm',
+          'reset_code0' => 2504,
+          'date_created0' => 1600459458,
+        ),
+      ),
+      '35dcab34d118e7c1dc18f8e02cb5a2115956451854b8a0cf3de8fb306ea892ff1a2dad87' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,reset_code,date_created) VALUES (:accountid0,:password0,:reset_code0,:date_created0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$hKETI6FvnGcIMb0OamH5guaclU/VXRcFcFTIvVyxpe74TsJ/Wn/cm',
+          'reset_code0' => 5308,
+          'date_created0' => 1600460036,
+        ),
+      ),
+      'e75a543e0d2c53e5a3eb47930fbd3b50356a192b7913b04c54574d18c28d46e6395428ab' => 
+      array (
+        'query' => 'DELETE FROM password_reset_vault WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f609e26c6b2ac18e6888db3b22591f2262e6cd9ddc' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$fC3uoKCFYThnnr3BmO1/h.YzWw/cFBB5KwXuPpmVJ11ahdd/ka3F.',
+          'password_salt0' => 'salt_69dfa13dff63a67fa8b1041f273c9e85c6f6ff13',
+          'reset_code0' => 5680,
+          'date_created0' => 1601123951,
+          'expire_date0' => 1601125751,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6e666585a267f26cb7ea3a57edaac9668ab87b10e' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$hkpz0NCh7Sgz1h8Qws09WeJDvt6Eli2LHB8AE3pMA3YEZrVmWKOTm',
+          'password_salt0' => 'salt_80274eaf241b4fece5ba2243b481adf24c903058',
+          'reset_code0' => 9885,
+          'date_created0' => 1601124064,
+          'expire_date0' => 1601125864,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6e2864629cf67c0b50a13748c7db382507551ce2a' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$yytjOPLgGUFoIlOiWQw6..e4mhf8Op0X/p6alS0rVUNxF6FZZniHK',
+          'password_salt0' => 'salt_d527eae623c5af8654737df4fd5be0413d3ac8e4',
+          'reset_code0' => 3905,
+          'date_created0' => 1601124187,
+          'expire_date0' => 1601125987,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6cff66d727e7d166c9300f22156f058faf9c34bd8' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$9SvLr19GJ0v1mzmn9TReRufcY1ZEaLp3dWuxF3UkT.sFOJ412etuq',
+          'password_salt0' => 'salt_98da005e6d45fe8357255a7906c4233db5737eab',
+          'reset_code0' => 9717,
+          'date_created0' => 1601124239,
+          'expire_date0' => 1601126039,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6747cf39ff60ffd05f859a423732ed49ef82532dd' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$c3IrQbIcfepVPa7WrLHKwe6HESBmkEZNY0Vs8mUUYA3y5WkUCZiTi',
+          'password_salt0' => 'salt_6fd34ee735543f8f67ff11e3acf5bf3c07dd259f',
+          'reset_code0' => 2881,
+          'date_created0' => 1601124313,
+          'expire_date0' => 1601126113,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f640afd409a46ccef358f56347f809729985fa2860' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$d/geZRyOcQA/BcDeD0NfbOMaU8DT7w.xm6EPjzygnWZYBAdblcNkq',
+          'password_salt0' => 'salt_1c15ccdd6bd966fe61f0eeb57851ce6ebcb06074',
+          'reset_code0' => 8549,
+          'date_created0' => 1601124362,
+          'expire_date0' => 1601126162,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f64f0789916f55560447356b2a042d4d5acfd88e3d' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$r3ZmO4X4vI.T0wG4ml.FvOhOdibRvQo9wBeHRxbpwMUJIDMW2Ej5O',
+          'password_salt0' => 'salt_5ae496b5a899a803dea0b66305748e8a2bb7d0cf',
+          'reset_code0' => 8634,
+          'date_created0' => 1601124716,
+          'expire_date0' => 1601126516,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6cbf95ae7c5ebe7525fd5695901ed36aeb83375c8' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$nGtf/0TW4ndS2z5N/14bcOIIlq9l7hBwANj7aWUw6RJsX7Odz7PRq',
+          'password_salt0' => 'salt_95c1e3f8d8eac53f144fade5ec692549ceb83b8d',
+          'reset_code0' => 4767,
+          'date_created0' => 1601124773,
+          'expire_date0' => 1601126573,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6cd2ce11b21ea76b1dff16ec03b9202a9ca490ecc' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$fSl2IpuVJz1BHv45o4gBnefdaR6K.LHPrCD4Ly.0rYSzOhOa/GNii',
+          'password_salt0' => 'salt_b02a2615fc890cf2ed1dc5cda07f9ef4a1afb8d8',
+          'reset_code0' => 8210,
+          'date_created0' => 1601124842,
+          'expire_date0' => 1601126642,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f66c7e80e909f4e24d0fdd495a4021e3be1923ccff' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$l7Xo6Zqzrw7hj9CLQFcfie6Sn2EfqkwKC0uTiXBs9OMbCgpC.IoHe',
+          'password_salt0' => 'salt_8271c39fba714d427fd56fdf2bb5641dce506694',
+          'reset_code0' => 5131,
+          'date_created0' => 1601124849,
+          'expire_date0' => 1601126649,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6922e509ee39ba295129e0064a7eab55a5ca2bf68' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$1PyxpGH8ED6DHeKy0W5ZMu7Jm/2voNQh5FdkBsFvKj36T3XoW..ni',
+          'password_salt0' => 'salt_421e0bbbfe09427af3a0e02b93d1a3e412260bfc',
+          'reset_code0' => 1755,
+          'date_created0' => 1601124898,
+          'expire_date0' => 1601126698,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6773440546ce8c3e738bb345c773133c7ac00024f' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$.LqlqC7iNOp.VcgcfOMR..KRi.oLv13dMGKDIdqrpbQaNQ46S5PDG',
+          'password_salt0' => 'salt_d56a20f94253658d977e2a0e14812505a5979315',
+          'reset_code0' => 8505,
+          'date_created0' => 1601124955,
+          'expire_date0' => 1601126755,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6eabc7d3231f2bb511704b32cc1d43dc8dc509c1b' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$9jX6TbfmctSCs50yFy21iOhay.bPEwYtHlSEPW/7rpITGJOVV4UYO',
+          'password_salt0' => 'salt_f01bd5a466f9d6d0e2a17cdf87692043e2190637',
+          'reset_code0' => 6419,
+          'date_created0' => 1601125015,
+          'expire_date0' => 1601126815,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6c7aa39ea3cf6687c5a2c45c6b10a08f22fdadc0c' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$DnftvrmNMlzNvGrVtEYomeDJN7G9idez81vmFG36lbKY0.VWo2.7e',
+          'password_salt0' => 'salt_1062ec003bd8537f28843429eda37c2bc1a159fc',
+          'reset_code0' => 2736,
+          'date_created0' => 1601125046,
+          'expire_date0' => 1601126846,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f65c3a3380c04a8cffafc70789bf54d2d21936debe' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$Nlja.aq4lSiz08Qx5UMdlOilQYa07u4aP/VDM4tGN6n9iatxCKnFS',
+          'password_salt0' => 'salt_0a9ec36c127433f9b5cd4f1dffd948f3875c0505',
+          'reset_code0' => 7500,
+          'date_created0' => 1601125264,
+          'expire_date0' => 1601127064,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6800d52ef9396c1b3999ee9db7146cfcdc969c333' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$WlD7Skk77dQL22t6J3w29ewRXCqv9TWhPN/KFKUz6JTLABS05H2Eu',
+          'password_salt0' => 'salt_9b38488e1cddd00ce84e69a4cf23476f5f7a3866',
+          'reset_code0' => 6614,
+          'date_created0' => 1601125698,
+          'expire_date0' => 1601127498,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6aa7881faa18c0f19559672900341d0320ea93872' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$8S3lfgi/LrDNgJlcdRwWBO4jyKUgNZGu0l9zk5agZj8ox3OQAtWn6',
+          'password_salt0' => 'salt_707fbddd3f79d9412ff02e7749acb3bd08524410',
+          'reset_code0' => 8852,
+          'date_created0' => 1601125724,
+          'expire_date0' => 1601127524,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f658c762d511019f1df6fe848413e0a52a2a0e54ec' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$ER9h9EALBvDVyTKNS31bcuoWaAYXnyDGHdpTAc91ixn7r.99/0FJm',
+          'password_salt0' => 'salt_131715d1c51560c0f9c6fa91c776f86d35541445',
+          'reset_code0' => 8847,
+          'date_created0' => 1601125824,
+          'expire_date0' => 1601127624,
+        ),
+      ),
+      'eeb934d615332b4cf4f576010a57f6f6027793c2eebadaaa93979f3d0b704c56d0b75c05' => 
+      array (
+        'query' => 'INSERT INTO password_reset_vault (accountid,password,password_salt,reset_code,date_created,expire_date) VALUES (:accountid0,:password0,:password_salt0,:reset_code0,:date_created0,:expire_date0)',
+        'bind' => 
+        array (
+          'accountid0' => '1',
+          'password0' => '$2y$10$eF4ZZN9fY2Gl.rm5xC7Nb.5dqHzaiJd3tGtNWfGEiAcmI8M753p9W',
+          'password_salt0' => 'salt_780042d9dd3d92db7a7378074c9cbfc83fe6586b',
+          'reset_code0' => 7585,
+          'date_created0' => 1601125865,
+          'expire_date0' => 1601127665,
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f85df2bee6e99038f069009e9f967608e116d7d74' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131052',
+          'password' => '$2y$10$CZOP2bvsUKo.OeFY1hUiqeIrpCLzWy5UxsOUJuvUzHktsjU6rXxUG',
+          'password_salt' => 'salt_5d58e47e2abc21cebb447ceb8d3b04d9385fc9e6',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f2c7e39b4b881e3caeb2c44d92cc75da31066c6e5' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131191',
+          'password' => '$2y$10$XjilAu4WiOw8HTFruSaMs.P1i1z74WU4XVnZyVWpuVg2CMFNSXtpW',
+          'password_salt' => 'salt_b615ca620bfa433306155f92976b9269b423c4ff',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f07e30e3f703e1ac889df8da87eb01829536445f7' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131218',
+          'password' => '$2y$10$HIKlpjjbAXbdnlW2B36RD.2mhpE8rtYKUeebhGPfL94ruo50PK80i',
+          'password_salt' => 'salt_df199d6c084b0adaa92e702543cf19230e2e378e',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758fd13ddc5b00cb7c1379d73f3fd540d13ac1692a93' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131294',
+          'password' => '$2y$10$5P5t1w/FFJ0YVfOcdmYWYelN2ec9z8sCc1OxTNW59z8EL41z/tyFW',
+          'password_salt' => 'salt_e524b145691d090505caac26e3ff3f6eb80a5dc2',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758ffd33b5a03d45776cb4d80bb86e1bf7643700d7b4' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131423',
+          'password' => '$2y$10$kdBPIXyfS.gsooJoL7gaYuvojYsxOaZ5IAw1rC.v5fSteQF4SLMgS',
+          'password_salt' => 'salt_e973f6b9594ee4d4cb346189a13ed4a96a12423b',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f332c83b36728c9868f40e0a7efb92f7ff78dfc4e' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131476',
+          'password' => '$2y$10$6sNvAGrsIAYGlEF5z3wpReal8pWiFllWWh8dctmenF6AEt7KXUqQy',
+          'password_salt' => 'salt_b9b6feb061c5456e4b02af923dd3196366124990',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758ff01d3df1803121d937a9ecf93c1f6e35ffc8c1ed' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131513',
+          'password' => '$2y$10$WrxbWGVjrITqhdeKl8hCgeN6uX79.fzTja9KFXENtm4C.SQQ6jt8K',
+          'password_salt' => 'salt_394abad183f4387746101b2f488fd08d510a9f89',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f13cb28e15e898935e19883406a85b8c00adea4af' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131559',
+          'password' => '$2y$10$7B7tjjxUyKQyxaWLvA3rTOtIIOfeuC0Smz1hwUNEksNRR4dhOi3o2',
+          'password_salt' => 'salt_81082e3816bbb9f43d6bd8e100df301879d1cf6c',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758f13ad12b7261e3cbbaaf78d297266c2b0ade7aac8' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131602',
+          'password' => '$2y$10$E3SNeaEhnQ8OukgP0DuKousxMWdQ6w9HP/YkESZhC4v1LNlqBmO4W',
+          'password_salt' => 'salt_d6048efe0ff710af778727d20d43c20aa1dcef90',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758fe500dcd7b3bcc850397d4983a503a289ad1018fb' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601131804',
+          'password' => '$2y$10$LpiUgKevcdnp11RBeLgEE.2kEorjgASqJg7LhffbQzHM1XdxaAHSS',
+          'password_salt' => 'salt_afe51bd004fe8bae147e953d3e29713d556e5313',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+      'aab1aff4e2b169ec3087cb954755758ffa18c20a9207b0cb9569a5cb7552a2572aaa7123' => 
+      array (
+        'query' => 'UPDATE password_reset_vault SET expire_date = :expire_date , password = :password , password_salt = :password_salt  WHERE password_reset_vaultid = :password_reset_vaultid ',
+        'bind' => 
+        array (
+          'expire_date' => '1601132202',
+          'password' => '$2y$10$BLixdCqXDmR6h1YpINxU2.mub2dRrJ8qJ8mySiphOPOU.Jg3GVywK',
+          'password_salt' => 'salt_5b20c682d7e814bb25e6606c84a3777aef104b65',
+          'password_reset_vaultid' => '1',
+        ),
+      ),
+    ),
+    'authentication' => 
+    array (
+      'bf1c1506cca072236b3a929343bc7d6b18bab484057ce526fbbc8b02ac4777c3e39df648' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '79657fb1e12954628dd73185d59fa8cd71be6948',
+          'last_seen' => '1600486984',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bc51e0fb9c6e260791d2d3d9c2e4119315e5dbb53' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'b504b2e83a8696d59a4ecf7a4d66d469b09151c1',
+          'last_seen' => '1600487136',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b72b31cbe76fd217db0606337330c421fdc5f4627' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '0a7c311c17a7a43f2f6f285fb7393cc0c57a3b1a',
+          'last_seen' => '1600487146',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b27aef7e27db28cacffb7b1d2e2a17724c533d41c' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '06f180f91aa923f2f0a038f2a1c2d2f065cb4625',
+          'last_seen' => '1600487326',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bf366314c1757fdb1a69957a928f3c6792f74953d' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'f723a1fc0bf76f29dad6f25e22c0616e00f4a0e9',
+          'last_seen' => '1600487485',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bf678d85f2e81ecec38595ce4860a707ad4e364c2' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '01446eebd28393139e78c0175047bb6cbbda056f',
+          'last_seen' => '1600487618',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bbb96dbcf60e4883d10d1e7435d0e316d224c130f' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'adde014c8d09c619c4b02d7b09aec7cb6e3de173',
+          'last_seen' => '1601045452',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b6ce1a2be7b531599d4654f264c0577ef6ff13861' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'f8c6fed4636c10ebe951627ada20b96e1d757f13',
+          'last_seen' => '1601045467',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bf768b1620372764c6a45e644f57b04c585652516' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '2ea165f0509c38d6cef8f25d3169e70a2ad1a26c',
+          'last_seen' => '1601052868',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b0ed9f873a91f461f1cff7eda734cb09c9048b75c' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '81764eaee394c29d3348cc792d2d95c275c1e248',
+          'last_seen' => '1601052997',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b846e988f57911e50e8aee17a4cec5cb953d4f5a7' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '064d8519e4763ca5ce37c6914cb252e44adfe93f',
+          'last_seen' => '1601053078',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bd2a129e0454aa658db4c37d4af9930c5d928c420' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '4e70c4779c5a6fca1da96f1db0692a7c3e8c1f28',
+          'last_seen' => '1601053085',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bed4aa75e2be3b3b18f6129b39b0f8c51eb404604' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '327528916920ec6273b76ec24b759f8a6cad180c',
+          'last_seen' => '1601053110',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bf2e67472170d6e39a99a387f2ded4053c3d36c50' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'c574a68a5f616ba7c5fefc81d164a972e1b196d9',
+          'last_seen' => '1601130432',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b5aa654bfccdbbd9cbcd6015da35d707b0fe760c1' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '635cf2f05ee106bb9762649527bbe23e4ec33442',
+          'last_seen' => '1601133941',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b2c76962b80b0bdb8ee1f737d4f927e9b04bdac32' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'c846b975c208044856cc034b0eeb71fec748eb78',
+          'last_seen' => '1601134003',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b25b501de561c37d8953ded950520ad31243a765e' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '89c46521251f05d11751e0b855a228908dd42139',
+          'last_seen' => '1601134011',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b91a048008c6ff84539d763ba57313158433791c1' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '4b9af9e80d36348d6bcea361009e5adfb098a096',
+          'last_seen' => '1601134183',
+          'accountid' => '1',
         ),
       ),
     ),

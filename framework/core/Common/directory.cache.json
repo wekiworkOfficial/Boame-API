@@ -18,5 +18,7 @@
     ".\/\/..\/helpers\/===Auth.php": ".\/\/..\/helpers\/\/Models\/Auth.php",
     ".\/\/..\/helpers\/===QueryHelper.php": ".\/\/..\/helpers\/\/Support\/QueryHelper.php",
     ".\/\/..\/helpers\/===VideoProcessor.php": ".\/\/..\/helpers\/\/Support\/VideoProcessor.php",
-    ".\/\/..\/helpers\/===QueueListener.php": ".\/\/..\/helpers\/\/Events\/QueueListener.php"
+    ".\/\/..\/helpers\/===QueueListener.php": ".\/\/..\/helpers\/\/Events\/QueueListener.php",
+    ".\/\/..\/helpers\/===Emails.php": ".\/\/..\/helpers\/\/Messaging\/Emails.php",
+    ".\/.\/..\/framework\/source\/utility\/Classes\/\/Messaging===Mail.php": ".\/.\/..\/framework\/source\/utility\/Classes\/\/Messaging\/Mail.php"
 }

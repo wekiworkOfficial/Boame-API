@@ -122,3 +122,34 @@ CREATE TABLE IF NOT EXISTS `video_attached` (
 	video_caption LONGTEXT , 
 	date_created VARCHAR(255)
 );
+CREATE TABLE IF NOT EXISTS `password_reset_vault` (
+	password_reset_vaultid BIGINT(20) auto_increment primary key, 
+	accountid BIGINT , 
+	password VARCHAR(255) , 
+	reset_code VARCHAR(255) , 
+	date_created VARCHAR(255)
+);
+DROP TABLE `password_reset_vault`;
+ALTER TABLE `password_reset_vault` ADD expire_date VARCHAR(255) AFTER date_created;
+CREATE TABLE IF NOT EXISTS `password_reset_vault` (
+	password_reset_vaultid BIGINT(20) auto_increment primary key, 
+	accountid BIGINT , 
+	password VARCHAR(255) , 
+	reset_code VARCHAR(255) , 
+	date_created VARCHAR(255) , 
+	expire_date VARCHAR(255)
+);
+DROP TABLE `password_reset_vault`;
+ALTER TABLE `password_reset_vault` CHANGE COLUMN password_salt password_salt VARCHAR(255) AFTER reset_code;
+ALTER TABLE `password_reset_vault` CHANGE COLUMN reset_code reset_code VARCHAR(255) AFTER date_created;
+ALTER TABLE `password_reset_vault` CHANGE COLUMN date_created date_created VARCHAR(255) AFTER expire_date;
+ALTER TABLE `password_reset_vault` ADD expire_date VARCHAR(255) AFTER date_created;
+CREATE TABLE IF NOT EXISTS `password_reset_vault` (
+	password_reset_vaultid BIGINT(20) auto_increment primary key, 
+	accountid BIGINT , 
+	password VARCHAR(255) , 
+	password_salt VARCHAR(255) , 
+	reset_code VARCHAR(255) , 
+	date_created VARCHAR(255) , 
+	expire_date VARCHAR(255)
+);

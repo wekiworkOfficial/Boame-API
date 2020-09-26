@@ -88,7 +88,7 @@ trait RegistrationHelper
         endif;
 
         // account does not exists
-        if ($hasAccount->rows > 0) app('response')->error('There is already an account associated with this email address or phone');
+        if ($hasAccount->rows > 0) app('response')->error('There is already an account associated with the submitted email address or phone');
 
     }
 }

@@ -251,10 +251,32 @@ class Filters implements Interfaces\FiltersInterface
     private function passwordResetRule() : array
     {
         return [
-            'platformid'        => 'required|number|min:1',
             'username'          => 'required|min:5|notag',
             'password'          => 'required|min:4',
             'password_again'    => 'required|min:4',
+        ];
+    }
+
+    /**
+     * @method Filters completePasswordResetRule
+     * @return array 
+     */
+    private function completePasswordResetRule() : array
+    {
+        return [
+            'username'          => 'required|min:5|notag',
+            'reset_code'        => 'required|min:4|number',
+        ];
+    }
+
+    /**
+     * @method Filters approveVolunteerRule
+     * @return array 
+     */
+    private function approveVolunteerRule() : array
+    {
+        return [
+            'comment'      => 'required|min:5|notag',
         ];
     }
 }
