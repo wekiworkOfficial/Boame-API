@@ -128,6 +128,9 @@ class VideoProcessor extends Model
         // fetch results
         if ($videos->rowCount() > 0) app('response')->success(['videos' => array_map(function($video)
         {
+            // add date
+            $this->addDateString($video);
+
             // return object
             return $this->getVideoAttachmentsAndFullname($video);
 
@@ -169,6 +172,9 @@ class VideoProcessor extends Model
 
                 // update article
                 $record->update(['total_views' => $views]);
+
+                // add date
+                $this->addDateString($result);
 
                 // show result
                 app('response')->success(array_merge(['videos' => $this->getVideoAttachmentsAndFullname($result)], $this->defaultResponse));

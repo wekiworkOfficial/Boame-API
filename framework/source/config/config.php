@@ -79,7 +79,7 @@ $config->bootstrap ([
 	 * info: enable caching for db update, insert, delete queries
 	 * This cached sql queries would be ran during migration 
 	*/
-	"enable.db.caching" => true,
+	"enable.db.caching" => false,
 
 	
 	/*

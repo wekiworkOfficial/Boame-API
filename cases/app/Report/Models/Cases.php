@@ -63,7 +63,7 @@ class Cases extends Model
 
                 // does processor exists
                 if (method_exists($putClass, $processor)) :
-
+                    
                     // are we good ?
                     if ($putClass->{$processor}($data, $caseTypeDb->primary())) app('response')->success('Your case submission was successful');
 

@@ -153,3 +153,7 @@ CREATE TABLE IF NOT EXISTS `password_reset_vault` (
 	date_created VARCHAR(255) , 
 	expire_date VARCHAR(255)
 );
+CREATE TABLE IF NOT EXISTS `configuration` (
+	configurationid BIGINT(20) auto_increment primary key, 
+	storage_url VARCHAR(255)
+);

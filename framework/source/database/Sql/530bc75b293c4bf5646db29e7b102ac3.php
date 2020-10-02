@@ -54,6 +54,58 @@ return array (
           'volunteerid' => '1',
         ),
       ),
+      '907b450bb3892d2879956899fa946cf2fdcb0a430b3f3e39961fe038f42d3ee9537b0dbb' => 
+      array (
+        'query' => 'INSERT INTO volunteers (accountid,residential_address,cv_address,biography,date_created,volunteerpositionid) VALUES (:accountid0,:residential_address0,:cv_address0,:biography0,:date_created0,:volunteerpositionid0)',
+        'bind' => 
+        array (
+          'accountid0' => '7',
+          'residential_address0' => 'dr lexy close rese',
+          'cv_address0' => 'e791bf638eea6fc26722dceb126b54c16a0c9986.docx',
+          'biography0' => 'I\\\'m a cool guy with so much to offer',
+          'date_created0' => 1601160287,
+          'volunteerpositionid0' => '1',
+        ),
+      ),
+      '907b450bb3892d2879956899fa946cf2cb881baec8f45519a162e16845dd50c69f5ec8f7' => 
+      array (
+        'query' => 'INSERT INTO volunteers (accountid,residential_address,cv_address,biography,date_created,volunteerpositionid) VALUES (:accountid0,:residential_address0,:cv_address0,:biography0,:date_created0,:volunteerpositionid0)',
+        'bind' => 
+        array (
+          'accountid0' => '8',
+          'residential_address0' => 'sense address',
+          'cv_address0' => '0cd280f434b8c3a136b5a39d6e89fc59857d4fe8.docx',
+          'biography0' => 'hello sense',
+          'date_created0' => 1601160989,
+          'volunteerpositionid0' => '2',
+        ),
+      ),
+      '907b450bb3892d2879956899fa946cf22c5160cd1b6d2eb1e8e131270b6d6c77293b1c23' => 
+      array (
+        'query' => 'INSERT INTO volunteers (accountid,residential_address,cv_address,biography,date_created,volunteerpositionid) VALUES (:accountid0,:residential_address0,:cv_address0,:biography0,:date_created0,:volunteerpositionid0)',
+        'bind' => 
+        array (
+          'accountid0' => '9',
+          'residential_address0' => 'mike sammy home',
+          'cv_address0' => '0af885ae8e678d0a9795555749079793ae8ab5e2.docx',
+          'biography0' => 'Just so cool to do this stuffs',
+          'date_created0' => 1601161108,
+          'volunteerpositionid0' => '1',
+        ),
+      ),
+      '907b450bb3892d2879956899fa946cf2f54c273c18ffc92ea260dcac65ac1a04457a152f' => 
+      array (
+        'query' => 'INSERT INTO volunteers (accountid,residential_address,cv_address,biography,date_created,volunteerpositionid) VALUES (:accountid0,:residential_address0,:cv_address0,:biography0,:date_created0,:volunteerpositionid0)',
+        'bind' => 
+        array (
+          'accountid0' => '10',
+          'residential_address0' => 'dr lexy address',
+          'cv_address0' => '9d84eaa6ae8a9e82dc12caf58399477d46afcc7e.docx',
+          'biography0' => 'going over everything and greatful',
+          'date_created0' => 1601161397,
+          'volunteerpositionid0' => '2',
+        ),
+      ),
     ),
     'password_hash' => 
     array (
@@ -280,6 +332,96 @@ return array (
           'date_created0' => 1600395303,
         ),
       ),
+      'f182de16222752e1e6041a2ecc2504d904bb40ebc84658a01ff45550bdffc2f5002c558e' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '4',
+          'image_address0' => 'e1d5457ab899eb1cddf0dd0dda458a8c4bb951e6.png',
+          'date_created0' => 1601195400,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9fc94f44c746cdab14548117749b232b8a63f8976' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '5',
+          'image_address0' => 'c3b4fc117e5831b93ce46c6a267560ce06e14e7c.png',
+          'date_created0' => 1601196915,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9f1074f83f9e8cf842831bd64a23751403d7251cc' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '6',
+          'image_address0' => 'b0a1197d27de2cf04f962a772af5ae5b76f26f5d.png',
+          'date_created0' => 1601198214,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d987d8b7b29ba58dd39ce280a5f7de97392d8d820f' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '7',
+          'image_address0' => '623c766c04b25e7b7ada94caca49731fac12bef6.png',
+          'date_created0' => 1601198264,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9a193decd476efaee8af3de2e6614381e96518a11' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '14',
+          'image_address0' => 'cf4f428adf38c8b20a4b7947b70bfb403fe877a4.png',
+          'date_created0' => 1601244016,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9cc1d3b030b75d41612626f1e579c1e47e2f0502a' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '15',
+          'image_address0' => '0e17c886912fd0071f8e6475d59ea9be11e5eae9.png',
+          'date_created0' => 1601244276,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9f67a91b1d024f854d3f9e09896a02830cee6051a' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '16',
+          'image_address0' => '6dc241d6208b2c24a39c60ed06a8f6369d3345f6.png',
+          'date_created0' => 1601244459,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d93c0a4e2caf5f221ea9fa37f7a5d6f7fc80c7a598' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '17',
+          'image_address0' => '2ff391237c4decc2c79cea841f8f2ae40f437911.png',
+          'date_created0' => 1601244577,
+        ),
+      ),
+      'f182de16222752e1e6041a2ecc2504d9dc9e17b7ae86c590a13e0dff9a183e688147358b' => 
+      array (
+        'query' => 'INSERT INTO images_attached (casesreportedid,image_address,date_created) VALUES (:casesreportedid0,:image_address0,:date_created0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '24',
+          'image_address0' => 'ecf76b03a5885e58889e296f00a41fb5378a5fad.png',
+          'date_created0' => 1601569416,
+        ),
+      ),
     ),
     'cases_reported' => 
     array (
@@ -355,6 +497,90 @@ return array (
           'date_created0' => 1600391469,
         ),
       ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5e8d3f90390799576f125b051c5df7bc3646cc92b' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 2,
+          'accountid0' => 0,
+          'devicehash0' => 'xQUvREqEXPFhP4LwR3ZVUP3ki8moJen9iTFrfPKQXVLDlaJgGiMS',
+          'case_text0' => '',
+          'date_created0' => 1601242432,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5c8d1af53927d88560f80778890a5b912b2a53fa0' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 2,
+          'accountid0' => 0,
+          'devicehash0' => 'b6590758-d078-fb98-abce-114a2ca5f272',
+          'case_text0' => '',
+          'date_created0' => 1601243744,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5d1f713890deaca8607f0dc8455741dc33ffadc0d' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 2,
+          'accountid0' => 0,
+          'devicehash0' => 'b6590758-d078-fb98-abce-114a2ca5f272',
+          'case_text0' => '',
+          'date_created0' => 1601243758,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5b000fcbf2efa78dcaf5c2ab5c9bc372091386988' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => 0,
+          'devicehash0' => 'b6590758-d078-fb98-abce-114a2ca5f272',
+          'case_text0' => '',
+          'date_created0' => 1601286622,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b5cd43424a0af393b41843f70336e1b624a27cfda5' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => '1',
+          'devicehash0' => 'c5f2a81e-5a08-8fee-85d1-8abe3acbc7aa',
+          'case_text0' => '',
+          'date_created0' => 1601569318,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b590aa933bcaa28d2f62ffada1380c736c4f485a3a' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 1,
+          'accountid0' => '1',
+          'devicehash0' => 'c5f2a81e-5a08-8fee-85d1-8abe3acbc7aa',
+          'case_text0' => 'hello I am just sending',
+          'date_created0' => 1601569346,
+        ),
+      ),
+      'e924cc2b5aaf1ae9e03d6dfe4cafc8b584fe0f0b4a58623a91a296ec60d0636720cb14b1' => 
+      array (
+        'query' => 'INSERT INTO cases_reported (casetypeid,accountid,devicehash,case_text,date_created) VALUES (:casetypeid0,:accountid0,:devicehash0,:case_text0,:date_created0)',
+        'bind' => 
+        array (
+          'casetypeid0' => 2,
+          'accountid0' => '1',
+          'devicehash0' => 'c5f2a81e-5a08-8fee-85d1-8abe3acbc7aa',
+          'case_text0' => '',
+          'date_created0' => 1601569463,
+        ),
+      ),
     ),
     'audio_attached' => 
     array (
@@ -387,6 +613,50 @@ return array (
           'casesreportedid0' => '2',
           'audio_address0' => '1a8be429cd07b186f280a2e3aeea7a1c79a9d954.mp3',
           'date_created0' => 1600395316,
+          'total_listen0' => 0,
+        ),
+      ),
+      'cc75f2fb11c8aa4406ad2e625a1721ad28fd7ccb7bc251f4fe8739fe8e1c893441636128' => 
+      array (
+        'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '8',
+          'audio_address0' => '38685ee3384e1e5ec90bfa378f55e4c0f13b4930.mp3',
+          'date_created0' => 1601241375,
+          'total_listen0' => 0,
+        ),
+      ),
+      'cc75f2fb11c8aa4406ad2e625a1721ade3ccad9cb4a943b8e416d57207c8790e5aaf4a57' => 
+      array (
+        'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '9',
+          'audio_address0' => '4ae1e7d065b9370609aefb1283f13f63ef8c42bc.mp3',
+          'date_created0' => 1601242419,
+          'total_listen0' => 0,
+        ),
+      ),
+      'cc75f2fb11c8aa4406ad2e625a1721adf7b6bc165638ed4e93f041c21397a66e61149bbe' => 
+      array (
+        'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '13',
+          'audio_address0' => '6202f078c0615801db02b3fe9c8519da56039f0a.mp3',
+          'date_created0' => 1601243773,
+          'total_listen0' => 0,
+        ),
+      ),
+      'cc75f2fb11c8aa4406ad2e625a1721ad29565f49dc288849ccf1fdc112b3ccb2ec99bb75' => 
+      array (
+        'query' => 'INSERT INTO audio_attached (casesreportedid,audio_address,date_created,total_listen) VALUES (:casesreportedid0,:audio_address0,:date_created0,:total_listen0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '18',
+          'audio_address0' => '60636e1e4677257f4886f14d4fbb1dc6a9648383.mp3',
+          'date_created0' => 1601244596,
           'total_listen0' => 0,
         ),
       ),
@@ -508,6 +778,223 @@ return array (
         'bind' => 
         array (
           'video_caption' => 'VGhpcyBpcyBhIGNvb2wgdmlkZW8gZm9yIGV2ZXJ5b25l',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '1f74b2373e31bf47839928998332d238dd9ba785b1a50a74216141727c794fba10b5d63b' => 
+      array (
+        'query' => 'INSERT INTO video_attached (casesreportedid,video_address,date_created,total_views,total_likes,total_dislikes,video_frame_address) VALUES (:casesreportedid0,:video_address0,:date_created0,:total_views0,:total_likes0,:total_dislikes0,:video_frame_address0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '19',
+          'video_address0' => 'salt_a7a6285f5aeecd6b4a3f374fc4f9acdc69404b43.mp4',
+          'date_created0' => 1601285428,
+          'total_views0' => 0,
+          'total_likes0' => 0,
+          'total_dislikes0' => 0,
+          'video_frame_address0' => 'salt_356d7f3128eddb117b187c056eb2a7e2ef543d14.jpg',
+        ),
+      ),
+      '1f74b2373e31bf47839928998332d238da90ab2986b7c933e701df286b7ebc1482bc34c1' => 
+      array (
+        'query' => 'INSERT INTO video_attached (casesreportedid,video_address,date_created,total_views,total_likes,total_dislikes,video_frame_address) VALUES (:casesreportedid0,:video_address0,:date_created0,:total_views0,:total_likes0,:total_dislikes0,:video_frame_address0)',
+        'bind' => 
+        array (
+          'casesreportedid0' => '21',
+          'video_address0' => 'salt_b91e28ac939e0a374933ea109d5943f470b4c35d.mp4',
+          'date_created0' => 1601286645,
+          'total_views0' => 0,
+          'total_likes0' => 0,
+          'total_dislikes0' => 0,
+          'video_frame_address0' => 'salt_7e62214d00fe4c386816db3fd8ed4491677ce1ba.jpg',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465d435a6cdd786300dff204ee7c2ef942d3e9034e2' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '2',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465b6692ea5df920cad691c20319a6fffd7a4a766b8' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '3',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c074650286dd552c9bea9a69ecb3759e7b94777635514b' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '4',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465c5b76da3e608d34edb07244cd9b875ee86906328' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '5',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465a17554a0d2b15a664c0e73900184544f19e70227' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '6',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c0746535e995c107a71caeb833bb3b79f9f54781b33fa1' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '7',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c074657d7116e23efef7292cad5e6f033d9a962708228c' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '8',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c0746508a35293e09f508494096c1c1b3819edb9df50db' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '9',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465934385f53d1bd0c1b8493e44d0dfd4c8e88a04bb' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '10',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465e993215bfdaa515f6ea00fafc1918f549119f993' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '11',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c0746540bd001563085fc35165329ea1ff5c5ecbdbbeef' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '12',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465d30f79cf7fef47bd7a5611719f936539bec0d2e9' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '13',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '14',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465a6f16ab483da9847d431a822e6c85e144dc54f30' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '15',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465fd93751649ac3ea8f8772ba49c8c1fe068002835' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '16',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465572e20738130fddc7c389f2ab14f4e4b22a97c39' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '17',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465dc685e2c3fd7a3a63944383a54aa249ea27f5fdd' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '18',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c0746514bb99f81147d2705f53a1d75337b2ec3e10d23a' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '19',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '84c92fd140b6f55cc94844ef59c07465a165fbd61c277745f187eaac7182d9c05d0d1171' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_views = :total_views  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_views' => '20',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '4d69922f62c310a5d5ffbf76a1689b68bd307a3ec329e10a2cff8fb87480823da114f8f4' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_likes = :total_likes  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_likes' => '1',
+          'videoattachedid' => '3',
+        ),
+      ),
+      '61bb810257cd60b29b908d0115581eb3bd307a3ec329e10a2cff8fb87480823da114f8f4' => 
+      array (
+        'query' => 'UPDATE video_attached SET total_dislikes = :total_dislikes  WHERE videoattachedid = :videoattachedid ',
+        'bind' => 
+        array (
+          'total_dislikes' => '1',
           'videoattachedid' => '3',
         ),
       ),
@@ -637,6 +1124,204 @@ return array (
         'bind' => 
         array (
           'total_views' => '2',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7ccb4e5208b4cd87268b208e49452ed6e89a68e0b8' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '3',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c92cfceb39d57d914ed8b14d0e37643de0797ae56' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '4',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7ca9334987ece78b6fe8bf130ef00b74847c1d3da6' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '5',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c511a418e72591eb7e33f703f04c3fa16df6c90bd' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '6',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7cc097638f92de80ba8d6c696b26e6e601a5f61eb7' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '7',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c76546f9a641ede2beab506b96df1688d889e629a' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '8',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c8ee51caaa2c2f4ee2e5b4b7ef5a89db7df1068d7' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '9',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7cc8306ae139ac98f432932286151dc0ec55580eca' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '10',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c601ca99d55f00a2e8e736676b606a4d31d374fdd' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '11',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c05a8ea5382b9fd885261bb3eed0527d1d3b07262' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '12',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c91dfde1d6e005e422f64a59776234f1f4c80b5e4' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '13',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c2a2b47bf21a372f267deccbb420567f3d450b3c0' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '14',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7cac2646028f5b8b9bbf7a967f4ac71b8866135211' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '15',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7cae1e7198bc3074ff1b2e9ff520c30bc1898d038e' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '16',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7cc1aa04bf421e5b38c3d18933e9994d3f289def65' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '17',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c58f0744907ea8bd8e0f51e568f1536289ceb40a5' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '18',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c19a448c01aa2e7d55979473b647e282459995b85' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '19',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c1e7b95c5614637fdcde70eb7f2d109134c95c6bf' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '20',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7ce2154fea5da2dd0d1732ff30931723c2973003a0' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '21',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c1c6637a8f2e1f75e06ff9984894d6bd16a3a36a9' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '22',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c4f0f5c96ca8457ccd84c30f91c0555bd7e615c81' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '23',
+          'articleid' => '2',
+        ),
+      ),
+      '72feef753041e5b81ea157cee2a8ef7c851cd04fbcac9538616f1d147d7930db87b8750d' => 
+      array (
+        'query' => 'UPDATE articles SET total_views = :total_views  WHERE articleid = :articleid ',
+        'bind' => 
+        array (
+          'total_views' => '24',
           'articleid' => '2',
         ),
       ),
@@ -2367,6 +3052,32 @@ return array (
           'feedback0' => 'This is so cool my friend.',
         ),
       ),
+      'd14480b40911db5b2ce1ebb21f788ebc688a552f3dcffb1dec98b1633316d0867908a712' => 
+      array (
+        'query' => 'INSERT INTO feedbacks (accountid,devicehash,fullname,email,feedback,date_created) VALUES (:accountid0,:devicehash0,:fullname0,:email0,:feedback0,:date_created0)',
+        'bind' => 
+        array (
+          'accountid0' => 0,
+          'devicehash0' => '25f76478-7934-2a52-560a-b5a5cedb6cf9',
+          'fullname0' => 'micheal sammy',
+          'email0' => 'hellosammy@gmail.com',
+          'feedback0' => 'this is so cool',
+          'date_created0' => 1601173446,
+        ),
+      ),
+      'd14480b40911db5b2ce1ebb21f788ebc2f31674b37a683c36360990a44e2fcaada902a33' => 
+      array (
+        'query' => 'INSERT INTO feedbacks (accountid,devicehash,fullname,email,feedback,date_created) VALUES (:accountid0,:devicehash0,:fullname0,:email0,:feedback0,:date_created0)',
+        'bind' => 
+        array (
+          'accountid0' => 0,
+          'devicehash0' => '25f76478-7934-2a52-560a-b5a5cedb6cf9',
+          'fullname0' => 'frank edward',
+          'email0' => 'hellofrank@me.com',
+          'feedback0' => 'this is the final test for this form',
+          'date_created0' => 1601173491,
+        ),
+      ),
     ),
     'password_reset_vault' => 
     array (
@@ -2948,6 +3659,266 @@ return array (
         array (
           'token' => '4b9af9e80d36348d6bcea361009e5adfb098a096',
           'last_seen' => '1601134183',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bd55f2f0b56d7175dd598087e9c5b793eebfda91b' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'db205f2b56707875d08bd66d856cf7cbbcf1fe4a',
+          'last_seen' => '1601175363',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bb8e9ca2c58930fe409ebea99f41381d6c4c206f1' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '269c9f7aff57abec74bc97e35fce179705c753b1',
+          'last_seen' => '1601175438',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bc121b9a55d44dea73f00785fcecd586deec681f9' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '6ce764613d16ee980d4b437919fa8864f72f1576',
+          'last_seen' => '1601176202',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6ba0627f1571790af309504a4ae7c6dcbf76a040d7' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '23ebb084de090fddfd46b8c19e5bcaf7f62fa210',
+          'last_seen' => '1601243997',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bb320c0ebca6fbe86d59cb01c75eaa6a510a3da48' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '39d2ab02ebd4aa8217fbc34770f9b2a5fe609b0c',
+          'last_seen' => '1601244259',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b9a2cd7e4dc3bbf890b07f87821d963eeb566c5e4' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'b6f748255f257731bfaa3db9a3b18d2d6a026db7',
+          'last_seen' => '1601244445',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b3b190ab358e63f7dc2b0e8ead0bc5dc8488a6510' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'afa106823917ae138fd8f5cd4c2c2537227810eb',
+          'last_seen' => '1601244548',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b36c98872115fa4cb31fc55796239d3db2e97369c' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '1916a403b0cc4b8f503e6465a7dfa0aaaf4c5c4c',
+          'last_seen' => '1601244842',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bd57b752249280c890f0d279617c0a434353d03e6' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '5abbf6fc4af5415bc965ca50a300c816354fca43',
+          'last_seen' => '1601336342',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b2f0dd2ec41f28624d830c561a2623b9844e56ab6' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'd1bdc702fb8b4a6c9c6dcb3d9e3580042c08792f',
+          'last_seen' => '1601337081',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b05ea88996fc214fa3909063d88d4769f1a276915' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'ce460ef44cc4161d40fde472c4c150c53ca8ed3a',
+          'last_seen' => '1601337651',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bf5e109c0c4e8d5b1423d15fbf89df6a95c18bdec' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '0c16305e5e03fbb4457faa017cdd92b67bd89f4c',
+          'last_seen' => '1601337699',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b5f8e5cdcdaee917f66dcae20e033d44a731518d9' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'ed90771c14f2d9c9166fabfb201e6c6a46e98e22',
+          'last_seen' => '1601337736',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b1b5bb088ff07ef4525da2ac9b3b2d945d1a116e6' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'a27b8236fc95d66609cd26208b13b51dc50b23f9',
+          'last_seen' => '1601338260',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bbbde6ec1af9e5daf5e7180959b36803be9734325' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '9a139f408a48f4cae6703eac0ac525a874182843',
+          'last_seen' => '1601338365',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b03948326b605a4017abdf5b5bb4f50d48f017fd6' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '95d9f04daed641249deb04ae3090b0f372b9dabc',
+          'last_seen' => '1601338384',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6ba16d19a706b0aeb988864787e19efdc46a40d5b2' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'efcda7ea8a76960f057dfeba206ee575f05978d2',
+          'last_seen' => '1601338593',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b4c1da4b9a2d1ab2f797af6a5d71b581ea65ede37' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '5696a377a58766c08334287a5e896653215bcf36',
+          'last_seen' => '1601338621',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bb01affbe3f39d41f53a006558e3eca62cd0eb6ba' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '4c1fc88e2002699a415d4608d4b836e9ba9cf658',
+          'last_seen' => '1601338656',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bd5b2f1b31ae90d98163a98ebf953881f92064276' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'e8cf573930f4dfec3d8d65d13588252953c851bf',
+          'last_seen' => '1601338766',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b3d9f2025fd3652e5eb1f8e0392f89b4edbf9b05d' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'a3539a112fc204472e9f2ed18eced3411954353e',
+          'last_seen' => '1601376851',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b524d1ee9a357be1cfe7c4b2e05817da1e1023835' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '14e8369b8ee9628cfa264b1b020ea653adb8c19a',
+          'last_seen' => '1601377146',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bfd1bf314d53b67971f9aa72c6b08908847297f66' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'b368b1fe947dd480d6d695cd372b7df32d3ab31e',
+          'last_seen' => '1601406004',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6bebe928489e4c74249d898c2309cae4170c9409da' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '7f0ff3e3bcf1997e2076fa93a7431057ff195b92',
+          'last_seen' => '1601568937',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6be5a1ebfef3cdf56b7f11c95235be5cdaf2f6aa35' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => '1699f5b0693ddd6ec463284a9654b818b4166d9d',
+          'last_seen' => '1601568954',
+          'accountid' => '1',
+        ),
+      ),
+      'bf1c1506cca072236b3a929343bc7d6b1b2dd4f42c6204f4658f40470ee424eadb4bda1e' => 
+      array (
+        'query' => 'UPDATE authentication SET token = :token , last_seen = :last_seen  WHERE accountid = :accountid ',
+        'bind' => 
+        array (
+          'token' => 'd67c6f8cc3f9c99c3fd53288ce872c5fd138deaf',
+          'last_seen' => '1601569125',
           'accountid' => '1',
         ),
       ),

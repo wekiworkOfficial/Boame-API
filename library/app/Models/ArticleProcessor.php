@@ -62,6 +62,9 @@ class ArticleProcessor extends Model
         // fetch results
         if ($articles->rowCount() > 0) app('response')->success(['articles' => array_map(function($article)
         {
+            // add date
+            $this->addDateString($article);
+
             // return object
             return $this->decodeTextAndAddFullName($article);
 
@@ -100,6 +103,9 @@ class ArticleProcessor extends Model
 
                 // update article
                 $article->update(['total_views' => $views]);
+
+                // add date
+                $this->addDateString($result);
 
                 // show result
                 app('response')->success(array_merge(['article' => $this->decodeTextAndAddFullName($result)], $this->defaultResponse));

@@ -128,7 +128,7 @@ class Filters implements Interfaces\FiltersInterface
         return [
             'accountid'     => ['required|number|min:1|notag', 0],
             'devicehash'    => 'required|string|min:2|notag',
-            'report'        => 'required|min:10|notag',
+            'report'        => 'notag',
             'audio'         => 'required|file|filetype:aiff,mp3,wav,aac,ogg,wma,flac,alac,wma,m4a,audio/mp4'
         ];
     }
@@ -142,7 +142,7 @@ class Filters implements Interfaces\FiltersInterface
         return [
             'accountid'     => ['required|number|min:1|notag', 0],
             'devicehash'    => 'required|string|min:2|notag',
-            'report'        => 'required|min:10|notag',
+            'report'        => 'notag',
             'video'         => 'required|file|filetype:3gp,ogg,mp4,m4v,f4v,f4a,m4b,m4r,f4b,mov,video/mp4,wmv,webm,flv,avi'
         ];
     }

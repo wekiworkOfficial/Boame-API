@@ -41,4 +41,14 @@ trait QueryHelper
         // apply limts
         $query->limit($start, $end);
     }
+
+    /**
+     * @method QueryHelper addDateString
+     * @param mixed $query
+     * @return void 
+     */
+    private function addDateString(&$query) : void 
+    {
+        if (isset($query->date_created)) $query->date_string = date("d M Y", $query->date_created);
+    }
 }
