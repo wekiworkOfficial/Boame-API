@@ -40,7 +40,8 @@ trait RegistrationHelper
                 'email'         => $filter->email,
                 'telephone'     => $filter->telephone,
                 'accounttypeid' => $accounttypeid,
-                'verified'      => 0
+                'verified'      => 0,
+                'gender'        => ($filter->has('gender') ? $filter->gender : null)
             ];
 
             // valid user

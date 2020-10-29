@@ -98,11 +98,19 @@ class ArticleProcessor extends Model
                 // get the result
                 $result = $article->row();
 
-                // Update view count
-                $views = intval($result->total_views) + 1;
+                // @var bool $addViews
+                $canAdd = headers()->get('x-request-platform') == 'mobile' ? true : false;
 
-                // update article
-                $article->update(['total_views' => $views]);
+                // can we update total views??
+                if ($canAdd):
+
+                    // Update view count
+                    $views = intval($result->total_views) + 1;
+
+                    // update article
+                    $article->update(['total_views' => $views]);
+
+                endif;
 
                 // add date
                 $this->addDateString($result);
@@ -199,11 +207,14 @@ class ArticleProcessor extends Model
                 // we good ?
                 if ($data->isOk()) :
 
+                    // file upload data
+                    $uploadData = [$data->article_title, $data->article_text];
+
                     // build update
                     $update = [
                         'article_title'         => $data->article_title,
                         'article_text'          => base64_encode($data->article_text),
-                        'article_cover_image'   => ($data->article_image['name'] === $article->article_cover_image) ? $article->article_cover_image :           $this->uploadFile($data->article_image, [$data->article_title, $data->article_text])
+                        'article_cover_image'   => ($data->article_image['name'] === $article->article_cover_image) ? $article->article_cover_image :           $this->uploadFile($data->article_image, $uploadData)
                     ];
 
                     // run update

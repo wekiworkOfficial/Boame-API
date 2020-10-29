@@ -1,0 +1,573 @@
+2020-10-05 14:09:55 pid:69677 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 14:35:29 pid:69677 Workerman[moorexa] stopping ...
+2020-10-05 14:35:29 pid:69677 Workerman[moorexa] has been stopped
+2020-10-05 14:35:33 pid:75486 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 15:23:01 pid:75486 Workerman[moorexa] stopping ...
+2020-10-05 15:23:01 pid:75486 Workerman[moorexa] has been stopped
+2020-10-05 15:23:04 pid:85933 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 15:36:59 pid:85933 Workerman[moorexa] stopping ...
+2020-10-05 15:36:59 pid:85933 Workerman[moorexa] has been stopped
+2020-10-05 15:38:49 pid:89523 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 16:16:06 pid:89523 Workerman[moorexa] stopping ...
+2020-10-05 16:16:06 pid:89523 Workerman[moorexa] has been stopped
+2020-10-05 16:16:08 pid:96795 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 19:58:50 pid:96795 Workerman[moorexa] stopping ...
+2020-10-05 19:58:50 pid:96795 Workerman[moorexa] has been stopped
+2020-10-05 19:58:52 pid:12998 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 19:59:14 pid:13005 Worker[13005] process terminated
+2020-10-05 20:00:26 pid:12998 Workerman[moorexa] stopping ...
+2020-10-05 20:00:26 pid:12998 Workerman[moorexa] has been stopped
+2020-10-05 20:00:29 pid:13399 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-05 20:33:08 pid:13399 Workerman[moorexa] stopping ...
+2020-10-05 20:33:08 pid:13399 Workerman[moorexa] has been stopped
+2020-10-05 20:33:11 pid:20789 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 04:53:59 pid:20789 Workerman[moorexa] stopping ...
+2020-10-06 04:53:59 pid:20789 Workerman[moorexa] has been stopped
+2020-10-06 04:54:01 pid:33278 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 04:54:15 pid:33279 Worker[33279] process terminated
+2020-10-06 04:54:58 pid:33278 Workerman[moorexa] stopping ...
+2020-10-06 04:54:58 pid:33278 Workerman[moorexa] has been stopped
+2020-10-06 04:55:00 pid:33503 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:11:23 pid:33508 Worker[33508] process terminated
+2020-10-06 07:11:41 pid:58996 Worker[58996] process terminated
+2020-10-06 07:12:04 pid:59056 Worker[59056] process terminated
+2020-10-06 07:15:05 pid:59148 Worker[59148] process terminated
+2020-10-06 07:15:11 pid:59853 Worker[59853] process terminated
+2020-10-06 07:16:25 pid:59879 Worker[59879] process terminated
+2020-10-06 07:16:31 pid:60191 Worker[60191] process terminated
+2020-10-06 07:16:46 pid:60211 Worker[60211] process terminated
+2020-10-06 07:19:21 pid:33503 Workerman[moorexa] stopping ...
+2020-10-06 07:19:21 pid:33503 Workerman[moorexa] has been stopped
+2020-10-06 07:19:25 pid:60877 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:21:37 pid:60877 Workerman[moorexa] stopping ...
+2020-10-06 07:21:37 pid:60877 Workerman[moorexa] has been stopped
+2020-10-06 07:21:39 pid:61423 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:22:07 pid:61424 Worker[61424] process terminated
+2020-10-06 07:24:03 pid:61423 Workerman[moorexa] stopping ...
+2020-10-06 07:24:03 pid:61423 Workerman[moorexa] has been stopped
+2020-10-06 07:24:06 pid:61969 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:24:13 pid:61971 Worker[61971] process terminated
+2020-10-06 07:24:32 pid:61969 Workerman[moorexa] stopping ...
+2020-10-06 07:24:32 pid:61969 Workerman[moorexa] has been stopped
+2020-10-06 07:24:34 pid:62101 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:24:38 pid:62102 Worker[62102] process terminated
+2020-10-06 07:25:46 pid:62101 Workerman[moorexa] stopping ...
+2020-10-06 07:25:46 pid:62101 Workerman[moorexa] has been stopped
+2020-10-06 07:25:47 pid:62401 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:25:56 pid:62402 Worker[62402] process terminated
+2020-10-06 07:27:12 pid:62401 Workerman[moorexa] stopping ...
+2020-10-06 07:27:12 pid:62401 Workerman[moorexa] has been stopped
+2020-10-06 07:27:13 pid:62741 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:27:24 pid:62742 Worker[62742] process terminated
+2020-10-06 07:41:18 pid:62741 Workerman[moorexa] stopping ...
+2020-10-06 07:41:18 pid:62741 Workerman[moorexa] has been stopped
+2020-10-06 07:41:20 pid:65522 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:41:27 pid:65523 Worker[65523] process terminated
+2020-10-06 07:42:16 pid:65522 Workerman[moorexa] stopping ...
+2020-10-06 07:42:16 pid:65522 Workerman[moorexa] has been stopped
+2020-10-06 07:42:18 pid:65782 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:42:22 pid:65783 Worker[65783] process terminated
+2020-10-06 07:45:20 pid:65782 Workerman[moorexa] stopping ...
+2020-10-06 07:45:20 pid:65782 Workerman[moorexa] has been stopped
+2020-10-06 07:45:22 pid:66459 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 07:45:26 pid:66460 Worker[66460] process terminated
+2020-10-06 07:54:25 pid:66459 Workerman[moorexa] stopping ...
+2020-10-06 07:54:25 pid:66459 Workerman[moorexa] has been stopped
+2020-10-06 07:54:28 pid:68312 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 08:02:08 pid:68312 Workerman[moorexa] stopping ...
+2020-10-06 08:02:08 pid:68312 Workerman[moorexa] has been stopped
+2020-10-06 08:02:09 pid:69871 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 08:02:32 pid:69871 Workerman[moorexa] stopping ...
+2020-10-06 08:02:32 pid:69871 Workerman[moorexa] has been stopped
+2020-10-06 08:02:33 pid:69972 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 08:08:06 pid:69972 Workerman[moorexa] stopping ...
+2020-10-06 08:08:06 pid:69972 Workerman[moorexa] has been stopped
+2020-10-06 08:08:08 pid:71183 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 08:08:50 pid:71183 Workerman[moorexa] stopping ...
+2020-10-06 08:08:50 pid:71183 Workerman[moorexa] has been stopped
+2020-10-06 08:09:07 pid:71419 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 09:35:35 pid:71419 Workerman[moorexa] stopping ...
+2020-10-06 09:35:35 pid:71419 Workerman[moorexa] has been stopped
+2020-10-06 09:35:36 pid:84714 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 09:39:02 pid:84714 Workerman[moorexa] stopping ...
+2020-10-06 09:39:02 pid:84714 Workerman[moorexa] has been stopped
+2020-10-06 09:39:04 pid:85508 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:04:50 pid:85508 Workerman[moorexa] stopping ...
+2020-10-06 10:04:50 pid:85508 Workerman[moorexa] has been stopped
+2020-10-06 10:04:51 pid:91510 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:24:31 pid:91510 Workerman[moorexa] stopping ...
+2020-10-06 10:24:31 pid:91510 Workerman[moorexa] has been stopped
+2020-10-06 10:24:33 pid:95751 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:37:24 pid:95751 Workerman[moorexa] stopping ...
+2020-10-06 10:37:24 pid:95751 Workerman[moorexa] has been stopped
+2020-10-06 10:37:26 pid:98502 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:41:39 pid:98502 Workerman[moorexa] stopping ...
+2020-10-06 10:41:39 pid:98502 Workerman[moorexa] has been stopped
+2020-10-06 10:41:41 pid:99488 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:42:17 pid:99488 Workerman[moorexa] stopping ...
+2020-10-06 10:42:17 pid:99488 Workerman[moorexa] has been stopped
+2020-10-06 10:42:18 pid:99662 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:43:30 pid:99662 Workerman[moorexa] stopping ...
+2020-10-06 10:43:30 pid:99662 Workerman[moorexa] has been stopped
+2020-10-06 10:43:31 pid:99950 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:46:22 pid:99950 Workerman[moorexa] stopping ...
+2020-10-06 10:46:22 pid:99950 Workerman[moorexa] has been stopped
+2020-10-06 10:46:24 pid:842 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:47:54 pid:842 Workerman[moorexa] stopping ...
+2020-10-06 10:47:54 pid:842 Workerman[moorexa] has been stopped
+2020-10-06 10:47:57 pid:1192 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:49:18 pid:1192 Workerman[moorexa] stopping ...
+2020-10-06 10:49:18 pid:1192 Workerman[moorexa] has been stopped
+2020-10-06 10:49:20 pid:1508 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:50:34 pid:1508 Workerman[moorexa] stopping ...
+2020-10-06 10:50:34 pid:1508 Workerman[moorexa] has been stopped
+2020-10-06 10:50:35 pid:1783 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:52:20 pid:1783 Workerman[moorexa] stopping ...
+2020-10-06 10:52:20 pid:1783 Workerman[moorexa] has been stopped
+2020-10-06 10:52:21 pid:2172 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:54:33 pid:2172 Workerman[moorexa] stopping ...
+2020-10-06 10:54:34 pid:2172 Workerman[moorexa] has been stopped
+2020-10-06 10:54:34 pid:2673 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:55:31 pid:2673 Workerman[moorexa] stopping ...
+2020-10-06 10:55:31 pid:2673 Workerman[moorexa] has been stopped
+2020-10-06 10:55:35 pid:2926 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:56:18 pid:2926 Workerman[moorexa] stopping ...
+2020-10-06 10:56:18 pid:2926 Workerman[moorexa] has been stopped
+2020-10-06 10:56:20 pid:3125 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:56:39 pid:3125 Workerman[moorexa] stopping ...
+2020-10-06 10:56:39 pid:3125 Workerman[moorexa] has been stopped
+2020-10-06 10:56:41 pid:3219 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 10:56:53 pid:3220 Error: Cannot access private property Lightroom\Database\Drivers\Mysql\Driver::$pdoInstance in /Users/mac/Desktop/workspace/boame_modules/chat/Chat/ChatDBQueries.php:133
+Stack trace:
+#0 /Users/mac/Desktop/workspace/boame_modules/chat/Chat/Connections.php(101): Chat\ChatDBQueries::getConversations(11, 1)
+#1 [internal function]: Chat\Connections::Chat\{closure}(Object(stdClass))
+#2 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('my conversation...', '{"sender":"11",...')
+#4 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#9 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["my conversat...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["my conversat...')
+#12 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#13 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["my conversat...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#16 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["my conversa...')
+#19 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["my conversa...')
+#20 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Connection/TcpConnection.php(660): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["my conversa...')
+#21 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(245): Workerman\Connection\TcpConnection->baseRead(Resource id #175)
+#22 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(77351564)
+#23 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(254): React\EventLoop\StreamSelectLoop->run()
+#24 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(137): Workerman\Events\React\Base->run()
+#25 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(2423): Workerman\Events\React\Base->loop()
+#26 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1548): Workerman\Worker->run()
+#27 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1378): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#28 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1352): Workerman\Worker::forkWorkersForLinux()
+#29 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#30 /Users/mac/Desktop/workspace/boame_modules/framework/core/Socket/WorkerManSocketHandler.php(35): Workerman\Worker::runAll()
+#31 /Users/mac/Desktop/workspace/boame_modules/framework/source/console/bash.php(307): Lightroom\Socket\WorkerManSocketHandler::startServer()
+#32 [internal function]: Classes\Cli\Assist->{closure}('', Array)
+#33 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7024): call_user_func_array(Object(Closure), Array)
+#34 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7332): Classes\Cli\Assist::processAndLoadAssistManagerForClosure('socket', NULL, 'start', Array, Array, Object(Closure), Array)
+#35 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7272): Classes\Cli\Assist::loadBashConfiguration(Array, 'socket', Array, Array)
+#36 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(684): Classes\Cli\Assist::loadAssistManager(Array, Array, 'socket', Array)
+#37 [internal function]: Classes\Cli\Assist->__construct()
+#38 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(250): ReflectionClass->newInstanceArgs(Array)
+#39 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(120): Lightroom\Core\PayloadRunner->getProcessInstance(Array)
+#40 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(55): Lightroom\Core\PayloadRunner->loadProcess('assist-manager', Array)
+#41 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(59): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5, Array)
+#42 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5)
+#43 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(5, Array)
+#44 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(4)
+#45 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(4, Array)
+#46 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(3)
+#47 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(3, Array)
+#48 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(2)
+#49 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(2, Array)
+#50 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(1)
+#51 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(1, Array)
+#52 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(0)
+#53 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/Payload.php(127): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(0, Array)
+#54 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/BootCoreEngine.php(105): Lightroom\Core\Payload->loadProcesses(Object(Lightroom\Core\PayloadRunner))
+#55 /Users/mac/Desktop/workspace/boame_modules/chat/assist(33): Lightroom\Core\BootCoreEngine->bootProgram(Object(Lightroom\Core\Payload), Object(Lightroom\Core\PayloadRunner))
+#56 /Users/mac/moorexa/moorexa(283): include_once('/Users/mac/Desk...')
+#57 /Users/mac/moorexa/moorexa(121): MoorexaInstaller->loadFlagsAndListen()
+#58 /Users/mac/moorexa/moorexa(1325): MoorexaInstaller->__construct()
+#59 {main}
+2020-10-06 10:56:53 pid:3220 Worker[3220] process terminated
+2020-10-06 10:56:53 pid:3219 worker[PHPSocketIO:3220] exit with status 64000
+2020-10-06 11:00:22 pid:3219 Workerman[moorexa] stopping ...
+2020-10-06 11:00:22 pid:3219 Workerman[moorexa] has been stopped
+2020-10-06 11:00:24 pid:4103 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:00:30 pid:4104 Error: Call to a member function get() on null in /Users/mac/Desktop/workspace/boame_modules/chat/Chat/ChatDBQueries.php:134
+Stack trace:
+#0 /Users/mac/Desktop/workspace/boame_modules/chat/Chat/Connections.php(101): Chat\ChatDBQueries::getConversations(11, 1)
+#1 [internal function]: Chat\Connections::Chat\{closure}(Object(stdClass))
+#2 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('my conversation...', '{"sender":"11",...')
+#4 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#9 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["my conversat...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["my conversat...')
+#12 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#13 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["my conversat...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#16 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["my conversa...')
+#19 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["my conversa...')
+#20 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Connection/TcpConnection.php(660): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["my conversa...')
+#21 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(245): Workerman\Connection\TcpConnection->baseRead(Resource id #155)
+#22 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(81539836)
+#23 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(254): React\EventLoop\StreamSelectLoop->run()
+#24 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(137): Workerman\Events\React\Base->run()
+#25 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(2423): Workerman\Events\React\Base->loop()
+#26 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1548): Workerman\Worker->run()
+#27 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1378): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#28 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1352): Workerman\Worker::forkWorkersForLinux()
+#29 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#30 /Users/mac/Desktop/workspace/boame_modules/framework/core/Socket/WorkerManSocketHandler.php(35): Workerman\Worker::runAll()
+#31 /Users/mac/Desktop/workspace/boame_modules/framework/source/console/bash.php(307): Lightroom\Socket\WorkerManSocketHandler::startServer()
+#32 [internal function]: Classes\Cli\Assist->{closure}('', Array)
+#33 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7024): call_user_func_array(Object(Closure), Array)
+#34 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7332): Classes\Cli\Assist::processAndLoadAssistManagerForClosure('socket', NULL, 'start', Array, Array, Object(Closure), Array)
+#35 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7272): Classes\Cli\Assist::loadBashConfiguration(Array, 'socket', Array, Array)
+#36 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(684): Classes\Cli\Assist::loadAssistManager(Array, Array, 'socket', Array)
+#37 [internal function]: Classes\Cli\Assist->__construct()
+#38 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(250): ReflectionClass->newInstanceArgs(Array)
+#39 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(120): Lightroom\Core\PayloadRunner->getProcessInstance(Array)
+#40 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(55): Lightroom\Core\PayloadRunner->loadProcess('assist-manager', Array)
+#41 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(59): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5, Array)
+#42 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5)
+#43 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(5, Array)
+#44 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(4)
+#45 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(4, Array)
+#46 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(3)
+#47 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(3, Array)
+#48 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(2)
+#49 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(2, Array)
+#50 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(1)
+#51 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(1, Array)
+#52 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(0)
+#53 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/Payload.php(127): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(0, Array)
+#54 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/BootCoreEngine.php(105): Lightroom\Core\Payload->loadProcesses(Object(Lightroom\Core\PayloadRunner))
+#55 /Users/mac/Desktop/workspace/boame_modules/chat/assist(33): Lightroom\Core\BootCoreEngine->bootProgram(Object(Lightroom\Core\Payload), Object(Lightroom\Core\PayloadRunner))
+#56 /Users/mac/moorexa/moorexa(283): include_once('/Users/mac/Desk...')
+#57 /Users/mac/moorexa/moorexa(121): MoorexaInstaller->loadFlagsAndListen()
+#58 /Users/mac/moorexa/moorexa(1325): MoorexaInstaller->__construct()
+#59 {main}
+2020-10-06 11:00:30 pid:4104 Worker[4104] process terminated
+2020-10-06 11:00:30 pid:4103 worker[PHPSocketIO:4104] exit with status 64000
+2020-10-06 11:01:18 pid:4103 Workerman[moorexa] stopping ...
+2020-10-06 11:01:18 pid:4103 Workerman[moorexa] has been stopped
+2020-10-06 11:01:20 pid:4350 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:10:21 pid:4350 Workerman[moorexa] stopping ...
+2020-10-06 11:10:21 pid:4350 Workerman[moorexa] has been stopped
+2020-10-06 11:10:23 pid:6378 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:12:03 pid:6378 Workerman[moorexa] stopping ...
+2020-10-06 11:12:03 pid:6378 Workerman[moorexa] has been stopped
+2020-10-06 11:12:05 pid:6823 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:13:56 pid:6823 Workerman[moorexa] stopping ...
+2020-10-06 11:13:56 pid:6823 Workerman[moorexa] has been stopped
+2020-10-06 11:13:58 pid:7285 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:14:21 pid:7285 Workerman[moorexa] stopping ...
+2020-10-06 11:14:21 pid:7285 Workerman[moorexa] has been stopped
+2020-10-06 11:14:22 pid:7415 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:14:48 pid:7415 Workerman[moorexa] stopping ...
+2020-10-06 11:14:48 pid:7415 Workerman[moorexa] has been stopped
+2020-10-06 11:14:48 pid:7524 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:15:29 pid:7524 Workerman[moorexa] stopping ...
+2020-10-06 11:15:29 pid:7524 Workerman[moorexa] has been stopped
+2020-10-06 11:15:30 pid:7698 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:15:51 pid:7698 Workerman[moorexa] stopping ...
+2020-10-06 11:15:51 pid:7698 Workerman[moorexa] has been stopped
+2020-10-06 11:15:52 pid:7819 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:17:10 pid:7819 Workerman[moorexa] stopping ...
+2020-10-06 11:17:10 pid:7819 Workerman[moorexa] has been stopped
+2020-10-06 11:17:12 pid:8153 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:17:55 pid:8153 Workerman[moorexa] stopping ...
+2020-10-06 11:17:55 pid:8153 Workerman[moorexa] has been stopped
+2020-10-06 11:17:56 pid:8356 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:32:22 pid:8356 Workerman[moorexa] stopping ...
+2020-10-06 11:32:22 pid:8356 Workerman[moorexa] has been stopped
+2020-10-06 11:32:24 pid:11490 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-06 11:32:34 pid:11491 Error: Call to undefined method PDO::execute() in /Users/mac/Desktop/workspace/boame_modules/chat/Chat/ChatDBQueries.php:64
+Stack trace:
+#0 /Users/mac/Desktop/workspace/boame_modules/chat/Chat/Connections.php(49): Chat\ChatDBQueries::logMessage(11, 1, Array)
+#1 [internal function]: Chat\Connections::Chat\{closure}(Object(stdClass))
+#2 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('message', '{"message":"hi"...')
+#4 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#9 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["message","{\\...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["message","{\\...')
+#12 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#13 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["message","{\\...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#16 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["message","{...')
+#19 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["message","{...')
+#20 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Connection/TcpConnection.php(660): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["message","{...')
+#21 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(245): Workerman\Connection\TcpConnection->baseRead(Resource id #155)
+#22 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/react/event-loop/src/StreamSelectLoop.php(212): React\EventLoop\StreamSelectLoop->waitForStreamActivity(82110539)
+#23 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(254): React\EventLoop\StreamSelectLoop->run()
+#24 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Events/React/Base.php(137): Workerman\Events\React\Base->run()
+#25 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(2423): Workerman\Events\React\Base->loop()
+#26 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1548): Workerman\Worker->run()
+#27 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1378): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#28 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(1352): Workerman\Worker::forkWorkersForLinux()
+#29 /Users/mac/Desktop/workspace/boame_modules/chat/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#30 /Users/mac/Desktop/workspace/boame_modules/framework/core/Socket/WorkerManSocketHandler.php(35): Workerman\Worker::runAll()
+#31 /Users/mac/Desktop/workspace/boame_modules/framework/source/console/bash.php(307): Lightroom\Socket\WorkerManSocketHandler::startServer()
+#32 [internal function]: Classes\Cli\Assist->{closure}('', Array)
+#33 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7024): call_user_func_array(Object(Closure), Array)
+#34 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7332): Classes\Cli\Assist::processAndLoadAssistManagerForClosure('socket', NULL, 'start', Array, Array, Object(Closure), Array)
+#35 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(7272): Classes\Cli\Assist::loadBashConfiguration(Array, 'socket', Array, Array)
+#36 /Users/mac/Desktop/workspace/boame_modules/framework/source/utility/Classes/CLI/Assist.php(684): Classes\Cli\Assist::loadAssistManager(Array, Array, 'socket', Array)
+#37 [internal function]: Classes\Cli\Assist->__construct()
+#38 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(250): ReflectionClass->newInstanceArgs(Array)
+#39 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(120): Lightroom\Core\PayloadRunner->getProcessInstance(Array)
+#40 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(55): Lightroom\Core\PayloadRunner->loadProcess('assist-manager', Array)
+#41 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(59): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5, Array)
+#42 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(5)
+#43 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(5, Array)
+#44 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(4)
+#45 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(4, Array)
+#46 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(3)
+#47 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(3, Array)
+#48 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(2)
+#49 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(2, Array)
+#50 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(1)
+#51 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(69): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(1, Array)
+#52 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/PayloadRunner.php(81): Lightroom\Core\PayloadRunner->Lightroom\Core\{closure}(0)
+#53 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/Payload.php(127): Lightroom\Core\PayloadRunner->callLoadProcessWhenComplete(0, Array)
+#54 /Users/mac/Desktop/workspace/boame_modules/framework/core/Core/BootCoreEngine.php(105): Lightroom\Core\Payload->loadProcesses(Object(Lightroom\Core\PayloadRunner))
+#55 /Users/mac/Desktop/workspace/boame_modules/chat/assist(33): Lightroom\Core\BootCoreEngine->bootProgram(Object(Lightroom\Core\Payload), Object(Lightroom\Core\PayloadRunner))
+#56 /Users/mac/moorexa/moorexa(283): include_once('/Users/mac/Desk...')
+#57 /Users/mac/moorexa/moorexa(121): MoorexaInstaller->loadFlagsAndListen()
+#58 /Users/mac/moorexa/moorexa(1325): MoorexaInstaller->__construct()
+#59 {main}
+2020-10-06 11:32:34 pid:11491 Worker[11491] process terminated
+2020-10-06 11:32:34 pid:11490 worker[PHPSocketIO:11491] exit with status 64000
+2020-10-06 11:33:22 pid:11490 Workerman[moorexa] stopping ...
+2020-10-06 11:33:22 pid:11490 Workerman[moorexa] has been stopped
+2020-10-06 11:33:24 pid:11742 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:27:13 pid:11742 Workerman[moorexa] stopping ...
+2020-10-07 03:27:13 pid:11742 Workerman[moorexa] has been stopped
+2020-10-07 03:27:15 pid:40098 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:35:43 pid:40098 Workerman[moorexa] stopping ...
+2020-10-07 03:35:43 pid:40098 Workerman[moorexa] has been stopped
+2020-10-07 03:35:44 pid:42035 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:41:43 pid:42035 Workerman[moorexa] stopping ...
+2020-10-07 03:41:43 pid:42035 Workerman[moorexa] has been stopped
+2020-10-07 03:41:45 pid:43405 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:42:46 pid:43405 Workerman[moorexa] stopping ...
+2020-10-07 03:42:46 pid:43405 Workerman[moorexa] has been stopped
+2020-10-07 03:42:48 pid:43668 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:43:48 pid:43668 Workerman[moorexa] stopping ...
+2020-10-07 03:43:48 pid:43668 Workerman[moorexa] has been stopped
+2020-10-07 03:43:50 pid:43910 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:44:20 pid:43910 Workerman[moorexa] stopping ...
+2020-10-07 03:44:20 pid:43910 Workerman[moorexa] has been stopped
+2020-10-07 03:44:22 pid:44052 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:56:58 pid:44052 Workerman[moorexa] stopping ...
+2020-10-07 03:56:58 pid:44052 Workerman[moorexa] has been stopped
+2020-10-07 03:56:59 pid:46964 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 03:59:39 pid:46964 Workerman[moorexa] stopping ...
+2020-10-07 03:59:39 pid:46964 Workerman[moorexa] has been stopped
+2020-10-07 03:59:41 pid:47694 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:12:56 pid:47694 Workerman[moorexa] stopping ...
+2020-10-07 04:12:56 pid:47694 Workerman[moorexa] has been stopped
+2020-10-07 04:12:58 pid:50608 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:14:49 pid:50608 Workerman[moorexa] stopping ...
+2020-10-07 04:14:49 pid:50608 Workerman[moorexa] has been stopped
+2020-10-07 04:14:55 pid:51042 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:16:02 pid:51042 Workerman[moorexa] stopping ...
+2020-10-07 04:16:02 pid:51042 Workerman[moorexa] has been stopped
+2020-10-07 04:16:10 pid:51341 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:16:24 pid:51341 Workerman[moorexa] stopping ...
+2020-10-07 04:16:24 pid:51341 Workerman[moorexa] has been stopped
+2020-10-07 04:16:40 pid:51470 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:17:54 pid:51470 Workerman[moorexa] stopping ...
+2020-10-07 04:17:54 pid:51470 Workerman[moorexa] has been stopped
+2020-10-07 04:17:56 pid:51771 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:21:33 pid:51771 Workerman[moorexa] stopping ...
+2020-10-07 04:21:33 pid:51771 Workerman[moorexa] has been stopped
+2020-10-07 04:21:34 pid:52491 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:22:18 pid:52491 Workerman[moorexa] stopping ...
+2020-10-07 04:22:18 pid:52491 Workerman[moorexa] has been stopped
+2020-10-07 04:22:20 pid:52687 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:28:05 pid:52687 Workerman[moorexa] stopping ...
+2020-10-07 04:28:05 pid:52687 Workerman[moorexa] has been stopped
+2020-10-07 04:28:07 pid:53890 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:29:07 pid:53890 Workerman[moorexa] stopping ...
+2020-10-07 04:29:07 pid:53890 Workerman[moorexa] has been stopped
+2020-10-07 04:29:09 pid:54145 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:32:41 pid:54145 Workerman[moorexa] stopping ...
+2020-10-07 04:32:41 pid:54145 Workerman[moorexa] has been stopped
+2020-10-07 04:32:42 pid:54962 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:35:12 pid:54962 Workerman[moorexa] stopping ...
+2020-10-07 04:35:12 pid:54962 Workerman[moorexa] has been stopped
+2020-10-07 04:35:14 pid:55560 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:36:45 pid:55560 Workerman[moorexa] stopping ...
+2020-10-07 04:36:45 pid:55560 Workerman[moorexa] has been stopped
+2020-10-07 04:36:48 pid:55924 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:41:42 pid:55924 Workerman[moorexa] stopping ...
+2020-10-07 04:41:42 pid:55924 Workerman[moorexa] has been stopped
+2020-10-07 04:41:44 pid:56968 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:43:49 pid:56968 Workerman[moorexa] stopping ...
+2020-10-07 04:43:49 pid:56968 Workerman[moorexa] has been stopped
+2020-10-07 04:43:51 pid:57441 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:45:39 pid:57441 Workerman[moorexa] stopping ...
+2020-10-07 04:45:39 pid:57441 Workerman[moorexa] has been stopped
+2020-10-07 04:45:42 pid:57860 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-07 04:48:03 pid:57860 Workerman[moorexa] stopping ...
+2020-10-07 04:48:03 pid:57860 Workerman[moorexa] has been stopped
+2020-10-07 04:48:05 pid:58437 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-15 20:07:29 pid:58437 Workerman[moorexa] stopping ...
+2020-10-15 20:07:29 pid:58437 Workerman[moorexa] has been stopped
+2020-10-15 20:07:30 pid:72747 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-15 21:18:49 pid:72749 Worker[72749] process terminated
+2020-10-15 22:00:37 pid:2119 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-20 07:13:44 pid:2120 Worker[2120] process terminated
+2020-10-23 07:23:47 pid:51504 Worker[51504] process terminated
+2020-10-23 13:41:10 pid:2119 Workerman[moorexa] stopping ...
+2020-10-23 13:41:10 pid:2119 Workerman[moorexa] has been stopped
+2020-10-23 13:41:12 pid:57219 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-23 13:50:11 pid:57219 Workerman[moorexa] stopping ...
+2020-10-23 13:50:11 pid:57219 Workerman[moorexa] has been stopped
+2020-10-23 13:50:12 pid:59485 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-23 14:37:05 pid:59485 Workerman[moorexa] stopping ...
+2020-10-23 14:37:05 pid:59485 Workerman[moorexa] has been stopped
+2020-10-23 14:37:06 pid:70863 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-23 16:25:20 pid:70863 Workerman[moorexa] stopping ...
+2020-10-23 16:25:20 pid:70863 Workerman[moorexa] has been stopped
+2020-10-23 16:25:22 pid:95065 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-24 09:54:37 pid:95065 Workerman[moorexa] stopping ...
+2020-10-24 09:54:37 pid:95066 worker[95066] remains 1 connection(s)
+2020-10-24 09:54:37 pid:95066 worker[95066] remains 0 connection(s)
+2020-10-24 09:54:37 pid:95065 worker[PHPSocketIO:95066] exit with status 65280
+2020-10-24 09:54:37 pid:95065 Workerman[moorexa] has been stopped
+2020-10-24 12:06:59 pid:30683 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-24 19:35:42 pid:30683 Workerman[moorexa] stopping ...
+2020-10-24 19:35:42 pid:30683 Workerman[moorexa] has been stopped
+2020-10-24 19:35:43 pid:47714 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-24 22:05:10 pid:47716 Worker[47716] process terminated
+2020-10-24 22:05:57 pid:47714 Workerman[moorexa] stopping ...
+2020-10-24 22:05:57 pid:47714 Workerman[moorexa] has been stopped
+2020-10-24 22:05:59 pid:79657 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-24 22:06:48 pid:79657 Workerman[moorexa] stopping ...
+2020-10-24 22:06:48 pid:79657 Workerman[moorexa] has been stopped
+2020-10-24 22:06:50 pid:79850 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-24 22:59:59 pid:79850 Workerman[moorexa] stopping ...
+2020-10-24 22:59:59 pid:79850 Workerman[moorexa] has been stopped
+2020-10-24 23:00:00 pid:87931 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 12:46:14 pid:87931 Workerman[moorexa] stopping ...
+2020-10-26 12:46:15 pid:87931 Workerman[moorexa] has been stopped
+2020-10-26 12:46:16 pid:91683 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:29:25 pid:91683 Workerman[moorexa] stopping ...
+2020-10-26 13:29:25 pid:91683 Workerman[moorexa] has been stopped
+2020-10-26 13:29:26 pid:1603 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:31:36 pid:1603 Workerman[moorexa] stopping ...
+2020-10-26 13:31:36 pid:1603 Workerman[moorexa] has been stopped
+2020-10-26 13:31:38 pid:2116 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:35:37 pid:2116 Workerman[moorexa] stopping ...
+2020-10-26 13:35:37 pid:2116 Workerman[moorexa] has been stopped
+2020-10-26 13:35:39 pid:3016 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:36:47 pid:3016 Workerman[moorexa] stopping ...
+2020-10-26 13:36:47 pid:3016 Workerman[moorexa] has been stopped
+2020-10-26 13:36:48 pid:3300 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:37:59 pid:3300 Workerman[moorexa] stopping ...
+2020-10-26 13:37:59 pid:3300 Workerman[moorexa] has been stopped
+2020-10-26 13:38:01 pid:3634 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:38:35 pid:3634 Workerman[moorexa] stopping ...
+2020-10-26 13:38:35 pid:3634 Workerman[moorexa] has been stopped
+2020-10-26 13:38:37 pid:3774 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:41:04 pid:3774 Workerman[moorexa] stopping ...
+2020-10-26 13:41:04 pid:3774 Workerman[moorexa] has been stopped
+2020-10-26 13:41:10 pid:4397 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:45:31 pid:4397 Workerman[moorexa] stopping ...
+2020-10-26 13:45:31 pid:4397 Workerman[moorexa] has been stopped
+2020-10-26 13:45:32 pid:5360 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:46:27 pid:5360 Workerman[moorexa] stopping ...
+2020-10-26 13:46:27 pid:5360 Workerman[moorexa] has been stopped
+2020-10-26 13:46:29 pid:5599 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:47:05 pid:5599 Workerman[moorexa] stopping ...
+2020-10-26 13:47:05 pid:5599 Workerman[moorexa] has been stopped
+2020-10-26 13:47:06 pid:5776 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:47:28 pid:5776 Workerman[moorexa] stopping ...
+2020-10-26 13:47:28 pid:5776 Workerman[moorexa] has been stopped
+2020-10-26 13:47:30 pid:5892 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:54:39 pid:5892 Workerman[moorexa] stopping ...
+2020-10-26 13:54:39 pid:5892 Workerman[moorexa] has been stopped
+2020-10-26 13:54:48 pid:7749 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:56:03 pid:7749 Workerman[moorexa] stopping ...
+2020-10-26 13:56:03 pid:7749 Workerman[moorexa] has been stopped
+2020-10-26 13:56:06 pid:8045 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:56:37 pid:8045 Workerman[moorexa] stopping ...
+2020-10-26 13:56:37 pid:8045 Workerman[moorexa] has been stopped
+2020-10-26 13:56:39 pid:8208 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 13:59:17 pid:8208 Workerman[moorexa] stopping ...
+2020-10-26 13:59:17 pid:8208 Workerman[moorexa] has been stopped
+2020-10-26 13:59:23 pid:8859 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:03:32 pid:8859 Workerman[moorexa] stopping ...
+2020-10-26 14:03:32 pid:8859 Workerman[moorexa] has been stopped
+2020-10-26 14:04:03 pid:9858 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:05:12 pid:9858 Workerman[moorexa] stopping ...
+2020-10-26 14:05:12 pid:9858 Workerman[moorexa] has been stopped
+2020-10-26 14:05:14 pid:10141 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:05:27 pid:10141 Workerman[moorexa] stopping ...
+2020-10-26 14:05:27 pid:10141 Workerman[moorexa] has been stopped
+2020-10-26 14:05:30 pid:10217 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:05:44 pid:10217 Workerman[moorexa] stopping ...
+2020-10-26 14:05:44 pid:10217 Workerman[moorexa] has been stopped
+2020-10-26 14:05:46 pid:10293 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:07:13 pid:10293 Workerman[moorexa] stopping ...
+2020-10-26 14:07:13 pid:10293 Workerman[moorexa] has been stopped
+2020-10-26 14:07:15 pid:10678 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:07:59 pid:10678 Workerman[moorexa] stopping ...
+2020-10-26 14:07:59 pid:10678 Workerman[moorexa] has been stopped
+2020-10-26 14:08:01 pid:10878 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 14:31:25 pid:10879 Worker[10879] process terminated
+2020-10-26 14:31:29 pid:16027 Worker[16027] process terminated
+2020-10-26 15:34:48 pid:10878 Workerman[moorexa] stopping ...
+2020-10-26 15:34:48 pid:10878 Workerman[moorexa] has been stopped
+2020-10-26 15:34:50 pid:16934 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:37:37 pid:16934 Workerman[moorexa] stopping ...
+2020-10-26 15:37:37 pid:16934 Workerman[moorexa] has been stopped
+2020-10-26 15:37:39 pid:17558 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:38:45 pid:17558 Workerman[moorexa] stopping ...
+2020-10-26 15:38:45 pid:17558 Workerman[moorexa] has been stopped
+2020-10-26 15:38:47 pid:17844 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:40:56 pid:17844 Workerman[moorexa] stopping ...
+2020-10-26 15:40:56 pid:17844 Workerman[moorexa] has been stopped
+2020-10-26 15:40:57 pid:18309 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:42:02 pid:18309 Workerman[moorexa] stopping ...
+2020-10-26 15:42:02 pid:18309 Workerman[moorexa] has been stopped
+2020-10-26 15:42:04 pid:18562 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:42:48 pid:18562 Workerman[moorexa] stopping ...
+2020-10-26 15:42:48 pid:18562 Workerman[moorexa] has been stopped
+2020-10-26 15:42:49 pid:18760 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:44:57 pid:18760 Workerman[moorexa] stopping ...
+2020-10-26 15:44:57 pid:18760 Workerman[moorexa] has been stopped
+2020-10-26 15:44:59 pid:19261 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-26 15:52:29 pid:19261 Workerman[moorexa] stopping ...
+2020-10-26 15:52:29 pid:19261 Workerman[moorexa] has been stopped
+2020-10-26 15:52:30 pid:20972 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
+2020-10-29 10:16:05 pid:20973 Worker[20973] process terminated

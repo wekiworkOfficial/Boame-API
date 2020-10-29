@@ -3,6 +3,7 @@ namespace Moorexa\Middlewares;
 
 use Closure;
 use Lightroom\Router\Middlewares;
+use Lightroom\Adapter\ClassManager;
 use Lightroom\Packager\Moorexa\Router as Route;
 use function Lightroom\Requests\Functions\{headers};
 use Lightroom\Router\Interfaces\MiddlewareInterface;
@@ -62,6 +63,42 @@ class HasRights implements MiddlewareInterface
 
             endif;
 
+        });
+    }
+
+    /**
+     * @method HasRights hasEnoughAccess
+     * @param Closure $callback
+     * @return void
+     */
+    static function hasEnoughAccess(Closure $callback) : void 
+    {
+        // create class singleton
+        $class = ClassManager::singleton(static::class);
+
+        // apply methods
+        $class->canGoThrough($callback);
+    }
+
+    /**
+     * @method HasRights canGoThrough
+     * @param Closure $callback
+     */
+    public function canGoThrough(Closure $callback)
+    {
+        // check for auth token
+        $this->hasAuthToken(function($user) use (&$callback)
+        {
+            // check for platform
+            $this->hasRequestPlatform(function($platformId) use (&$callback)
+            {
+                // invalid platform ID
+                if ($platformId != 1) return app('response')->error('You don\'t have enough permission to access the platform.');
+
+                // load callback
+                $callback();
+            });
+            
         });
     }
 
@@ -233,7 +270,7 @@ class HasRights implements MiddlewareInterface
         if ($navigation->rowCount() > 0) return call_user_func($callback, $navigation, $permissionId);
 
         // failed
-        app('response')->error('Invalid navigation tag "'.$navTagName.'" or you don\'t have access to this platform');
+        app('response')->error('Invalid navigation tag "'.$params->navTagName.'" or you don\'t have access to this platform');
         
     }
 }

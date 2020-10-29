@@ -43,4 +43,19 @@ Moorexa\Middlewares\Access::lockPermission(function()
         endif;
     });
     
+    // delete an account
+    Route::resolvePost('account/delete', function()
+    {
+        return 'account/deleteAccount';
+    },
+    // resolver
+    function($callback, $request)
+    {
+        // apply middleware
+        $allow = Lightroom\Router\Middlewares::apply(Moorexa\Middlewares\HasRights::class, $request);
+
+        // we good ?
+        if ($allow) $callback();
+
+    });
 });

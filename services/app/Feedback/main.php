@@ -26,4 +26,18 @@ class Feedback extends Controller
     {
         
     }
+
+    /**
+    * @method Feedback reply
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function reply() : void
+    {
+        
+    }
 }
+// END class

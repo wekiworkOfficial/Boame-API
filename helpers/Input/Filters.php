@@ -30,6 +30,7 @@ class Filters implements Interfaces\FiltersInterface
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
             'accountid'         => 'required|number|min:1',
+            'gender'            => 'required|string|min:2',
             'display_image'     => 'required|file|filetype:png,jpg,jpeg',
         ];
     }
@@ -81,6 +82,7 @@ class Filters implements Interfaces\FiltersInterface
             'telephone'         => 'required|number|min:7|notag',
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
+            'gender'            => 'required|min:2|notag|string',
         ];
     }
 
@@ -97,6 +99,7 @@ class Filters implements Interfaces\FiltersInterface
             'telephone'             => 'required|number|min:7|notag',
             'password'              => 'required|min:4|notag',
             'password_again'        => 'required|min:4|notag',
+            'gender'                => 'required|min:2|notag|string',
             'volunteerpositionid'   => 'required|number|min:1',
             'residential_address'   => 'required|notag|min:3',
             'bio'                   => 'required|notag|min:1',

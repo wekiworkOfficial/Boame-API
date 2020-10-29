@@ -47,6 +47,9 @@ trait VolunteerFetcher
                     // get the account role
                     $volunteer->position = map(db('volunteer_positions')->get('volunteerpositionid = ?', $volunteer->volunteerpositionid))->volunteerposition;
 
+                    // get account info
+                    if ($volunteer->approved != 0) $volunteer->approved_by_account = map(db('accounts')->get('accountid = ?', $volunteer->approved_by))->row();
+
                     // add information
                     $record->information = $volunteer;
 
@@ -90,6 +93,9 @@ trait VolunteerFetcher
 
                 // get the account role
                 $volunteer->position = map(db('volunteer_positions')->get('volunteerpositionid = ?', $volunteer->volunteerpositionid))->volunteerposition;
+
+                // get account info
+                if ($volunteer->approved != 0) $volunteer->approved_by_account = map(db('accounts')->get('accountid = ?', $volunteer->approved_by))->row();
 
                 // add information
                 $record->information = $volunteer;

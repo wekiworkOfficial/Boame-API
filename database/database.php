@@ -19,7 +19,7 @@ Connection::load([
 		'driver'    => Lightroom\Database\Drivers\Mysql\Driver::class,
 		'host' 	    => '',
 		'user'      => '',
-		'pass'  => '',
+		'pass'  	=> '',
 		'dbname'    => '',
 		'charset'   => 'utf8mb4',
 		'port'      => '',
@@ -36,11 +36,17 @@ Connection::load([
 			'user'      =>   'root',
 			'pass'  	=>   'root',
 			'dbname'    =>   'boame_project',
+		],
+		'prod' => [
+			'user' 		=> 'developer',
+			'pass' 		=> 'WekiWorkDeveloper@2020',
+			'dbname' 	=> 'boame_project'
 		]
 	],
 
 
 // choose from any of your configuration for a default connection
 ])
-->default(['development' => 'new-db@dev', 'live' => '']);
+->default(['development' => 'new-db@dev', 'live' => ''])
+->domain('beta.wekiwork.com', 'new-db@prod');
 

@@ -22,6 +22,7 @@ class Authentication
         $schema->text('token');
         $schema->string('last_seen');
         $schema->string('date_created');
+        $schema->int('isonline')->default(0);
     }
 
     // drop table

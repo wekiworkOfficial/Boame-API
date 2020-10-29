@@ -22,6 +22,7 @@ class Accounts
         $schema->string('lastname');
         $schema->string('email', 300);
         $schema->string('telephone')->null();
+        $schema->string('gender', 50)->null();
         $schema->int('accounttypeid');
         $schema->string('display_image')->null();
         $schema->tinyint('verified')->default(0);

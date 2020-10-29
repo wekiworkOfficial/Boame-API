@@ -14,6 +14,13 @@ trait CasesHelper
     use LightQuery, QueryHelper;
 
     /**
+     * @var array $config
+     * 
+     * This would allow us run our query internally
+     */
+    public $config = [];
+
+    /**
      * @method CasesHelper isCaseTypeValid
      * @param string $caseType
      * @param mixed $data *ref
@@ -56,19 +63,52 @@ trait CasesHelper
      * @param string $upload_table
      * @return void
      */
-    public function fetchAllCases(int $caseTypeId, string $upload_table) : void 
+    public function fetchAllCases(int $caseTypeId = 0, string $upload_table = '') : void 
     {
         // set the table
         $this->setTable('cases_reported');
 
+        // @var bool $canContinue
+        $canContinue = false;
+
+        // check for internal config
+        if (count($this->config) == 0) :
+
+            // check case types
+            if ($this->rows('casetypeid = ?', $caseTypeId) > 0) :
+
+                // where statement
+                $where = ['casetypeid' => $caseTypeId];
+
+                // check for x-requestid
+                if (headers()->has('x-requestid')) $where['accountid'] = headers()->get('x-requestid');
+
+                // can continue
+                $canContinue = true;
+
+            endif;
+
+        else:
+
+            // update where array
+            $where = $this->config;
+
+            // can continue
+            $canContinue = true;
+
+        endif;
+
         // do we have something
-        if ($this->rows('casetypeid = ?', $caseTypeId) > 0) :
+        if ($canContinue) :
 
             // get all
             $cases = map(db('cases_reported')
-            ->get('casetypeid = ?', $caseTypeId)
+            ->get($where)
             ->orderBy('casesreportedid', 'desc')
-            ->if(true, function($query){ $this->addFetchQueryLimits($query); }));
+            ->if(true, function($query){ 
+                // add query limit
+                $this->addFetchQueryLimits($query); 
+            }));
 
             // @var array $allCases
             $allCases = [];
@@ -79,20 +119,66 @@ trait CasesHelper
                 // fetch upload
                 $uploads = [];
 
-                // run query
-                map(db($upload_table)->get('casesreportedid = ?', $case->casesreportedid))
-                ->obj(function($upload) use (&$uploads){
-                    $uploads[] = $upload->row();
-                });
+                // get all uploads
+                $uploadFunc = function($upload_table) use ($case, &$uploads)
+                {
+                    // run query
+                    map(db($upload_table)->get('casesreportedid = ?', $case->casesreportedid))
+                    ->obj(function($upload) use (&$uploads){
+                        $uploads[] = $upload->row();
+                    });
+                };
+
+                // run specific query
+                if ($upload_table != '') :
+
+                    // get all uploads
+                    $uploadFunc($upload_table);
+
+                else:
+
+                    // run specific queries
+                    switch ($case->casetypeid) :
+
+                        // video
+                        case 1:
+                            $uploadFunc('video_attached');
+                        break;
+
+                        // audio
+                        case 2:
+                            $uploadFunc('audio_attached');
+                        break;
+
+                        // text 
+                        case 3:
+                            $uploadFunc('images_attached');
+                        break;
+
+                    endswitch;
+                
+                endif;
+
+                // load account info
+                $account = ($case->accountid != 0) ? $case->from('accounts','accountid')->get()->row() : 'Anonnymus';
 
                 // get case 
-                $case = $case->row();
+                $caseRow = $case->row();
 
                 // add uploads
-                $case->uploads = $uploads;
+                $caseRow->uploads = $uploads;
+
+                // add account
+                $caseRow->account = $account;
+
+                // get case type
+                $caseRow->caseType = $case->from('case_types', 'casetypeid')->get()->row();
+
+                // format date
+                $caseRow->date_formatted = date('Y-m-d g:i a', $case->date_created);
 
                 // send outside
-                $allCases[] = $case;
+                $allCases[] = $caseRow;
 
             });
 
@@ -102,7 +188,7 @@ trait CasesHelper
         endif;
 
         // no result
-        app('response')->error('No "Text" Case reported yet.');
+        app('response')->error('Could not load any case from this category.');
     }
 
     /**
@@ -121,7 +207,16 @@ trait CasesHelper
         if ($this->rows('casetypeid = ? and casesreportedid = ?', $caseTypeId, $casesReportedID) > 0) :
 
             // get the last query
-            $case = map($this->lastQuery())->row();
+            $case = map($this->lastQuery());
+
+            // @var object $row
+            $row = $case->row();
+
+            // try fetch account info
+            if ($row->accountid != '0') $row->account = map(db('accounts')->get('accountid = ?', $row->accountid))->row();
+
+            // try fetch assignee info
+            if ($row->assigned_to != '0') $row->assignee = map(db('accounts')->get('accountid = ?', $row->assigned_to))->row();
 
             // @var array $uploads
             $uploads = [];
@@ -129,14 +224,15 @@ trait CasesHelper
             // get uploads
             map(db($upload_table)->get('casesreportedid = ?', $case->casesreportedid))
             ->obj(function($upload) use (&$uploads){
+                // add row
                 $uploads[] = $upload->row();
             });
 
             // add now
-            $case->uploads = $uploads;
+            $row->uploads = $uploads;
 
             // print now
-            app('response')->success(['cases' => $case]);
+            app('response')->success(['cases' => $row]);
 
         endif;
 

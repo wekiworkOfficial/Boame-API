@@ -157,3 +157,37 @@ CREATE TABLE IF NOT EXISTS `configuration` (
 	configurationid BIGINT(20) auto_increment primary key, 
 	storage_url VARCHAR(255)
 );
+CREATE TABLE IF NOT EXISTS `chatconnection` (
+	chatlistid BIGINT(20) auto_increment primary key, 
+	accountid BIGINT , 
+	accountid2 BIGINT , 
+	allowed INT default 1, 
+	conversation LONGTEXT , 
+	unread INT default 0
+);
+CREATE TABLE IF NOT EXISTS `app_usage` (
+	app_usageid BIGINT(20) auto_increment primary key, 
+	year INT , 
+	month INT , 
+	weekid INT comment 'from 1 to 4' default 1, 
+	monday INT , 
+	tuesday INT , 
+	wednesday INT , 
+	thursday INT , 
+	friday INT , 
+	saturday INT , 
+	sunday INT
+);
+CREATE TABLE IF NOT EXISTS `services_requested` (
+	requestid BIGINT(20) auto_increment primary key, 
+	nav_tag VARCHAR(255) , 
+	accountid BIGINT default 0, 
+	date_created VARCHAR(255)
+);
+CREATE TABLE IF NOT EXISTS `feedback_replies` (
+	feedbackreplyid BIGINT(20) auto_increment primary key, 
+	feedbackid BIGINT , 
+	accountid BIGINT , 
+	device_hash VARCHAR(255) null, 
+	feedback TEXT
+);

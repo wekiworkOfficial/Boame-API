@@ -27,5 +27,31 @@ class Account extends Controller
         
     }
 
+
+    /**
+    * @method Account update
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function update() : void
+    {
+        
+    }
+
+    /**
+    * @method Account deleteAccount
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function deleteAccount() : void
+    {
+        app('screen')->render(['status' => 'success', 'message' => 'route works!']);
+    }
 }
 // END class

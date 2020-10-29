@@ -324,7 +324,8 @@ class Auth extends Model
             // update authentication table
             db('authentication')->update([
                 'token'     => $token,
-                'last_seen' => time()
+                'last_seen' => time(),
+                'isonline'  => 0,
             ])->where('accountid = ?', $account->accountid)->go();
 
             // get all nav
@@ -357,6 +358,12 @@ class Auth extends Model
                 ];
             });
 
+            // @var array $accountInfo
+            $accountInfo = $account->row();
+
+            // get the account type
+            $accountInfo->accountType = $account->from('account_types', 'accounttypeid')->get()->row();
+
             // return 
             // 1. account info
             // 2. token
@@ -365,7 +372,7 @@ class Auth extends Model
             app('response')->success([
                 'message'       => 'login was successful',
                 'token'         => $token,
-                'account'       => $account->row(),
+                'account'       => $accountInfo,
                 'navigations'   => $navs,
                 'platform'      => $platform->platform_name
             ]);

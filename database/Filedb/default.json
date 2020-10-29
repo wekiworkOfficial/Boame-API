@@ -79,6 +79,12 @@
                     "name" : "statistics",
                     "tag" : "stats-tag",
                     "permissionid" : "1,2,3,4,5"
+                },
+
+                {
+                    "name" : "feedbacks",
+                    "tag" : "feedback-tag",
+                    "permissionid" : "1,2,3,4,5"
                 }
             ],
 
@@ -123,6 +129,12 @@
                     "name" : "statistics",
                     "tag" : "stats-tag",
                     "permissionid" : "1"
+                },
+
+                {
+                    "name" : "feedbacks",
+                    "tag" : "feedback-tag",
+                    "permissionid" : "1,2,3,4,5"
                 }
             ]
         },
@@ -256,6 +268,8 @@
     },
 
     "email-from" : "noreply@boameproject.com",
+
+    "case-assigned-template" : "Good day {name},<br>A new case has been assigned to you. Please check the mobile app to review and take action. <br><br> Thank you and stay blessed.",
 
     "password-reset-template" : "Good day {name},<br> A password reset was recently initiated on your account, please continue with this code <h2 style=\"display:inline-block;\">{code}</h2> if this request was initiated by you. <br> Best Regards,<br> Team BOAME."
 }

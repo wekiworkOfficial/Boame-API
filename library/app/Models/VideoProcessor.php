@@ -55,8 +55,8 @@ class VideoProcessor extends Model
 
             // are we good ?
             if ($video->rows == 0) return app('response')->error([
-                'message' => 'Could not find published video.', 
-                'hint' => 'Ensure you are /{id} is a primary key of video_attached'
+                'message'   => 'Could not find published video.', 
+                'hint'      => 'Ensure you are /{id} is a primary key of video_attached'
             ]);
 
             // get record
@@ -164,14 +164,21 @@ class VideoProcessor extends Model
                 // get the result
                 $result = $video->row();
 
-                // check video_attached table
-                $record = map(db('video_attached')->get('videoattachedid = ?', $result->videoattachedid));
+                // @var bool $addViews
+                $canAdd = headers()->get('x-request-platform') == 'mobile' ? true : false;
 
-                // Update view count
-                $views = intval($record->total_views) + 1;
+                if ($canAdd) :
+                    
+                    // check video_attached table
+                    $record = map(db('video_attached')->get('videoattachedid = ?', $result->videoattachedid));
 
-                // update article
-                $record->update(['total_views' => $views]);
+                    // Update view count
+                    $views = intval($record->total_views) + 1;
+
+                    // update article
+                    $record->update(['total_views' => $views]);
+
+                endif;
 
                 // add date
                 $this->addDateString($result);

@@ -15,8 +15,18 @@ Moorexa\Middlewares\Access::lockPermission(function()
         return 'report/cases/'.$type;
     });
 
+    // assign case
+    Route::post('assign', function(){
+        return 'report/assign';
+    });
+
     // case with an id
     Route::any('report/{type}/{id}', function($type, $id){
         return 'report/cases/' . $type . '/' . $id;
+    });
+
+    // get cases assigned
+    Route::get('assigned/{id}', function($id){
+        return 'report/assigned/' . $id;
     });
 });

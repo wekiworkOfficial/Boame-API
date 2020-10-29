@@ -109,7 +109,7 @@ class Volunteers extends Model
         $this->setTable('account_types');
 
         // check for account type
-        if ($this->rows('account_type = ?', 'volunteer')) :
+        if ($this->rows('account_type = ?', 'Volunteer')) :
 
             // load data
             $data = $this->lastQuery()->fetch(FETCH_OBJ);

@@ -21,9 +21,35 @@ class Report extends Controller
     * You can catch params sent through the $_GET request
     * @return void
     **/
-    public function cases(Report\Models\Cases $model) : void
+    public function cases() : void
     {
-        app('screen')->render(['status' => 'success', 'message' => 'route works!']);
+        
+    }
+
+    /**
+    * @method Report assign
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function assign() : void
+    {
+        
+    }
+
+    /**
+    * @method Report assigned
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function assigned() : void
+    {
+        
     }
 }
 // END class
