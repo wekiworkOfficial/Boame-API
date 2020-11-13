@@ -224,6 +224,18 @@ class TemplateHandler implements TemplateHandlerInterface
     }
 
     /**
+     * @method TemplateHandler reRender
+     * @return bool
+     * 
+     * This method would allow the render method to be executed again
+     */
+    public static function reRender()
+    {
+        // set to false
+        self::$renderCalled = false;
+    }
+
+    /**
      * @method TemplateHandler formatDataAndRender
      * @param mixed $data
      * @return void

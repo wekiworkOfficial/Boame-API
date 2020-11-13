@@ -73,7 +73,7 @@ trait CasesPutProcessor
             'casetypeid'    => $caseTypeId,
             'accountid'     => $filter->accountid,
             'devicehash'    => $filter->devicehash,
-            'case_text'     => $filter->report,
+            'case_text'     => strlen($filter->report) > 0 ? $filter->report : 'No comment',
             'date_created'  => time(),
         ];
 
@@ -113,7 +113,7 @@ trait CasesPutProcessor
             'casetypeid'    => $caseTypeId,
             'accountid'     => $filter->accountid,
             'devicehash'    => $filter->devicehash,
-            'case_text'     => $filter->report,
+            'case_text'     => strlen($filter->report) > 0 ? $filter->report : 'No comment',
             'date_created'  => time(),
         ];
 

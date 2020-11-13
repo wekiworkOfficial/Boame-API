@@ -1,0 +1,14 @@
+{
+    ".\/app\/.DS_Store": 1600232628,
+    ".\/app\/Report\/Models\/Cases.php": 1603706526,
+    ".\/app\/Report\/Models\/Helpers\/CasesGetProcessor.php": 1600273807,
+    ".\/app\/Report\/Models\/Helpers\/CasesHelper.php": 1603706437,
+    ".\/app\/Report\/Models\/Helpers\/CasesPutProcessor.php": 1604109807,
+    ".\/app\/Report\/Provider.php": 1600233024,
+    ".\/app\/Report\/Providers\/HomeProvider.php": 1600233024,
+    ".\/app\/Report\/config.php": 1603704660,
+    ".\/app\/Report\/main.php": 1603704676,
+    ".\/app\/Report\/model.php": 1600233024,
+    ".\/app\/Report\/readme.md": 1600233024,
+    ".\/app\/readme.md": 1600269646
+}

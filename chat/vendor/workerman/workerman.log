@@ -571,3 +571,5 @@ Stack trace:
 2020-10-26 15:52:29 pid:19261 Workerman[moorexa] has been stopped
 2020-10-26 15:52:30 pid:20972 Workerman[/Users/mac/moorexa/moorexa] start in DEBUG mode
 2020-10-29 10:16:05 pid:20973 Worker[20973] process terminated
+2020-10-30 13:20:42 pid:20972 Workerman[moorexa] stopping ...
+2020-10-30 13:20:42 pid:20972 Workerman[moorexa] has been stopped

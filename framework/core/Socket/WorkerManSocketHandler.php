@@ -26,7 +26,7 @@ class WorkerManSocketHandler implements SocketHandlerInterface
 
         $io->on('connection', function ($connection) use ($io) {
 
-            echo "New connection\n";
+            echo "New connection ", $io->id, "\n";
 
             // emit event
             WorkerManSocketHandler::triggerEvent('connected', $connection, $io);

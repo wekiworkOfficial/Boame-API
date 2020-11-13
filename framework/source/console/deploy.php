@@ -22,7 +22,7 @@
 
     // @var $requestID 
     // set a unique requestID
-    public $requestID = '';
+    public $requestID = '5d5fe9bb3d656b514d455645b3addc5f7ba7714d';
 
     // @var $requestHeader
     // set a unique request header

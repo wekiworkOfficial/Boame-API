@@ -5349,7 +5349,7 @@ class Assist
         $config = Environment::getEnv('deploy');
         $url = $config['url'];
         $kernel = PATH_TO_KONSOLE;
-        $kernel = ltrim($kernel, HOME);
+        $kernel = !is_dir($kernel) ? ltrim($kernel, HOME) : $kernel;
 
         include_once (self::$assistPath . get_path($kernel, '/deploy.php'));
 

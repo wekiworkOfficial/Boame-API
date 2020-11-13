@@ -382,4 +382,103 @@ class Auth extends Model
         // handle error
         app('filter')->errors($data);
     }
+
+    /**
+     * @method Auth postLoginWithFacebook
+     * @return mixed
+     */
+    public function postLoginWithFacebook()
+    {
+        // validate post
+        $data = filter('POST', [
+            'id'         => 'number|required|min:4',
+            'name'       => 'string|required|min:3',
+            'email'      => 'string|required|min:5',
+            'picture'    => 'string|required|min:10',
+            'platformid' => ['number|required|min:1', 2]
+        ]);
+
+        // are we good ?
+        if ($data->isOk()) :
+
+            // check if email axists
+            $account = map(db('accounts')->get('email = ?', $data->email));
+
+            // do we have something ??
+            if ($account->rows > 0) :
+
+                // build post data
+                $_POST = [
+                    'username'      => $data->email,
+                    'platformid'    => $data->platformid,
+                    'password'      => $data->id . '@' . $data->email
+                ];
+
+                // try login
+                return $this->postLogin();
+
+            endif;
+
+            // register as a reporter and log user in
+            // get first and last name
+            list($firstname, $lastname) = explode(" ", trim($data->name));
+
+            // create password
+            $password = $data->id . '@' . $data->email;
+
+            // build post
+            $_POST = [
+                'firstname'         => $firstname,
+                'lastname'          => $lastname,
+                'telephone'         => '00000000',
+                'email'             => $data->email,
+                'password'          => $password,
+                'password_again'    => $password,
+                'gender'            => 'unknown'
+            ];
+
+            ob_start();
+
+            // register reporter
+            $this->postRegister('reporter');
+
+            // re render again
+            app('screen')->reRender();
+
+            // clear 
+            ob_clean();
+
+            // update display image
+            $account = map(db('accounts')->get('email = ?', $data->email));
+
+            // log user in
+            if ($account->rows > 0) :
+
+                // update the display_image
+                db('accounts')->update([
+                    'display_image' => $data->picture
+                ], 'accountid = ?', $account->accountid)
+                ->go();
+
+                // build post data
+                $_POST = [
+                    'username'      => $data->email,
+                    'platformid'    => $data->platformid,
+                    'password'      => $password
+                ];
+
+                // login now
+                return $this->postLogin();
+
+            endif;
+
+            // login failed
+            app('response')->error('Login failed. Please try again or contact support');
+
+
+        endif;
+
+        // handle error
+        app('filter')->errors($data);
+    }
 }

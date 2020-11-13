@@ -156,7 +156,7 @@ class Cases extends Model
         $account = map(db('accounts')->get('accountid = ?', $input->accountid));
 
         // send notification to assigned user
-        Emails::sendCaseAssignEmail($account);
+        // Emails::sendCaseAssignEmail($account);
 
         // print success message
         app('response')->success('The case has been assigned successfully to '. ucwords($account->lastname . ' ' . $account->firstname));

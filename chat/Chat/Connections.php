@@ -138,8 +138,8 @@ class Connections implements SocketListenerInterface
         });
 
         // disconnected
-        $socket->on('disconnect', function() use ($socket){
-            echo 'ID \''.$socket->id.'\' disconnected', "\n";
+        $socket->on('disconnect', function($e) use ($socket){
+            echo 'ID \''.$socket->id.'\' disconnected', "IP: " . $e->getRemoteIp(), "\n";
         });
 
         // auto start chat

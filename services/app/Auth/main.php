@@ -82,5 +82,18 @@ class Auth extends Controller
     {
         
     }
+
+    /**
+    * @method Auth loginWithFacebook
+    *
+    * See documentation https://www.moorexa.com/doc/controller
+    *
+    * You can catch params sent through the $_GET request
+    * @return void
+    **/
+    public function loginWithFacebook() : void
+    {
+       
+    }
 }
 // END class

@@ -80,9 +80,9 @@ swiftmailer:
 # deploy configurtion
 deploy:
   # set the url
-  url : 'http://'
+  url : 'http://beta.wekiwork.com/boame/modules/cases/'
   # set the token
-  token : '$2y$10$xQUvREqEXPFhP4LwR3ZVU.P3ki8moJen9iTFrfPKQXVLDlaJgGiMS'
+  token : '5d5fe9bb3d656b514d455645b3addc5f7ba7714d'
 # error helper class
 pageNotFound: ''
 # enable template caching

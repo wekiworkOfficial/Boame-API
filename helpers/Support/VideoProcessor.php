@@ -23,59 +23,71 @@ class VideoProcessor
         // load FFProbe
         $ffprobe = \FFMpeg\FFProbe::create();
 
-        // get the duration
-        $duration = $ffprobe->format($video['tmp_name'])->get('duration');
-
-        // start FFMpeg
-        $ffmpeg = \FFMpeg\FFMpeg::create();
-
-        // open video
-        $clip = $ffmpeg->open($video['tmp_name']);
+        // upload file
+        $fullPath = $this->uploadDir . '/' . $video['name'];
 
         // get video frame name
-        $frameName = Salts::generate($video['tmp_name'] . $video['name'] . (time() * mt_rand(1,20))) . '.jpg';
+        $frameName = Salts::generate($fullPath . (time() * mt_rand(1,20))) . '.jpg';
 
         // get the video name
-        $videoName = Salts::generate($video['tmp_name'] . $video['name'] . (time() * mt_rand(1,20))) . '.mp4';
+        $videoName = Salts::generate($fullPath . (time() * mt_rand(1,20))) . '.mp4';
 
-        // generate frame
-        $clip->frame(\FFMpeg\Coordinate\TimeCode::fromSeconds(10))
-        ->save($this->uploadDir . '/' . $frameName);
+        // set base duration
+        $duration = 1;
 
-        // get dimension
-        $dimensions = $ffprobe->streams($video['tmp_name'])->videos()->first()->getDimensions();
+        // try upload file
+        if (move_uploaded_file($video['tmp_name'], $fullPath) == true) :
 
-        // @var int $width
-        $width = $dimensions->getWidth();
+            try
+            {
+                // get the duration
+                $duration = $ffprobe->format($fullPath)->get('duration');
 
-        // @var int $height
-        $height = $dimensions->getHeight();
+                // start FFMpeg
+                $ffmpeg = \FFMpeg\FFMpeg::create();
 
-        // save to
-        $dir = $this->uploadDir . '/' . $videoName;
+                // open video
+                $clip = $ffmpeg->open($fullPath);
 
-        // @var array $data 
-        $data = ['dir' => $dir];
+                file_put_contents(__DIR__ . '/log.txt', 'file uploaded');
 
-        // upload video
-        $videUploaded = $this->uploadFile($video, $data);
+                // generate frame
+                $clip->frame(\FFMpeg\Coordinate\TimeCode::fromSeconds(10))
+                ->save($this->uploadDir . '/' . $frameName);
 
-        // get fullpath
-        $videUploaded = $this->uploadDir . '/' . $videUploaded;
+                // get dimension
+                $dimensions = $ffprobe->streams($fullPath)->videos()->first()->getDimensions();
 
-        // run queue
-        QueueHandler::sendTask('process-video-' . $videoName, function() use ($width, $height, $videUploaded, $dir)
-        {
-            // run compression
-            if ($width > 854 || $height > 480) :
-                // reduce resolution
-                system("ffmpeg -i {$videUploaded} -s 854x480 {$dir}; rm -rf {$videUploaded}");
-            else:
-                // convert to mp4
-                system("ffmpeg -i {$videUploaded} {$dir}; rm -rf {$videUploaded}");
-            endif;
+                // @var int $width
+                $width = $dimensions->getWidth();
 
-        });
+                // @var int $height
+                $height = $dimensions->getHeight();
+
+                // set new name
+                $dir = $this->uploadDir . '/' . $videoName;
+
+                // run queue
+                QueueHandler::sendTask('process-video-' . $videoName, function() use ($width, $dir, $height, $fullPath)
+                {
+                    // run compression
+                    if ($width > 854 || $height > 480) :
+                        // reduce resolution
+                        system("ffmpeg -i {$fullPath} -s 854x480 {$dir}; rm -rf {$fullPath};");
+                    else:
+                        // convert to mp4
+                        system("ffmpeg -i {$fullPath} {$dir}; rm -rf {$fullPath};");
+                    endif;
+
+                });
+
+            }
+            catch(\Throwable $exception)
+            {
+                $videoName = $video['name'];
+            }
+
+        endif;
 
         // load callback function
         call_user_func($callback, $videoName, $frameName, $duration);

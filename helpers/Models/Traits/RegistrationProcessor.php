@@ -100,6 +100,9 @@ trait RegistrationProcessor
                 // added by
                 $data['addedby'] = $filter->accountid;
 
+                // upload display image
+                $data['display_image'] = $this->uploadFile($filter->display_image, $data);
+
             endif;
              
             // are we good ?
@@ -162,6 +165,9 @@ trait RegistrationProcessor
 
                 // added by
                 $data['addedby'] = $filter->accountid;
+
+                // upload display image
+                $data['display_image'] = $this->uploadFile($filter->display_image, $data);
                 
             endif;
              

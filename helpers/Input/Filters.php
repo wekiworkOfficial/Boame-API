@@ -26,7 +26,7 @@ class Filters implements Interfaces\FiltersInterface
             'firstname'         => 'required|string|min:2|notag',
             'lastname'          => 'required|string|min:2|notag',
             'email'             => 'required|email|min:10|notag',
-            'telephone'         => 'required|number|min:7|notag',
+            'telephone'         => 'required|string|min:7|notag',
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
             'accountid'         => 'required|number|min:1',
@@ -45,10 +45,12 @@ class Filters implements Interfaces\FiltersInterface
             'firstname'         => 'required|string|min:2|notag',
             'lastname'          => 'required|string|min:2|notag',
             'email'             => 'required|email|min:10|notag',
-            'telephone'         => 'required|number|min:7|notag',
+            'telephone'         => 'required|string|min:7|notag',
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
             'accountid'         => 'required|number|min:1',
+            'gender'            => 'required|string|min:1',
+            'display_image'     => 'required|file|filetype:png,jpg,jpeg',
         ];
     }
 
@@ -62,10 +64,12 @@ class Filters implements Interfaces\FiltersInterface
             'firstname'         => 'required|string|min:2|notag',
             'lastname'          => 'required|string|min:2|notag',
             'email'             => 'required|email|min:10|notag',
-            'telephone'         => 'required|number|min:7|notag',
+            'telephone'         => 'required|string|min:7|notag',
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
             'accountid'         => 'required|number|min:1',
+            'gender'            => 'required|string|min:1',
+            'display_image'     => 'required|file|filetype:png,jpg,jpeg',
         ];
     }
 
@@ -79,7 +83,7 @@ class Filters implements Interfaces\FiltersInterface
             'firstname'         => 'required|string|min:2|notag',
             'lastname'          => 'required|string|min:2|notag',
             'email'             => 'required|email|min:10|notag',
-            'telephone'         => 'required|number|min:7|notag',
+            'telephone'         => 'required|string|min:7|notag',
             'password'          => 'required|min:4|notag',
             'password_again'    => 'required|min:4|notag',
             'gender'            => 'required|min:2|notag|string',
@@ -96,7 +100,7 @@ class Filters implements Interfaces\FiltersInterface
             'firstname'             => 'required|string|min:2|notag',
             'lastname'              => 'required|string|min:2|notag',
             'email'                 => 'required|email|min:10|notag',
-            'telephone'             => 'required|number|min:7|notag',
+            'telephone'             => 'required|string|min:7|notag',
             'password'              => 'required|min:4|notag',
             'password_again'        => 'required|min:4|notag',
             'gender'                => 'required|min:2|notag|string',
