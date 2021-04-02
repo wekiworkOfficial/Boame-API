@@ -85,6 +85,21 @@ class Cases extends Model
     }
 
     /**
+     * @method Cases putCaseFile
+     * @return void 
+     * 
+     * Submit a case file
+     * 
+     * #####
+     * Ensure to set REQUEST_METHOD = PUT
+     */
+    public function putCaseFile()
+    {
+    //    echo json_encode($_FILES['file']);
+        echo json_encode(['status' => 'success']);
+    }
+
+    /**
      * @method Cases getCases
      * @param string $caseType
      * @param int $casesreportedid

@@ -41,18 +41,26 @@ trait CasesPutProcessor
         // are we good ?
         $this->processed = ($case->ok == true) ? true : false;
 
-        // attach images
-        $files = $this->uploadMultipleFiles($filter->case_images, $data);
+        // image exists??
+        if (isset($_POST['case_images'])) :
+            
+            // read as an array
+            $images = explode(',', $_POST['case_images']);
 
-        // add now
-        if ($case->id !== null) :
+            // attach images
+            // $files = $this->uploadMultipleFiles($_FILES['case_images'], $data);
 
-            // add images
-            foreach($files as $file) db('images_attached')->insert([
-                'casesreportedid'   => $case->id,
-                'image_address'     => $file,
-                'date_created'      => time()
-            ])->go(); 
+            // add now
+            if ($case->id !== null) :
+
+                // add images
+                foreach($images as $file) db('images_attached')->insert([
+                    'casesreportedid'   => $case->id,
+                    'image_address'     => $file,
+                    'date_created'      => time()
+                ])->go(); 
+
+            endif;
 
         endif;
 
@@ -89,7 +97,7 @@ trait CasesPutProcessor
             // attach audio
             db('audio_attached')->insert([
                 'casesreportedid'   => $case->id,
-                'audio_address'     => $this->uploadFile($filter->audio, $data),
+                'audio_address'     => (isset($_POST['audio']) ? $_POST['audio'] : ''),
                 'date_created'      => time(),
                 'total_listen'      => 0
             ])->go();
@@ -126,27 +134,21 @@ trait CasesPutProcessor
             // are we good ?
             $this->processed = ($case->ok == true) ? true : false;
 
-            // load handler
-            $videoHandler = new VideoHandler();
-
             // attach video
-            $videoHandler->uploadAndCompress($filter->video, 
+            if (isset($_POST['video']) && isset($_POST['poster'])) :
 
-            // get the video name, duration and insert to db
-            function(string $videoName, string $videoFrame, string $videoDuration) use ($case)
-            {
                 // attach video
                 db('video_attached')->insert([
                     'casesreportedid'       => $case->id,
-                    'video_address'         => $videoName,
+                    'video_address'         => $_POST['video'],
                     'date_created'          => time(),
                     'total_views'           => 0,
                     'total_likes'           => 0,
                     'total_dislikes'        => 0,
-                    'video_frame_address'   => $videoFrame
+                    'video_frame_address'   => $_POST['poster']
                 ])->go();
 
-            });
+            endif;
 
         endif;
 
